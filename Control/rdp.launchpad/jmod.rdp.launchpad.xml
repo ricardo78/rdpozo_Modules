@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='device' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='page.1/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='page.2/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='page.3/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='page.4/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='page.5/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='page.6/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='page.7/mode' type='generic' priority='0' mixweight='1'>button</item>
+    <item name='sequenser/start' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='sequenser/time' type='decimal' priority='0' mixweight='1'>200.000000</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+  </preset>
+</jamoma>

@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 261.0, 116.0, 833.0, 526.0 ],
+		"rect" : [ 431.0, 171.0, 543.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,36 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "@description", "A utility for generating random numbers" ],
+					"bgmode" : 1,
+					"id" : "obj-21",
+					"maxclass" : "bpatcher",
+					"name" : "jcom.maxhelpui.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 543.0, 70.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 171.0, 256.5, 185.0, 37.0 ],
+					"presentation_rect" : [ 171.0, 269.0, 0.0, 0.0 ],
+					"text" : "On/off looping of range of numbers. Default on."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-22",
@@ -35,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 228.0, 72.0, 20.0 ],
+					"patching_rect" : [ 252.0, 179.0, 72.0, 20.0 ],
 					"text" : "loadmess 7"
 				}
 
@@ -49,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 202.0, 72.0, 20.0 ],
+					"patching_rect" : [ 174.5, 179.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -64,8 +94,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 65.0, 257.5, 50.0, 20.0 ],
-					"presentation_rect" : [ 115.0, 289.5, 0.0, 0.0 ]
+					"patching_rect" : [ 90.0, 257.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -79,7 +108,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 257.5, 50.0, 20.0 ]
+					"patching_rect" : [ 30.0, 257.5, 50.0, 20.0 ]
 				}
 
 			}
@@ -92,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 295.0, 47.0, 18.0 ],
+					"patching_rect" : [ 30.0, 295.0, 47.0, 18.0 ],
 					"text" : "min $1"
 				}
 
@@ -106,7 +135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 295.0, 50.0, 18.0 ],
+					"patching_rect" : [ 90.0, 295.0, 50.0, 18.0 ],
 					"text" : "max $1"
 				}
 
@@ -119,20 +148,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 123.0, 266.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "@description", "A utility for generating random numbers" ],
-					"bgmode" : 1,
-					"id" : "obj-21",
-					"maxclass" : "bpatcher",
-					"name" : "jcom.maxhelpui.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 833.0, 70.0 ]
+					"patching_rect" : [ 148.0, 266.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -145,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.0, 295.0, 50.0, 18.0 ],
+					"patching_rect" : [ 148.0, 295.0, 50.0, 18.0 ],
 					"text" : "loop $1"
 				}
 
@@ -160,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 80.0, 317.0, 87.0 ],
+					"patching_rect" : [ 10.0, 76.0, 317.0, 87.0 ],
 					"text" : "rdp.num generates n series of random numbers. Say you want to generate a random numbers between 0 and 100, then rdp.num does not repeat any number twice. In this way it differs from the normal random object. You can either set the object to generate in a loop or stop when all numbers has been flushed. "
 				}
 
@@ -173,28 +189,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-13",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 186.0, 139.0, 52.0 ],
-					"text" : "Initialize rdp.num with loadmess"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-12",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 257.5, 139.0, 37.0 ],
-					"text" : "Amount of random numbers"
+					"patching_rect" : [ 15.0, 181.0, 144.0, 66.0 ],
+					"text" : "Set min and max number to flush random numbers between"
 				}
 
 			}
@@ -205,11 +205,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 454.0, 281.0, 139.0, 24.0 ],
-					"text" : "Bang for numbers"
+					"patching_rect" : [ 386.0, 266.0, 139.0, 37.0 ],
+					"text" : "Bang triggers  numbers"
 				}
 
 			}
@@ -221,22 +222,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 393.0, 93.0, 20.0 ],
+					"patching_rect" : [ 183.0, 414.0, 93.0, 20.0 ],
 					"text" : "print @popup 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 238.0, 72.0, 20.0 ],
-					"text" : "loadmess 4"
 				}
 
 			}
@@ -247,40 +234,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 427.0, 281.0, 20.0, 20.0 ]
+					"patching_rect" : [ 366.0, 272.5, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 183.0, 266.0, 50.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 295.0, 51.0, 18.0 ],
-					"text" : "num $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"color" : [ 0.83198, 0.54971, 0.84, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -308,7 +268,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 337.5, 192.5, 337.5 ],
+					"midpoints" : [ 39.5, 337.5, 192.5, 337.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -318,7 +278,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 132.5, 336.0, 192.5, 336.0 ],
+					"midpoints" : [ 157.5, 336.0, 192.5, 336.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -355,6 +315,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 184.0, 250.75, 39.5, 250.75 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -364,6 +325,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 261.5, 250.75, 99.5, 250.75 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -373,45 +335,18 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 74.5, 337.5, 192.5, 337.5 ],
+					"midpoints" : [ 99.5, 337.5, 192.5, 337.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 436.5, 329.5, 192.5, 329.5 ],
+					"midpoints" : [ 375.5, 329.5, 192.5, 329.5 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}

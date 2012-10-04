@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 154.0, 232.0, 640.0, 480.0 ],
+		"rect" : [ 350.0, 168.0, 640.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.5, 191.5, 56.0, 20.0 ],
+					"patching_rect" : [ 330.5, 230.5, 56.0, 20.0 ],
 					"text" : "deferlow"
 				}
 
@@ -65,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 628.5, 514.5, 151.0, 19.0 ],
+					"patching_rect" : [ 330.5, 553.5, 151.0, 19.0 ],
 					"text" : "jcom.pass /cue @strip 0"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 628.5, 344.5, 159.0, 19.0 ],
+					"patching_rect" : [ 330.5, 383.5, 159.0, 19.0 ],
 					"text" : "jcom.pass /cues @strip 0"
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.5, 267.5, 300.0, 70.0 ],
+					"patching_rect" : [ 330.5, 306.5, 300.0, 70.0 ],
 					"presentation_rect" : [ 120.0, 120.0, 300.0, 70.0 ]
 				}
 
@@ -110,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.5, 371.5, 300.0, 140.0 ],
+					"patching_rect" : [ 330.5, 410.5, 300.0, 140.0 ],
 					"presentation_rect" : [ 120.0, 120.0, 300.0, 140.0 ],
 					"varname" : "jmod.cueTrigger.mxt"
 				}
@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 628.5, 164.0, 60.0, 20.0 ],
+					"patching_rect" : [ 330.5, 203.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.5, 218.5, 187.0, 17.0 ],
+					"patching_rect" : [ 330.5, 257.5, 187.0, 17.0 ],
 					"text" : "/loadScript jmod.hub-testScript.txt"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 429.0, 300.0, 140.0 ],
+					"patching_rect" : [ 10.0, 428.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 60.0, 60.0, 300.0, 140.0 ]
 				}
 
@@ -168,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 237.5, 161.0, 47.0 ],
+					"patching_rect" : [ 160.0, 111.5, 161.0, 47.0 ],
 					"text" : "load sound files or a folder of files and share them with sampler modules"
 				}
 
@@ -182,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.0, 127.5, 150.0, 35.0 ],
+					"patching_rect" : [ 160.0, 167.5, 150.0, 35.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 150.0, 35.0 ]
 				}
 
@@ -196,18 +196,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 350.0, 218.5, 152.0, 20.0 ],
+					"patching_rect" : [ 160.0, 258.5, 152.0, 20.0 ],
 					"text" : "jcom.pass /externalBuffers"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 298.0, 364.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -220,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 256.0, 302.5, 150.0, 35.0 ],
+					"patching_rect" : [ 160.0, 355.5, 150.0, 35.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 150.0, 35.0 ]
 				}
 
@@ -228,7 +218,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-19", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 2 ]
@@ -237,7 +227,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-19", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 1 ]
@@ -267,7 +257,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 359.5, 193.5, 359.5, 193.5 ],
+					"midpoints" : [ 169.5, 233.5, 169.5, 233.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -294,6 +284,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -307,7 +306,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 638.0, 537.5, 614.5, 537.5, 614.5, 259.5, 638.0, 259.5 ],
+					"midpoints" : [ 340.0, 576.5, 325.5, 576.5, 325.5, 298.5, 340.0, 298.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

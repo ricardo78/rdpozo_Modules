@@ -51,7 +51,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 171.0, 256.5, 185.0, 37.0 ],
-					"presentation_rect" : [ 171.0, 269.0, 0.0, 0.0 ],
 					"text" : "On/off looping of range of numbers. Default on."
 				}
 
@@ -176,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 76.0, 317.0, 87.0 ],
+					"patching_rect" : [ 15.0, 82.0, 317.0, 87.0 ],
 					"text" : "rdp.num generates n series of random numbers. Say you want to generate a random numbers between 0 and 100, then rdp.num does not repeat any number twice. In this way it differs from the normal random object. You can either set the object to generate in a loop or stop when all numbers has been flushed. "
 				}
 
@@ -193,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 181.0, 144.0, 66.0 ],
+					"patching_rect" : [ 15.0, 181.0, 146.0, 66.0 ],
 					"text" : "Set min and max number to flush random numbers between"
 				}
 
@@ -209,7 +208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 266.0, 139.0, 37.0 ],
+					"patching_rect" : [ 386.0, 266.0, 131.0, 37.0 ],
 					"text" : "Bang triggers  numbers"
 				}
 
@@ -222,7 +221,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 414.0, 93.0, 20.0 ],
+					"patching_rect" : [ 183.0, 405.0, 93.0, 20.0 ],
 					"text" : "print @popup 1"
 				}
 

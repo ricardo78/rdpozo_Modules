@@ -15,3 +15,5 @@ The video modules is a compilation of code taken from cycling74's tutorials and 
 VPT forum: http://www.nervousvision.com/vptforum/
 
 Freeverb (Olaf Matthes) and mutation (http://billvorn.concordia.ca/research/software/lifetools.html) are also objects used in this compilation of modules.
+
+All modules on the master branch should be woriking fine. 

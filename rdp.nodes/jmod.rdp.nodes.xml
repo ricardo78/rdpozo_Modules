@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='function' type='generic' priority='0' mixweight='1'>smoothPolynomial</item>
+    <item name='node.1' type='array' priority='2' mixweight='1'>0.606679 0.398887 0.084948 </item>
+    <item name='node.1/active' type='boolean' priority='3' mixweight='1'>1</item>
+    <item name='node.10' type='array' priority='19' mixweight='1'>0.816327 0.237477 0.047867 </item>
+    <item name='node.10/active' type='boolean' priority='20' mixweight='1'>1</item>
+    <item name='node.11' type='array' priority='21' mixweight='1'>0.953618 0.309833 0.046011 </item>
+    <item name='node.11/active' type='boolean' priority='22' mixweight='1'>1</item>
+    <item name='node.12' type='array' priority='23' mixweight='1'>0.038961 0.493506 0.071985 </item>
+    <item name='node.12/active' type='boolean' priority='24' mixweight='1'>1</item>
+    <item name='node.13' type='array' priority='25' mixweight='1'>0.083488 0.758813 0.036735 </item>
+    <item name='node.13/active' type='boolean' priority='26' mixweight='1'>1</item>
+    <item name='node.14' type='array' priority='27' mixweight='1'>0.762523 0.152134 0.033024 </item>
+    <item name='node.14/active' type='boolean' priority='28' mixweight='1'>1</item>
+    <item name='node.15' type='array' priority='29' mixweight='1'>0.690167 0.500928 0.046011 </item>
+    <item name='node.15/active' type='boolean' priority='30' mixweight='1'>1</item>
+    <item name='node.16' type='array' priority='31' mixweight='1'>0.959184 0.844156 0.051577 </item>
+    <item name='node.16/active' type='boolean' priority='32' mixweight='1'>1</item>
+    <item name='node.17' type='array' priority='33' mixweight='1'>0.124304 0.825603 0.070130 </item>
+    <item name='node.17/active' type='boolean' priority='34' mixweight='1'>1</item>
+    <item name='node.18' type='array' priority='35' mixweight='1'>0.074212 0.677180 0.060853 </item>
+    <item name='node.18/active' type='boolean' priority='36' mixweight='1'>1</item>
+    <item name='node.19' type='array' priority='37' mixweight='1'>0.194805 0.899814 0.107236 </item>
+    <item name='node.19/active' type='boolean' priority='38' mixweight='1'>1</item>
+    <item name='node.2' type='array' priority='4' mixweight='1'>0.729128 0.907236 0.064451 </item>
+    <item name='node.2/active' type='boolean' priority='5' mixweight='1'>1</item>
+    <item name='node.20' type='array' priority='39' mixweight='1'>0.948052 0.120594 0.044156 </item>
+    <item name='node.20/active' type='boolean' priority='40' mixweight='1'>1</item>
+    <item name='node.21' type='array' priority='0' mixweight='1'>0.621521 0.959184 0.051577 </item>
+    <item name='node.21/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.22' type='array' priority='0' mixweight='1'>0.081633 0.905380 0.047866 </item>
+    <item name='node.22/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.23' type='array' priority='0' mixweight='1'>0.512059 0.105751 0.053432 </item>
+    <item name='node.23/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.24' type='array' priority='0' mixweight='1'>0.699443 0.248609 0.101670 </item>
+    <item name='node.24/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.25' type='array' priority='0' mixweight='1'>0.120594 0.615955 0.042301 </item>
+    <item name='node.25/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.26' type='array' priority='0' mixweight='1'>0.510204 0.877551 0.090538 </item>
+    <item name='node.26/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.27' type='array' priority='0' mixweight='1'>0.892393 0.191095 0.061224 </item>
+    <item name='node.27/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.28' type='array' priority='0' mixweight='1'>0.504638 0.293135 0.051577 </item>
+    <item name='node.28/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.29' type='array' priority='0' mixweight='1'>0.504638 0.293135 0.051577 </item>
+    <item name='node.29/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.3' type='array' priority='6' mixweight='1'>0.643785 0.085343 0.116512 </item>
+    <item name='node.3/active' type='boolean' priority='7' mixweight='1'>1</item>
+    <item name='node.30' type='array' priority='0' mixweight='1'>0.959184 0.189239 0.046011 </item>
+    <item name='node.30/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.31' type='array' priority='2' mixweight='1'>0.046382 0.387755 0.055288 </item>
+    <item name='node.31/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.32' type='array' priority='0' mixweight='1'>0.118738 0.443414 0.086828 </item>
+    <item name='node.32/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.33' type='array' priority='0' mixweight='1'>0.410019 0.076067 0.077551 </item>
+    <item name='node.33/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.34' type='array' priority='0' mixweight='1'>0.690167 0.398887 0.071985 </item>
+    <item name='node.34/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.35' type='array' priority='0' mixweight='1'>0.910946 0.688312 0.101670 </item>
+    <item name='node.35/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.36' type='array' priority='0' mixweight='1'>0.647495 0.803340 0.122078 </item>
+    <item name='node.36/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.37' type='array' priority='0' mixweight='1'>0.912802 0.428571 0.079406 </item>
+    <item name='node.37/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.38' type='array' priority='0' mixweight='1'>0.259740 0.816327 0.046011 </item>
+    <item name='node.38/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.39' type='array' priority='0' mixweight='1'>0.868275 0.317254 0.077551 </item>
+    <item name='node.39/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.4' type='array' priority='8' mixweight='1'>0.372913 0.847866 0.095560 </item>
+    <item name='node.4/active' type='boolean' priority='9' mixweight='1'>1</item>
+    <item name='node.40' type='array' priority='0' mixweight='1'>0.037106 0.801484 0.070130 </item>
+    <item name='node.40/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.41' type='array' priority='0' mixweight='1'>0.083488 0.345083 0.036735 </item>
+    <item name='node.41/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.42' type='array' priority='0' mixweight='1'>0.608534 0.695733 0.071985 </item>
+    <item name='node.42/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.43' type='array' priority='0' mixweight='1'>0.163265 0.526902 0.077551 </item>
+    <item name='node.43/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.44' type='array' priority='0' mixweight='1'>0.617811 0.332096 0.053432 </item>
+    <item name='node.44/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.45' type='array' priority='0' mixweight='1'>0.690167 0.578850 0.071985 </item>
+    <item name='node.45/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.46' type='array' priority='0' mixweight='1'>0.805195 0.476809 0.110946 </item>
+    <item name='node.46/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.47' type='array' priority='0' mixweight='1'>0.226345 0.706865 0.114657 </item>
+    <item name='node.47/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.48' type='array' priority='0' mixweight='1'>0.831169 0.948052 0.055288 </item>
+    <item name='node.48/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.49' type='array' priority='0' mixweight='1'>0.918367 0.944341 0.075696 </item>
+    <item name='node.49/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.5' type='array' priority='10' mixweight='1'>0.816327 0.176252 0.037741 </item>
+    <item name='node.5/active' type='boolean' priority='11' mixweight='1'>1</item>
+    <item name='node.50' type='array' priority='0' mixweight='1'>0.055659 0.254174 0.070130 </item>
+    <item name='node.50/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.51' type='array' priority='0' mixweight='1'>0.170686 0.181818 0.103525 </item>
+    <item name='node.51/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.52' type='array' priority='0' mixweight='1'>0.964750 0.513915 0.051577 </item>
+    <item name='node.52/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.53' type='array' priority='0' mixweight='1'>0.369202 0.641930 0.072356 </item>
+    <item name='node.53/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.54' type='array' priority='0' mixweight='1'>0.486085 0.775510 0.096104 </item>
+    <item name='node.54/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.55' type='array' priority='0' mixweight='1'>0.046382 0.595547 0.058998 </item>
+    <item name='node.55/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.56' type='array' priority='0' mixweight='1'>0.721707 0.686456 0.097959 </item>
+    <item name='node.56/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.57' type='array' priority='0' mixweight='1'>0.905380 0.588126 0.062709 </item>
+    <item name='node.57/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.58' type='array' priority='0' mixweight='1'>0.319109 0.959184 0.057143 </item>
+    <item name='node.58/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.59' type='array' priority='0' mixweight='1'>0.319109 0.959184 0.057143 </item>
+    <item name='node.59/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.6' type='array' priority='12' mixweight='1'>0.352505 0.278293 0.151762 </item>
+    <item name='node.6/active' type='boolean' priority='11' mixweight='1'>1</item>
+    <item name='node.60' type='array' priority='0' mixweight='1'>0.944341 0.252319 0.033024 </item>
+    <item name='node.60/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.61' type='array' priority='0' mixweight='1'>0.298701 0.109462 0.053432 </item>
+    <item name='node.61/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.62' type='array' priority='0' mixweight='1'>0.187384 0.380334 0.094249 </item>
+    <item name='node.62/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.63' type='array' priority='0' mixweight='1'>0.261596 0.461967 0.101670 </item>
+    <item name='node.63/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.64' type='array' priority='0' mixweight='1'>0.476809 0.497217 0.190724 </item>
+    <item name='node.64/active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='node.7' type='array' priority='13' mixweight='1'>0.265306 0.593692 0.084972 </item>
+    <item name='node.7/active' type='boolean' priority='14' mixweight='1'>1</item>
+    <item name='node.8' type='array' priority='15' mixweight='1'>0.842301 0.081633 0.092394 </item>
+    <item name='node.8/active' type='boolean' priority='16' mixweight='1'>1</item>
+    <item name='node.9' type='array' priority='17' mixweight='1'>0.411874 0.946197 0.053432 </item>
+    <item name='node.9/active' type='boolean' priority='18' mixweight='1'>1</item>
+    <item name='numNode' type='integer' priority='1' mixweight='1'>64</item>
+    <item name='time' type='decimal' priority='0' mixweight='1'>2000.000000</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+    <item name='wander' type='boolean' priority='0' mixweight='1'>0</item>
+  </preset>
+</jamoma>

@@ -1,0 +1,12 @@
+CUE Record_Something
+# Module /input~
+	/input~/audio/gain 104.734 ramp 4000
+	/input~/source live
+# Module /output~
+	/output~/alias/remove
+	/output~/audio/gain 96.487 ramp 4000
+# Module /play.1
+	/play.1/selectFile recBuffer1
+	/output~/audio/active 1
+	/input~/audio/active 1
+	

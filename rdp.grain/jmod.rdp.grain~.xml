@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='duration' type='generic' priority='0' mixweight='1'>40.421051 128.000000 </item>
+    <item name='grainDuration' type='decimal' priority='0' mixweight='1'>20.000000</item>
+    <item name='location' type='generic' priority='0' mixweight='1'>1.000000 1.000000 </item>
+    <item name='onOff' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='pan' type='generic' priority='0' mixweight='1'>0.174470 128.000000 </item>
+    <item name='pitch' type='generic' priority='0' mixweight='1'>59.261818 59.261818 </item>
+    <item name='playackLoop' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='playbackSpeed' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='voices' type='integer' priority='1' mixweight='1'>16</item>
+    <item name='windowType' type='string' priority='0' mixweight='1'>gauss</item>
+  </preset>
+</jamoma>

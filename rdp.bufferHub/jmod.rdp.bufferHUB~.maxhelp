@@ -147,7 +147,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -170,12 +170,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 95.0, 56.0, 20.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 60.0, 20.0 ],
+									"patching_rect" : [ 50.0, 66.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -516,6 +530,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -525,7 +548,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
@@ -789,11 +812,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-4::obj-12" : [ "release", "release", 0 ],
+			"obj-2::obj-4::obj-69" : [ "decay", "decay", 0 ],
 			"obj-2::obj-4::obj-18" : [ "ducking", "ducking", 0 ],
 			"obj-2::obj-4::obj-13" : [ "sustain", "sustain", 0 ],
-			"obj-2::obj-4::obj-69" : [ "decay", "decay", 0 ],
-			"obj-2::obj-4::obj-68" : [ "attack", "attack", 0 ]
+			"obj-2::obj-4::obj-68" : [ "attack", "attack", 0 ],
+			"obj-2::obj-4::obj-12" : [ "release", "release", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

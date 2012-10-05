@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 350.0, 168.0, 640.0, 602.0 ],
+		"rect" : [ 487.0, 151.0, 640.0, 602.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,7 +28,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "@name", "jmod.rdp.player3~", "@description", "A module for hosting sound files" ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 273.0, 104.0, 150.0, 60.0 ],
+					"text" : "You can also use bufferHUB~with grain~. You can have multiple hubs and grain modules"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@name", "jmod.rdp.player3~", "@description", "A module for granulating sound files" ],
 					"bgmode" : 1,
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
@@ -139,8 +154,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.5, 257.5, 187.0, 17.0 ],
-					"text" : "/loadScript jmod.hub-testScript.txt"
+					"patching_rect" : [ 330.5, 257.5, 194.0, 17.0 ],
+					"text" : "/loadScript jmod.grain-testScript.txt"
 				}
 
 			}
@@ -160,21 +175,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-5",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 111.5, 161.0, 47.0 ],
-					"text" : "load sound files or a folder of files and share them with sampler modules"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "Hub.1" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
@@ -182,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 160.0, 167.5, 150.0, 35.0 ],
+					"patching_rect" : [ 85.0, 116.5, 150.0, 35.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 150.0, 35.0 ]
 				}
 
@@ -196,7 +196,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 160.0, 258.5, 152.0, 20.0 ],
+					"patching_rect" : [ 85.0, 159.5, 152.0, 20.0 ],
 					"text" : "jcom.pass /externalBuffers"
 				}
 
@@ -210,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 160.0, 355.5, 150.0, 35.0 ],
+					"patching_rect" : [ 85.0, 306.5, 150.0, 35.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 150.0, 35.0 ]
 				}
 
@@ -257,7 +257,6 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.5, 233.5, 169.5, 233.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

@@ -30,6 +30,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 389.0, 217.0, 107.0, 20.0 ],
+					"text" : "prepend /midinote"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -413,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 217.0, 91.0, 20.0 ],
+					"patching_rect" : [ 256.5, 217.0, 91.0, 20.0 ],
 					"text" : "prepend /mode"
 				}
 
@@ -427,7 +441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 130.0, 87.0, 20.0 ],
+					"patching_rect" : [ 216.0, 118.0, 87.0, 20.0 ],
 					"text" : "prepend /tonic"
 				}
 
@@ -439,7 +453,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 152.5, 25.0, 25.0 ]
+					"patching_rect" : [ 14.0, 163.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -492,7 +506,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 443.0, 217.0, 56.0, 20.0 ],
+					"patching_rect" : [ 389.0, 255.0, 56.0, 20.0 ],
 					"text" : "jcom.out"
 				}
 
@@ -525,6 +539,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
@@ -643,6 +666,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -732,10 +764,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.rdp.chord.maxpat",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/rdp.chord/lib",
@@ -765,28 +793,28 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chordQualitiesMajor.txt",
+				"name" : "numericChordQualitiesMajor.txt",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/rdp.chord/lib/coll files",
 				"patcherrelativepath" : "../rdp.chord/lib/coll files",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chordQualitiesMinor.txt",
+				"name" : "numericChordQualitiesMinor.txt",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/rdp.chord/lib/coll files",
 				"patcherrelativepath" : "../rdp.chord/lib/coll files",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chordQualitiesDiminished.txt",
+				"name" : "numericChordQualitiesDiminished.txt",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/rdp.chord/lib/coll files",
 				"patcherrelativepath" : "../rdp.chord/lib/coll files",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chordQualitiesAugmented.txt",
+				"name" : "numericChordQualitiesAugmented.txt",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/rdp.chord/lib/coll files",
 				"patcherrelativepath" : "../rdp.chord/lib/coll files",
 				"type" : "TEXT",

@@ -126,6 +126,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2630,8 +2631,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1982.0, 173.5, 517.0, 33.0 ],
-									"text" : "jcom.parameter rootNoteVoicing3 @type integer @range/bounds 0. 12. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
+									"patching_rect" : [ 1982.0, 173.5, 520.0, 33.0 ],
+									"text" : "jcom.parameter rootNoteVoicing.3 @type integer @range/bounds 0. 12. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "3rdNoteVoicing.1[19]"
 								}
 

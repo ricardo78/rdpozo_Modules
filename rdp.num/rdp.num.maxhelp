@@ -171,12 +171,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-15",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 82.0, 317.0, 87.0 ],
-					"text" : "rdp.num generates n series of random numbers. Say you want to generate a random numbers between 0 and 100, then rdp.num does not repeat any number twice. In this way it differs from the normal random object. You can either set the object to generate in a loop or stop when all numbers has been flushed. "
+					"patching_rect" : [ 15.0, 83.0, 423.0, 74.0 ],
+					"text" : "rdp.num generates n series of random numbers. Say you want to generate a random numbers between 0 and 100, then rdp.num does not repeat any number twice. In this way it differs from the normal random object. You can either set the object to generate in a loop or stop when all numbers has been flushed.  NOTE: MAX SIZE IS 0 - 4098"
 				}
 
 			}

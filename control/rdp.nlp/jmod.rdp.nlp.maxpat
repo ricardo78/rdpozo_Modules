@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 7
 		}
 ,
-		"rect" : [ 430.0, 207.0, 952.0, 592.0 ],
+		"rect" : [ 270.0, 166.0, 952.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -193,7 +193,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.426503,
-					"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -219,7 +219,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 225.0, 133.0, 394.0, 654.0 ],
@@ -247,13 +247,13 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-102",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.75, 566.0, 96.0, 32.0 ],
+									"patching_rect" : [ 17.75, 566.0, 96.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.75, 561.0, 124.0, 19.0 ],
 									"text" : "STEP SEQUENCER",
@@ -266,7 +266,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-87",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -508,7 +508,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-11",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -527,7 +527,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -557,7 +557,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 95.0, 628.5, 18.0, 18.0 ],
 									"size" : 1,
-									"values" : [ 0 ],
+									"values" : [ 1 ],
 									"varname" : "steal[1]"
 								}
 
@@ -584,7 +584,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-302",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -602,7 +602,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-303",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -620,7 +620,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-304",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -655,7 +655,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-306",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -769,7 +769,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-312",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -835,7 +835,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-288",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -853,7 +853,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-289",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -871,7 +871,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-290",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -906,7 +906,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-292",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1020,7 +1020,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-298",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1086,7 +1086,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-274",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1104,7 +1104,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-275",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1122,7 +1122,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-276",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1157,7 +1157,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-278",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1271,7 +1271,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-284",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1337,7 +1337,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-260",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1355,7 +1355,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-261",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1373,7 +1373,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-262",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1408,7 +1408,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-264",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1522,7 +1522,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-270",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1588,7 +1588,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-246",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1606,7 +1606,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-247",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1624,7 +1624,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-248",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1659,7 +1659,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-250",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1774,7 +1774,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-256",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1840,7 +1840,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-232",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1858,7 +1858,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-233",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1876,7 +1876,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-234",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1911,7 +1911,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-236",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2026,7 +2026,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-242",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2093,7 +2093,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 11.120334,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-231",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2111,7 +2111,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-229",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2129,7 +2129,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-228",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2152,7 +2152,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 248.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 248.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.7/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[13]"
 								}
@@ -2168,7 +2168,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 209.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 209.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.6/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[12]"
 								}
@@ -2184,7 +2184,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 170.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 170.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.5/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[11]"
 								}
@@ -2200,7 +2200,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 133.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 133.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.4/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[10]"
 								}
@@ -2216,7 +2216,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 95.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 95.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.3/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[9]"
 								}
@@ -2232,7 +2232,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 59.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 59.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.2/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[8]"
 								}
@@ -2265,7 +2265,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1164.0, 21.0, 560.0, 34.0 ],
+									"patching_rect" : [ 1164.0, 21.0, 560.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.1/speed @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[7]"
 								}
@@ -2276,7 +2276,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-213",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2345,7 +2345,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2501,22 +2501,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 365.0, 1691.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -2650,7 +2649,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 124.0, 1594.0, 556.0, 34.0 ],
+									"patching_rect" : [ 124.0, 1594.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.7/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[6]"
 								}
@@ -2742,7 +2741,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2898,22 +2897,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 1046.5, 1331.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -3047,7 +3045,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 805.5, 1234.0, 556.0, 34.0 ],
+									"patching_rect" : [ 805.5, 1234.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.6/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[5]"
 								}
@@ -3139,7 +3137,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3295,22 +3293,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 357.5, 1330.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -3444,7 +3441,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 116.5, 1233.0, 556.0, 34.0 ],
+									"patching_rect" : [ 116.5, 1233.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.5/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[4]"
 								}
@@ -3536,7 +3533,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3692,22 +3689,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 1039.0, 991.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -3841,7 +3837,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 798.0, 894.0, 556.0, 34.0 ],
+									"patching_rect" : [ 798.0, 894.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.4/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[3]"
 								}
@@ -3933,7 +3929,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4089,22 +4085,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 365.0, 991.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -4238,7 +4233,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 124.0, 894.0, 556.0, 34.0 ],
+									"patching_rect" : [ 124.0, 894.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.3/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[2]"
 								}
@@ -4330,7 +4325,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4486,22 +4481,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 1046.5, 630.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -4635,7 +4629,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 805.5, 533.0, 556.0, 34.0 ],
+									"patching_rect" : [ 805.5, 533.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.2/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay[1]"
 								}
@@ -4757,7 +4751,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1010.0, 684.0 ],
@@ -5164,7 +5158,7 @@
 													"numinlets" : 25,
 													"numoutlets" : 25,
 													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-													"patching_rect" : [ 50.0, 100.0, 589.0, 34.0 ],
+													"patching_rect" : [ 50.0, 100.0, 589.0, 33.0 ],
 													"text" : "route 1n 1nd 1nt 2n 2nd 2nt 4n 4nd 4nt 8n 8nd 8nt 16n 16nd 16nt 32n 32nd 32nt 64n 64nd 64nt 128n 128nd 128nt"
 												}
 
@@ -5641,28 +5635,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "jcom.thru.maxpat",
-												"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-												"type" : "JSON",
-												"implicit" : 1
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 798.0, 171.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -5698,7 +5685,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -5854,22 +5841,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 372.5, 630.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p set"
@@ -6035,7 +6021,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-18",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6145,7 +6131,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 124.0, 560.0, 556.0, 34.0 ],
+									"patching_rect" : [ 124.0, 560.0, 556.0, 33.0 ],
 									"text" : "jcom.parameter sequencer.1/delay @type integer @range/bounds 0. 1000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "sequencer.1/delay"
 								}
@@ -6242,7 +6228,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 18.228159,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6291,7 +6277,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6383,7 +6369,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 840.0, 548.0, 600.0, 426.0 ],
@@ -6516,26 +6502,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "jcom.oscroute.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 8.5, 250.0, 42.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
 										"default_fontsize" : 10.0,
 										"description" : "",
-										"globalpatchername" : "",
-										"tags" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Verdana",
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p front"
@@ -6563,7 +6544,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-50",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6605,7 +6585,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 20.0,
-									"frgb" : [ 0.4, 0.4, 0.4, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6623,7 +6603,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
-									"frgb" : [ 0.62, 0.0, 0.36, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6640,7 +6620,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-44",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6655,7 +6634,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-47",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6670,7 +6648,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-79",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6685,7 +6662,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-86",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6700,7 +6676,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-85",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6715,7 +6690,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-84",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -6730,7 +6704,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-83",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -8453,46 +8426,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.maxhelpuiButton.png",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-								"type" : "PNG ",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.parameter.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.message.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 323.0, 275.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"tags" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p panel #0"
@@ -8546,7 +8494,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 49.0, 169.0, 392.0, 34.0 ],
+					"patching_rect" : [ 49.0, 169.0, 392.0, 33.0 ],
 					"text" : "jcom.hub @module_type audio @description \"Novation Launchpad Sequencer\""
 				}
 
@@ -8754,50 +8702,50 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.rdp.nlp.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Control/rdp.nlp/lib",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/rdp.nlp/lib",
 				"patcherrelativepath" : "../rdp.nlp/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.mtoxy.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../Abstracts/miditoxy",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.xytom.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../Abstracts/miditoxy",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CCtoxy.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../Abstracts/miditoxy",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 7
 		}
 ,
 		"rect" : [ 452.0, 44.0, 904.0, 738.0 ],
@@ -30,19 +30,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 655.0, 123.5, 44.0, 20.0 ],
-					"text" : "print 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -53,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -154,31 +141,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 677.25, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -200,7 +176,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -301,31 +277,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 588.75, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -347,7 +312,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -448,31 +413,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 501.375, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -494,7 +448,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -595,31 +549,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 412.875, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -641,7 +584,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -742,31 +685,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 323.875, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -788,7 +720,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -889,31 +821,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 235.5, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -935,7 +856,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 528.0, 369.0 ],
@@ -1013,25 +934,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 766.25, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -1154,7 +1070,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -1255,31 +1171,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 148.0, 375.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -1301,7 +1206,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -2098,7 +2003,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -2270,7 +2175,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -2312,7 +2217,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -2326,7 +2231,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -2348,11 +2253,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -2378,7 +2284,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -2393,7 +2299,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -2408,7 +2314,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -2433,7 +2339,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -2447,7 +2353,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -3637,37 +3543,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 665.25, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -3689,7 +3578,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -4514,7 +4403,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -4686,7 +4575,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -4728,7 +4617,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -4742,7 +4631,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -4764,11 +4653,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -4794,7 +4684,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -4809,7 +4699,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -4824,7 +4714,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -4849,7 +4739,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -4863,7 +4753,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -6071,37 +5961,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 576.875, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -6123,7 +5996,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -6920,7 +6793,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -7092,7 +6965,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -7134,7 +7007,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -7148,7 +7021,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -7170,11 +7043,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -7200,7 +7074,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -7215,7 +7089,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -7230,7 +7104,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -7255,7 +7129,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -7269,7 +7143,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -8459,37 +8333,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 488.875, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -8511,7 +8368,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -9308,7 +9165,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -9480,7 +9337,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -9522,7 +9379,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -9536,7 +9393,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -9558,11 +9415,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -9588,7 +9446,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -9603,7 +9461,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -9618,7 +9476,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -9643,7 +9501,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -9657,7 +9515,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -10847,37 +10705,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 400.875, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -10899,7 +10740,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 108.0, 1313.0, 781.0 ],
@@ -11696,7 +11537,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -11868,7 +11709,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -11910,7 +11751,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -11924,7 +11765,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -11946,11 +11787,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -11976,7 +11818,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -11991,7 +11833,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -12006,7 +11848,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -12031,7 +11873,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -12045,7 +11887,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -13235,37 +13077,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 311.875, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -13287,7 +13112,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -14112,7 +13937,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -14284,7 +14109,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -14326,7 +14151,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -14340,7 +14165,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -14362,11 +14187,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -14392,7 +14218,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -14407,7 +14233,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -14422,7 +14248,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -14447,7 +14273,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -14461,7 +14287,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -15669,37 +15495,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 223.5, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -15749,7 +15558,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 25.0, 69.0, 1060.0, 404.0 ],
@@ -15785,7 +15594,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16053,21 +15862,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 780.799927, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -16089,7 +15897,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16357,21 +16165,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 676.399963, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -16393,7 +16200,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16661,21 +16468,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 572.0, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -16697,7 +16503,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16965,21 +16771,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 467.599976, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -17001,7 +16806,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -17269,21 +17074,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 363.199982, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -17305,7 +17109,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -17573,21 +17377,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 258.799988, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -17609,7 +17412,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -17877,21 +17680,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 154.399994, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -17913,7 +17715,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -18181,21 +17983,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 50.0, 232.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -18435,25 +18236,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 221.5, 197.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -18475,7 +18271,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 13.0, 302.0, 436.0, 589.0 ],
@@ -18855,25 +18651,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 136.0, 197.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -18895,7 +18686,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 24.0, 87.0, 967.0, 585.0 ],
@@ -18965,7 +18756,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 711.0, 493.0, 127.0, 34.0 ],
+									"patching_rect" : [ 711.0, 493.0, 127.0, 33.0 ],
 									"text" : "prepend /sequencer.8/dump"
 								}
 
@@ -19072,7 +18863,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -19178,7 +18969,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -19526,21 +19317,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [  ]
+ ]
 													}
 ,
 													"patching_rect" : [ 179.0, 183.0, 53.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -19811,7 +19601,7 @@
 													"outlettype" : [ "list", "list" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 50.0, 555.0, 130.0, 130.0 ],
-													"presentation_rect" : [ 509.0, 735.0, 128.0, 128.0 ],
+													"presentation_rect" : [ 509.0, 735.0, 130.0, 128.0 ],
 													"rows" : 8
 												}
 
@@ -20126,21 +19916,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 15.0, 159.0, 39.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -21237,35 +21026,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.pass.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 136.0, 150.0, 84.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -21287,7 +21061,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 534.0, 70.0, 906.0, 600.0 ],
@@ -21686,25 +21460,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.pass.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 201.0, 70.0, 52.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -21738,7 +21507,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 37.0, 47.0, 1403.0, 775.0 ],
@@ -21871,7 +21640,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1010.0, 684.0 ],
@@ -22264,7 +22033,7 @@
 													"numinlets" : 25,
 													"numoutlets" : 25,
 													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-													"patching_rect" : [ 50.0, 100.0, 589.0, 34.0 ],
+													"patching_rect" : [ 50.0, 100.0, 589.0, 33.0 ],
 													"text" : "route 1n 1nd 1nt 2n 2nd 2nt 4n 4nd 4nt 8n 8nd 8nt 16n 16nd 16nt 32n 32nd 32nt 64n 64nd 64nt 128n 128nd 128nt"
 												}
 
@@ -22732,27 +22501,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "jcom.thru.maxpat",
-												"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-												"type" : "JSON",
-												"implicit" : 1
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 1073.833252, 125.0, 37.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -23025,7 +22787,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 681.0, 235.0, 640.0, 480.0 ],
@@ -23123,21 +22885,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 175.5, 771.0, 36.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -23187,7 +22948,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -23320,25 +23081,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "jcom.pass.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 120.5, 121.0, 117.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -23396,7 +23152,7 @@
 									"outlettype" : [ "list", "list" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 416.75, 975.0, 130.0, 130.0 ],
-									"presentation_rect" : [ 195.0, 195.0, 128.0, 128.0 ],
+									"presentation_rect" : [ 195.0, 195.0, 130.0, 128.0 ],
 									"rows" : 8
 								}
 
@@ -24153,41 +23909,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.pass.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 753.53125, 338.0, 113.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -24209,7 +23944,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 71.0, 88.0, 1280.0, 537.0 ],
@@ -24245,7 +23980,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 606.0, 630.0, 1440.0, 806.0 ],
@@ -24281,7 +24016,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 421.0, 48.0, 733.0, 806.0 ],
@@ -25096,37 +24831,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 735.0, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -25148,7 +24866,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -25963,37 +25681,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 651.071411, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -26015,7 +25716,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -26830,37 +26531,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 567.142883, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -26882,7 +26566,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -27697,37 +27381,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 483.214294, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -27749,7 +27416,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -28564,37 +28231,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 399.285706, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -28616,7 +28266,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -29431,37 +29081,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 315.357147, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -29483,7 +29116,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -30298,37 +29931,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 231.428574, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -30350,7 +29966,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -31165,37 +30781,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 147.5, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -31571,37 +31170,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "rdp.xytom.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "CCtoxy.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "jcom.pass.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 811.0, 255.0, 99.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -31623,7 +31205,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 0.0, 0.0, 800.0, 554.0 ],
@@ -32613,33 +32195,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "rdp.xytom.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "CCtoxy.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 931.0, 255.0, 45.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -32661,7 +32230,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
@@ -33651,33 +33220,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "rdp.xytom.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "CCtoxy.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 998.0, 255.0, 46.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -33699,7 +33255,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 0.0, 213.0, 1440.0, 806.0 ],
@@ -33735,7 +33291,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -34611,37 +34167,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 651.071411, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -34663,7 +34202,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -35539,37 +35078,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 567.142883, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -35591,7 +35113,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -36467,37 +35989,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 483.214294, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -36519,7 +36024,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -37395,37 +36900,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 399.285706, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -37447,7 +36935,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -38323,37 +37811,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 315.357147, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -38375,7 +37846,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -39274,37 +38745,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 231.428574, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -39326,7 +38780,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 5
+															"revision" : 7
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -40224,37 +39678,20 @@
 																}
 
 															}
- ],
-														"dependency_cache" : [ 															{
-																"name" : "rdp.xytom.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "CCtoxy.maxpat",
-																"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-																"type" : "JSON",
-																"implicit" : 1
-															}
-, 															{
-																"name" : "jcom.pass.mxo",
-																"type" : "iLaX"
-															}
  ]
 													}
 ,
 													"patching_rect" : [ 147.5, 185.0, 80.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"fontface" : 0,
 														"default_fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
 														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
 														"tags" : ""
 													}
 ,
@@ -40601,37 +40038,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "rdp.xytom.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "CCtoxy.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "jcom.pass.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 1044.0, 255.0, 50.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -40667,7 +40087,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 7
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
@@ -41710,37 +41130,20 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "rdp.xytom.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "CCtoxy.maxpat",
-												"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-												"type" : "JSON",
-												"implicit" : 1
-											}
-, 											{
-												"name" : "jcom.pass.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 1100.0, 255.0, 113.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"tags" : ""
 									}
 ,
@@ -42252,41 +41655,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.xytom.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "CCtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.pass.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 201.0, 121.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -42361,7 +41743,7 @@
 					"outlettype" : [ "list", "list" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 48.125, 522.0, 130.0, 130.0 ],
-					"presentation_rect" : [ 180.0, 180.0, 128.0, 128.0 ],
+					"presentation_rect" : [ 180.0, 180.0, 130.0, 128.0 ],
 					"rows" : 8
 				}
 
@@ -42394,7 +41776,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
 						"rect" : [ 127.0, 46.0, 1313.0, 781.0 ],
@@ -43178,7 +42560,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 322.0, 709.5, 49.0, 20.0 ],
+									"patching_rect" : [ 322.0, 709.5, 49.0, 19.0 ],
 									"text" : "flush"
 								}
 
@@ -43350,7 +42732,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "", "", "", "int", "int", "int", "int" ],
-									"patching_rect" : [ 322.0, 663.5, 100.0, 20.0 ],
+									"patching_rect" : [ 322.0, 663.5, 100.0, 19.0 ],
 									"text" : "midiparse"
 								}
 
@@ -43392,7 +42774,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 733.0, 432.5, 54.0, 18.0 ],
+									"patching_rect" : [ 733.0, 432.5, 54.0, 17.0 ],
 									"text" : "delay $1"
 								}
 
@@ -43406,7 +42788,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 675.0, 432.5, 49.0, 18.0 ],
+									"patching_rect" : [ 675.0, 432.5, 49.0, 17.0 ],
 									"text" : "start $1"
 								}
 
@@ -43428,11 +42810,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-173",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 617.5, 90.0, 20.0 ],
+									"patching_rect" : [ 584.0, 617.5, 90.0, 19.0 ],
 									"text" : "Loop Playback"
 								}
 
@@ -43458,7 +42841,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 374.0, 435.5, 50.0, 17.0 ],
 									"text" : "stop"
 								}
 
@@ -43473,7 +42856,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.0, 434.5, 50.0, 18.0 ],
+									"patching_rect" : [ 322.0, 434.5, 50.0, 17.0 ],
 									"text" : "start"
 								}
 
@@ -43488,7 +42871,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 428.0, 435.5, 50.0, 18.0 ],
+									"patching_rect" : [ 428.0, 435.5, 50.0, 17.0 ],
 									"text" : "record"
 								}
 
@@ -43513,7 +42896,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 322.0, 613.5, 68.0, 20.0 ],
+									"patching_rect" : [ 322.0, 613.5, 68.0, 19.0 ],
 									"text" : "midiflush"
 								}
 
@@ -43527,7 +42910,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 322.0, 552.5, 32.5, 20.0 ],
+									"patching_rect" : [ 322.0, 552.5, 32.5, 19.0 ],
 									"text" : "seq"
 								}
 
@@ -44711,37 +44094,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "rdp.mtoxy.maxpat",
-								"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.thru.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 136.0, 338.0, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -44884,15 +44250,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 291.5, 159.0, 388.0, 159.0, 388.0, 294.0, 145.5, 294.0 ],
-					"source" : [ "obj-165", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-165", 1 ]
 				}
 
@@ -45271,29 +44628,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rdp.mtoxy.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../../Abstracts/miditoxy",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.xytom.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../../Abstracts/miditoxy",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CCtoxy.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../../Abstracts/miditoxy",
+				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}

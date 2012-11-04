@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 88.0, 127.0, 1069.0, 653.0 ],
+		"rect" : [ 109.0, 44.0, 1065.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,12 +28,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 560.0, 85.0, 80.0, 35.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 368.0, 230.0, 570.0, 369.0 ]
+					"patching_rect" : [ 369.5, 184.0, 461.0, 321.0 ]
 				}
 
 			}
@@ -53,7 +66,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 332.0, 44.0, 1440.0, 806.0 ],
+						"rect" : [ 789.0, 48.0, 1440.0, 806.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -73,7 +86,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -105,10 +117,10 @@
 									"presentation_rect" : [ 185.363525, 74.5, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup"
+											"parameter_longname" : "radiogroup",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1044,7 +1056,7 @@
 									"framecolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
 									"hltcolor" : [ 0.741176, 0.364706, 0.647059, 1.0 ],
 									"id" : "obj-37",
-									"items" : [ "Leaf.4.mov", ",", "Leafs_Color.1.mov", ",", "Leafs_Color.2.mov", ",", "Leafs_Color.3.mov", ",", "Leaf.4.mov", ",", "Leafs_Color.1.mov", ",", "Leafs_Color.3.mov" ],
+									"items" : [ "Leaf.4.mov", ",", "Leafs_Color.1.mov", ",", "Leafs_Color.2.mov", ",", "Leafs_Color.3.mov" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1936,6 +1948,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]

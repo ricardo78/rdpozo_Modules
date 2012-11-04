@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 58.0, 62.0, 1069.0, 653.0 ],
+		"rect" : [ 43.0, 44.0, 1069.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +30,31 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 480.0, 79.0, 462.0, 18.0 ],
+					"text" : "/video.2/play 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 202.0, 340.0, 815.0, 502.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -42,7 +67,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 582.0, 145.0, 640.0, 480.0 ],
+						"rect" : [ 868.0, 44.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -64,6 +89,30 @@
 						"title" : "/editing_this_module",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ 3 ],
+									"id" : "obj-6",
+									"maxclass" : "bpatcher",
+									"name" : "gui.jit.videoPlayer.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 215.0, 349.0, 202.0, 89.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"args" : [ 2 ],
+									"id" : "obj-5",
+									"maxclass" : "bpatcher",
+									"name" : "gui.jit.videoPlayer.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 215.0, 245.0, 202.0, 89.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 20.0,
@@ -103,13 +152,13 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ 2 ],
+									"args" : [ 1 ],
 									"id" : "obj-20",
 									"maxclass" : "bpatcher",
 									"name" : "gui.jit.videoPlayer.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 273.0, 169.0, 142.0, 62.0 ]
+									"patching_rect" : [ 215.0, 143.0, 202.0, 89.0 ]
 								}
 
 							}
@@ -422,7 +471,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 57.0, 124.0, 20.0 ],
+					"patching_rect" : [ 328.0, 55.0, 124.0, 20.0 ],
 					"text" : "jalg.jit.videoPlayer #0"
 				}
 
@@ -601,6 +650,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -656,6 +714,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -683,6 +750,12 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-9::obj-20::obj-33" : [ "radiogroup", "radiogroup", 0 ],
+			"obj-9::obj-6::obj-33" : [ "radiogroup[2]", "radiogroup", 0 ],
+			"obj-9::obj-5::obj-33" : [ "radiogroup[1]", "radiogroup", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.jit.videoPlayer.maxpat",
 				"bootpath" : "/Users/MAC1/rdpozo_Modules/video/Jitter/jit.videoPlayer/lib",

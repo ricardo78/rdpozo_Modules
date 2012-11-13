@@ -34,7 +34,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "front", "open" ],
+					"outlettype" : [ "front", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -761,7 +761,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "front" ],
 									"patching_rect" : [ 17.0, 39.0, 25.0, 25.0 ]
 								}
 
@@ -1275,9 +1275,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 439.0, 206.315063, 108.0, 20.0 ],
-					"text" : "jalg.rdp.tintlight #0"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 439.0, 206.315063, 100.0, 20.0 ],
+					"text" : "jalg.gl.tintlight #0"
 				}
 
 			}
@@ -1412,7 +1412,7 @@
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 428.5, 188.315063, 537.5, 188.315063 ],
+					"midpoints" : [ 428.5, 188.315063, 529.5, 188.315063 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1482,13 +1482,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jalg.rdp.tintlight.maxpat",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/rdp.tintlight/lib",
-				"patcherrelativepath" : "../rdp.tintlight/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
@@ -1507,15 +1500,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.in.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{

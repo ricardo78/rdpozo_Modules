@@ -34,8 +34,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 54.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 376.0, 54.0, 0.0, 0.0 ]
+					"patching_rect" : [ 376.0, 54.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -142,7 +141,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 143.0, 103.0, 223.0, 20.0 ],
-					"text" : "jcom.oscroute /amount /red /blue /green"
+					"text" : "jcom.oscroute /amount /red /green /blue"
 				}
 
 			}

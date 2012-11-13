@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 476.0, 66.0, 1116.0, 927.0 ],
+		"rect" : [ 324.0, 66.0, 1116.0, 927.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -177,7 +177,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -207,8 +206,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 473.0, 603.0, 566.0, 33.0 ],
-									"text" : "jcom.parameter green @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 4",
+									"patching_rect" : [ 473.0, 603.0, 558.0, 33.0 ],
+									"text" : "jcom.parameter blue @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 4",
 									"varname" : "red[2]"
 								}
 
@@ -224,8 +223,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 473.0, 559.0, 558.0, 33.0 ],
-									"text" : "jcom.parameter blue @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 3",
+									"patching_rect" : [ 473.0, 559.0, 566.0, 33.0 ],
+									"text" : "jcom.parameter green @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 3",
 									"varname" : "red[1]"
 								}
 
@@ -280,6 +279,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-38",
@@ -296,6 +296,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-36",
@@ -312,6 +313,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-34",
@@ -356,6 +358,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
@@ -381,8 +384,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 365.0, 678.0, 578.0, 33.0 ],
-									"text" : "jcom.parameter amount @type decimal @range/bounds 0. 1. @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 1",
+									"patching_rect" : [ 365.0, 678.0, 575.0, 33.0 ],
+									"text" : "jcom.parameter amount @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 1",
 									"varname" : "amount"
 								}
 
@@ -529,7 +532,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 263.0, 289.431396, 148.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 58.0, 87.684937, 40.0, 18.0 ],
+									"presentation_rect" : [ 58.0, 109.684937, 40.0, 18.0 ],
 									"text" : "blue",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -676,7 +679,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 290.0, 333.431396, 148.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 58.0, 109.684937, 40.0, 18.0 ],
+									"presentation_rect" : [ 58.0, 87.684937, 40.0, 18.0 ],
 									"text" : "green",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -1159,10 +1162,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.rdp.tintlight.maxpat",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/rdp.tintlight/lib",

@@ -1283,6 +1283,7 @@
 			}
 , 			{
 				"box" : 				{
+					"has_bypass" : 1,
 					"has_panel" : 1,
 					"has_preview" : 1,
 					"id" : "obj-1",

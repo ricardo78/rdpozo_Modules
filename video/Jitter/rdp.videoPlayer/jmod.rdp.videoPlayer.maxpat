@@ -687,7 +687,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "front" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 39.0, 25.0, 25.0 ]
 								}
 
@@ -903,10 +903,10 @@
 									"presentation_rect" : [ 274.0, 250.0, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "radiogroup",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup"
+											"parameter_shortname" : "radiogroup"
 										}
 
 									}
@@ -2430,7 +2430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 101.0, 133.0, 20.0 ],
+					"patching_rect" : [ 352.0, 103.0, 133.0, 20.0 ],
 					"text" : "jalg.rdp.videoPlayer #0"
 				}
 

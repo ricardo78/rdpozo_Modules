@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 209.0, 167.0, 821.0, 511.0 ],
+		"rect" : [ 445.0, 292.0, 821.0, 511.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1824,7 +1824,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 39.5, 266.5, 525.0, 20.0 ],
-					"text" : "jit.qt.movie @autostart 0 @loopreport 1 @adapt 0 @vol 0. @dim 1280 720 @interp 1 @unique 1"
+					"text" : "jit.qt.movie @autostart 0 @loopreport 1 @adapt 0 @vol 0. @dim 320 240 @interp 1 @unique 1"
 				}
 
 			}

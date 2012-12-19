@@ -70,6 +70,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.5, 11.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1824,7 +1828,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 39.5, 266.5, 525.0, 20.0 ],
-					"text" : "jit.qt.movie @autostart 0 @loopreport 1 @adapt 0 @vol 0. @dim 320 240 @interp 1 @unique 1"
+					"text" : "jit.qt.movie @autostart 0 @loopreport 1 @adapt 0 @vol 0. @dim 1280 720 @interp 1 @unique 1"
 				}
 
 			}

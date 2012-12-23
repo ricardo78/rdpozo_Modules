@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 445.0, 292.0, 821.0, 511.0 ],
+		"rect" : [ 445.0, 292.0, 824.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,49 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.5, 380.0, 347.5, 74.0 ],
+					"text" : "Looping mode (default = 1 (start to end)) \n0 = no looping \n1 = normal looping (start to end) \n2 = palindrome looping (start to end to start to ....) \n3 = no looping, but use looppoints to define playback limits"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 707.0, 79.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 707.0, 106.0, 50.0, 18.0 ],
+					"text" : "loop $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -70,10 +113,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.5, 11.0, 30.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -1766,11 +1805,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 10,
-					"numoutlets" : 10,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 39.5, 41.5, 399.0, 20.0 ],
-					"text" : "route play file clear colormode dim unique rate looppoints resetlooppoints"
+					"numinlets" : 11,
+					"numoutlets" : 11,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 39.5, 41.5, 455.0, 20.0 ],
+					"text" : "route play file clear colormode dim unique rate looppoints resetlooppoints loopmode"
 				}
 
 			}
@@ -1863,6 +1902,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1933,8 +1981,18 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 217.888885, 111.0, 399.0, 111.0, 399.0, 144.0, 398.5, 144.0 ],
+					"midpoints" : [ 223.399994, 111.0, 399.0, 111.0, 399.0, 144.0, 398.5, 144.0 ],
 					"source" : [ "obj-7", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 441.399994, 70.0, 716.5, 70.0 ],
+					"source" : [ "obj-7", 9 ]
 				}
 
 			}
@@ -1943,7 +2001,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 175.666672, 111.0, 319.5, 111.0 ],
+					"midpoints" : [ 179.800003, 111.0, 319.5, 111.0 ],
 					"source" : [ "obj-7", 3 ]
 				}
 
@@ -1953,7 +2011,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 133.444443, 111.0, 241.5, 111.0 ],
+					"midpoints" : [ 136.199997, 111.0, 241.5, 111.0 ],
 					"source" : [ "obj-7", 2 ]
 				}
 
@@ -1963,7 +2021,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 91.222221, 111.0, 106.0, 111.0 ],
+					"midpoints" : [ 92.599998, 111.0, 106.0, 111.0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -1973,7 +2031,7 @@
 					"destination" : [ "obj-27", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 344.555542, 105.0, 610.0, 105.0 ],
+					"midpoints" : [ 354.200012, 105.0, 610.0, 105.0 ],
 					"source" : [ "obj-7", 7 ]
 				}
 
@@ -1993,7 +2051,7 @@
 					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 260.111115, 105.0, 483.5, 105.0 ],
+					"midpoints" : [ 267.0, 105.0, 483.5, 105.0 ],
 					"source" : [ "obj-7", 5 ]
 				}
 
@@ -2003,7 +2061,7 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 302.333344, 105.0, 557.75, 105.0 ],
+					"midpoints" : [ 310.600006, 105.0, 557.75, 105.0 ],
 					"source" : [ "obj-7", 6 ]
 				}
 
@@ -2013,7 +2071,7 @@
 					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 386.777771, 105.0, 670.5, 105.0 ],
+					"midpoints" : [ 397.799988, 105.0, 670.5, 105.0 ],
 					"source" : [ "obj-7", 8 ]
 				}
 
@@ -2092,6 +2150,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 670.5, 192.0, 49.0, 192.0 ],
 					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 716.5, 129.0, 609.0, 129.0, 609.0, 252.0, 49.0, 252.0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

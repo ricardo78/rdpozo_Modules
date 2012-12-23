@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 8
 		}
 ,
-		"rect" : [ 297.0, 52.0, 1065.0, 718.0 ],
+		"rect" : [ 187.0, 108.0, 1065.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,11 +31,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 36.99321,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 654.9375, 422.5, 128.0, 53.0 ],
+					"patching_rect" : [ 654.9375, 422.5, 128.0, 52.0 ],
 					"text" : "Open "
 				}
 
@@ -103,12 +104,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-156",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.6875, 654.0, 358.0, 34.0 ],
+					"patching_rect" : [ 306.6875, 654.0, 358.0, 33.0 ],
 					"text" : "Record one set of midi, then skip to the next while the other keeps playing. USE ALL 8 MIDI SEQUENCER AT ONCE"
 				}
 
@@ -117,14 +119,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 39.181229,
+					"frgb" : 0.0,
 					"id" : "obj-153",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.9375, 594.0, 555.0, 52.0 ],
+					"patching_rect" : [ 227.9375, 594.0, 555.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 306.28125, 483.5, 259.0, 142.0 ],
+					"presentation_rect" : [ 306.28125, 483.5, 259.0, 138.0 ],
 					"text" : "Multi sequencer for launchpad. "
 				}
 
@@ -142,7 +145,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -282,22 +285,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 490.250061, 486.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p and another"
@@ -317,7 +319,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -457,22 +459,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 421.375061, 460.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p and another"
@@ -492,7 +493,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -632,22 +633,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 352.500061, 432.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p and another"
@@ -667,7 +667,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -807,22 +807,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 283.625061, 486.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p and another"
@@ -842,7 +841,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -982,22 +981,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 214.750061, 453.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p and another"
@@ -1017,7 +1015,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 1034.0, 318.0 ],
@@ -1157,22 +1155,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 145.875061, 432.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p another"
@@ -1199,6 +1196,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1206,7 +1204,7 @@
 					"patching_rect" : [ 716.000061, 172.0, 231.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 1242.777832, 121.0, 46.0, 134.0 ],
+					"presentation_rect" : [ 1242.777832, 121.0, 46.0, 131.0 ],
 					"text" : "button 8 from left is record on/Off "
 				}
 
@@ -1216,14 +1214,15 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 716.000061, 201.0, 198.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 868.777832, 239.5, 46.0, 122.0 ],
+					"presentation_linecount" : 20,
+					"presentation_rect" : [ 868.777832, 239.5, 34.0, 251.0 ],
 					"text" : "button 7 is on/Off playback midi"
 				}
 
@@ -1234,6 +1233,7 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1242,7 +1242,7 @@
 					"patching_rect" : [ 606.000061, 101.5, 198.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 1271.777832, 67.0, 64.0, 112.0 ],
+					"presentation_rect" : [ 1271.777832, 67.0, 64.0, 110.0 ],
 					"text" : "Button 5 from left is read midi file and button 6 is write midi file"
 				}
 
@@ -1253,15 +1253,16 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 617.000061, 151.0, 99.0, 87.0 ],
+					"patching_rect" : [ 617.000061, 151.0, 99.0, 86.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 1092.777832, 77.0, 64.0, 137.0 ],
+					"presentation_rect" : [ 1092.777832, 77.0, 64.0, 134.0 ],
 					"text" : "4th button is appen recording on/off and on step secuencer mode sequencer on/off"
 				}
 
@@ -1285,6 +1286,7 @@
 					"bubbleside" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-150",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1292,8 +1294,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 337.000061, 224.0, 281.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 360.1875, 130.0, 64.0, 122.0 ],
+					"presentation_linecount" : 17,
+					"presentation_rect" : [ 360.1875, 130.0, 48.0, 215.0 ],
 					"text" : "First and Second and 3rd button unnassigned. Comming soon"
 				}
 
@@ -1302,6 +1304,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-148",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1309,7 +1312,7 @@
 					"patching_rect" : [ 750.409729, 232.0, 245.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 442.1875, 137.586212, 70.0, 68.0 ],
+					"presentation_rect" : [ 442.1875, 137.586212, 70.0, 67.0 ],
 					"text" : "< Mixer button is Record on sequencer 1-7 "
 				}
 
@@ -1318,6 +1321,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.760596,
+					"frgb" : 0.0,
 					"id" : "obj-147",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1325,7 +1329,7 @@
 					"patching_rect" : [ 748.409729, 348.0, 274.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 551.1875, 246.0, 87.0, 86.0 ],
+					"presentation_rect" : [ 551.1875, 246.0, 87.0, 83.0 ],
 					"text" : "< Last button is a STEP SEQUENCER"
 				}
 
@@ -1334,6 +1338,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-146",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1350,6 +1355,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-145",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1366,6 +1372,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-144",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1382,6 +1389,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-143",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1398,6 +1406,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-142",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1414,6 +1423,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-141",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1430,6 +1440,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.754559,
+					"frgb" : 0.0,
 					"id" : "obj-74",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1470,7 +1481,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 8
 						}
 ,
 						"rect" : [ 91.0, 499.0, 328.0, 289.0 ],
@@ -1507,7 +1518,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1866,22 +1877,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 928.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -1993,7 +2003,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2352,22 +2362,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 800.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -2479,7 +2488,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2838,22 +2847,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 686.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -2965,7 +2973,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3324,22 +3332,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 558.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -3451,7 +3458,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3810,22 +3817,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 433.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -3937,7 +3943,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4296,22 +4302,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 305.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -4423,7 +4428,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4782,22 +4787,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 179.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -4909,7 +4913,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 8
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -5268,22 +5272,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 50.0, 171.0, 71.75, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p"
@@ -6001,22 +6004,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 559.125061, 439.0, 96.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p selectedSteps"
@@ -6033,7 +6035,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 77.000061, 384.0, 570.0, 34.0 ],
+					"patching_rect" : [ 77.000061, 384.0, 570.0, 33.0 ],
 					"text" : "jcom.oscroute /sequence.1 /sequence.2 /sequence.3 /sequence.4 /sequence.5 /sequence.6 /sequence.7 /selectedSteps"
 				}
 
@@ -6160,78 +6162,78 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.rdp.nlp.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Control/rdp.nlp",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/rdp.nlp",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.rdp.nlp.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Control/rdp.nlp/lib",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/rdp.nlp/lib",
 				"patcherrelativepath" : "../rdp.nlp/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.mtoxy.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../Abstracts/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.xytom.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../Abstracts/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CCtoxy.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Abstracts/miditoxy",
-				"patcherrelativepath" : "../../Abstracts/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
+				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}

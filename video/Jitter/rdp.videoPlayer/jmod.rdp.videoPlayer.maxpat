@@ -417,7 +417,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 127.0, 225.0, 302.0, 275.0 ],
+						"rect" : [ 142.0, 227.0, 302.0, 275.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -698,6 +698,7 @@
 									"align" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"hint" : "Looping mode (default = 1 (start to end))  0 = no looping  1 = normal looping (start to end)  2 = palindrome looping (start to end to start to ....)  3 = no looping, but use looppoints to define playback limits",
 									"id" : "obj-26",
 									"items" : [ "no loopint", ",", "normal looping", ",", "palindrome looping", ",", "no looping, but use looppoints to define playback limits" ],
 									"maxclass" : "umenu",

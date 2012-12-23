@@ -437,6 +437,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2448,7 +2449,7 @@
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 491.0, 341.0, 210.0, 341.0, 210.0, 219.0, 231.0, 225.0 ],
+									"midpoints" : [ 491.0, 341.0, 210.0, 341.0, 210.0, 219.0, 231.0, 219.0 ],
 									"source" : [ "obj-38", 0 ]
 								}
 

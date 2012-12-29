@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 1
+			"revision" : 8
 		}
 ,
 		"rect" : [ 92.0, 247.0, 868.0, 323.0 ],
@@ -51,7 +51,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 229.0, 567.0, 34.0 ],
+					"patching_rect" : [ 11.0, 229.0, 567.0, 33.0 ],
 					"text" : "jit.gl.mesh OpenGL @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 0 @layer #1-3"
 				}
 
@@ -81,7 +81,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 396.0, 281.0, 915.0, 439.0 ],
@@ -114,7 +114,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 9,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 18.0, 38.0, 589.0, 48.0 ],
+									"patching_rect" : [ 18.0, 38.0, 589.0, 47.0 ],
 									"text" : "jcom.oscroute /upper/left/corner/horizontal /upper/left/corner/vertical /upper/right/corner/horizontal /upper/right/corner/vertical /lower/left/corner/horizontal /lower/left/corner/vertical /lower/right/corner/horizontal /lower/right/corner/vertical"
 								}
 
@@ -429,26 +429,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 746.0, 158.0, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p cornerpin"
@@ -469,7 +464,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 324.0, 253.0 ],
@@ -598,26 +593,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 651.0, 158.0, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p color"
@@ -638,7 +628,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 106.0, 231.0, 401.0, 201.0 ],
@@ -758,26 +748,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 599.0, 158.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p rotate"
@@ -798,7 +783,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 223.0, 311.0, 202.0, 196.0 ],
@@ -1013,26 +998,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 558.0, 158.0, 40.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p pos"
@@ -1053,7 +1033,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 255.0, 140.0 ],
@@ -1099,7 +1079,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 68.907715, 139.0, 20.0 ],
+									"patching_rect" : [ 11.0, 68.907715, 139.0, 19.0 ],
 									"text" : "pak scale 1. 1. 1."
 								}
 
@@ -1165,26 +1145,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 508.0, 158.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p scale"
@@ -1205,7 +1180,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 290.0, 175.0 ],
@@ -1251,7 +1226,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 81.522827, 115.0, 20.0 ],
+									"patching_rect" : [ 6.0, 81.522827, 115.0, 19.0 ],
 									"text" : "pak fade 0. 0. 0. 0."
 								}
 
@@ -1265,7 +1240,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 109.522827, 89.0, 20.0 ],
+									"patching_rect" : [ 6.0, 109.522827, 89.0, 19.0 ],
 									"text" : "prepend param"
 								}
 
@@ -1361,26 +1336,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 11.0, 113.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p edgeblend"
@@ -1425,7 +1395,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 1
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 206.0, 258.0 ],
@@ -1529,22 +1499,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 699.0, 158.0, 46.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p axes"

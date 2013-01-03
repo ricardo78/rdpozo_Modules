@@ -4,11 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 1
+			"revision" : 8
 		}
 ,
-		"rect" : [ 281.0, 139.0, 356.0, 309.0 ],
-		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+		"rect" : [ 593.0, 211.0, 553.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +29,20 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 15.5, 151.0, 278.0, 20.0 ],
+					"text" : "jit.gl.slab.Jamoma_blur Jamoma_Render_Window"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-16",
 					"maxclass" : "flonum",
@@ -37,26 +50,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 208.0, 161.0, 50.0, 20.0 ]
+					"patching_rect" : [ 15.5, 95.0, 50.0, 19.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 69.0, 212.0, 205.0, 20.0 ],
-					"text" : "jit.gl.slab.gauss6x OpenGL @layer #1"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
@@ -64,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 93.0, 70.0, 132.0, 20.0 ],
+					"patching_rect" : [ 15.5, 51.0, 132.0, 20.0 ],
 					"text" : "jcom.oscroute /amount"
 				}
 
@@ -77,7 +77,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 36.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.5, 17.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -100,16 +100,26 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 259.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.5, 279.0, 25.0, 25.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 267.5, 137.0, 25.0, 137.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -128,35 +138,26 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 102.5, 147.0, 217.5, 147.0 ],
+					"midpoints" : [ 25.0, 87.0, 25.0, 87.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-1", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 217.5, 183.0, 264.5, 183.0 ],
+					"midpoints" : [ 25.0, 126.0, 284.0, 126.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/examples/jitter-examples/render/slab",
+				"name" : "jit.gl.slab.Jamoma_blur.maxpat",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.blur/lib",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}

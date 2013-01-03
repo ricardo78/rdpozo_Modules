@@ -443,21 +443,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 352.0, 155.0, 318.0, 33.0 ],
-					"text" : "jcom.return trigger @type none @repetitions/allow 1 @description \"Sent every time the metronome fires.\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.426503,
@@ -510,6 +495,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "Metro interval (ms)",
@@ -1134,12 +1120,13 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 28.0, 22.0, 22.0 ]
+					"patching_rect" : [ 352.0, 39.0, 22.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
@@ -1147,13 +1134,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 332.0, 57.0, 49.0, 20.0 ],
+					"patching_rect" : [ 352.0, 68.0, 49.0, 20.0 ],
 					"text" : "jcom.in"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.917074, 0.324974, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
@@ -1178,6 +1166,21 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
 					"text" : "/editing_this_module"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 352.0, 147.0, 426.0, 20.0 ],
+					"text" : "jcom.return trigger @type generic @range/clipmode none @repetitions/allow 1",
+					"varname" : "trigger"
 				}
 
 			}
@@ -1372,6 +1375,10 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jcom.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -1385,10 +1392,6 @@
 			}
 , 			{
 				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{

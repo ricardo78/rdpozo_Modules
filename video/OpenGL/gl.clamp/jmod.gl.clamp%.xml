@@ -7,11 +7,10 @@
   <preset number='1' name='default'>
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='clamp/x' type='decimal' priority='1' mixweight='1'>0</item>
-    <item name='clamp/y' type='decimal' priority='1' mixweight='1'>0</item>
-    <item name='preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='clamp/y' type='decimal' priority='2' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
-    <item name='width/x' type='decimal' priority='1' mixweight='1'>0</item>
-    <item name='width/y' type='decimal' priority='1' mixweight='1'>0</item>
+    <item name='width/x' type='decimal' priority='3' mixweight='1'>0</item>
+    <item name='width/y' type='decimal' priority='4' mixweight='1'>0</item>
   </preset>
 </jamoma>

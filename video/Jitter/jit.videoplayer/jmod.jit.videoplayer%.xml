@@ -10,7 +10,7 @@
     <item name='loadRam' type='boolean' priority='8' mixweight='1'>0</item>
     <item name='loopMode' type='generic' priority='7' mixweight='1'>normal looping </item>
     <item name='looppoints' type='array' priority='6' mixweight='1'>0</item>
-    <item name='rate' type='decimal' priority='9' mixweight='1'>0</item>
+    <item name='rate' type='decimal' priority='9' mixweight='1'>1.000000</item>
     <item name='readFolder' type='string' priority='1' mixweight='1'>0</item>
     <item name='selectFile' type='generic' priority='2' mixweight='1'>0</item>
     <item name='unique' type='boolean' priority='5' mixweight='1'>1</item>

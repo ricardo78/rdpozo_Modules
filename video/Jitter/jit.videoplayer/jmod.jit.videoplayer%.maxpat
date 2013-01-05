@@ -498,7 +498,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "set contrast ratio",
+									"annotation" : "",
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 									"fontname" : "Arial",
@@ -626,10 +626,10 @@
 									"presentation_rect" : [ 121.5, 239.0, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[1]",
 											"parameter_type" : 3,
-											"parameter_invisible" : 1
+											"parameter_invisible" : 1,
+											"parameter_shortname" : "radiogroup",
+											"parameter_longname" : "radiogroup[1]"
 										}
 
 									}
@@ -1065,8 +1065,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 717.0, 511.0, 578.0, 33.0 ],
-									"text" : "jcom.parameter looppoints @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @dataspace none @priority 6 @description \"loop points in video file\"",
+									"patching_rect" : [ 717.0, 511.0, 565.0, 33.0 ],
+									"text" : "jcom.parameter looppoints @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @dataspace none @priority 6 @description \"loop points in video file\"",
 									"varname" : "looppoints"
 								}
 
@@ -1243,10 +1243,10 @@
 									"presentation_rect" : [ 226.0, 239.0, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup",
 											"parameter_type" : 3,
-											"parameter_invisible" : 1
+											"parameter_invisible" : 1,
+											"parameter_shortname" : "radiogroup",
+											"parameter_longname" : "radiogroup"
 										}
 
 									}

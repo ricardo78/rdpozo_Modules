@@ -8,7 +8,6 @@
 		}
 ,
 		"rect" : [ 92.0, 247.0, 868.0, 323.0 ],
-		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,12 +31,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 11.0, 158.0, 425.0, 20.0 ],
-					"text" : "jit.gl.slab OpenGL @file gl.edgeblend.jxs @param fade 0. 0. 0. 0. @layer #1-1"
+					"patching_rect" : [ 11.0, 158.0, 421.0, 33.0 ],
+					"text" : "jit.gl.slab Jamoma_Render_Window @file gl.edgeblend.jxs @param fade 0. 0. 0. 0. @colormode uyvy"
 				}
 
 			}
@@ -51,8 +51,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 229.0, 567.0, 33.0 ],
-					"text" : "jit.gl.mesh OpenGL @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 0 @layer #1-3"
+					"patching_rect" : [ 11.0, 229.0, 565.0, 33.0 ],
+					"text" : "jit.gl.mesh Jamoma_Render_Window @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 0"
 				}
 
 			}
@@ -1522,6 +1522,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",

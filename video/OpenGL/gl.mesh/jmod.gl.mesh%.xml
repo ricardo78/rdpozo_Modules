@@ -22,6 +22,7 @@
     <item name='edgeblend/left' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='edgeblend/right' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='edgeblend/top' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer' type='integer' priority='1' mixweight='1'>0</item>
     <item name='position/x' type='decimal' priority='0' mixweight='1'>50.000000</item>
     <item name='position/y' type='decimal' priority='0' mixweight='1'>50.000000</item>
     <item name='position/z' type='decimal' priority='0' mixweight='1'>0.000000</item>
@@ -32,5 +33,6 @@
     <item name='scale/hight' type='decimal' priority='0' mixweight='1'>0.400000</item>
     <item name='scale/width' type='decimal' priority='0' mixweight='1'>0.400000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
 </jamoma>

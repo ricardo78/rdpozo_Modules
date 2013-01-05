@@ -581,13 +581,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 294.0, 573.0, 595.0, 60.0 ],
-									"text" : "jcom.parameter randomness @type integer @ramp/drive scheduler @repetitions/allow 0 @range/bounds 0 5000 @range/clipmode low @description \"Defines a range of randomness in milliseconds to be applied to the metro interval\" @dataspace time @dataspace/unit/native ms @dataspace/unit/display ms @dataspace/unit/active ms"
+									"patching_rect" : [ 294.0, 573.0, 595.0, 47.0 ],
+									"text" : "jcom.parameter randomness @type integer @ramp/drive scheduler @repetitions/allow 0 @range/bounds 0 5000 @range/clipmode low @description \"Defines a range of randomness in milliseconds to be applied to the metro interval\""
 								}
 
 							}
@@ -596,13 +596,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 304.5, 508.0, 588.0, 47.0 ],
-									"text" : "jcom.parameter time @type decimal @ramp/drive scheduler @repetitions/allow 1 @range/bounds 1 100000 @range/clipmode low @dataspace time @dataspace/unit/native ms @dataspace/unit/display ms @dataspace/unit/active ms @description \"Metro interval (ms)\""
+									"patching_rect" : [ 304.5, 508.0, 588.0, 33.0 ],
+									"text" : "jcom.parameter time @type decimal @ramp/drive scheduler @repetitions/allow 1 @range/bounds 1 100000 @range/clipmode low @description \"Metro interval (ms)\""
 								}
 
 							}
@@ -639,10 +639,10 @@
 									"presentation_rect" : [ 279.0, 186.0, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[1]"
+											"parameter_longname" : "radiogroup[1]",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}

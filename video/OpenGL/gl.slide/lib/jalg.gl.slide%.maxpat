@@ -4,11 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 1
+			"revision" : 8
 		}
 ,
 		"rect" : [ 481.0, 314.0, 563.0, 407.0 ],
-		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +34,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 52.0, 25.0, 25.0 ]
+					"patching_rect" : [ 304.0, 12.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -47,7 +46,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 63.0, 35.0, 25.0, 25.0 ]
+					"patching_rect" : [ 10.0, 12.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -58,12 +57,13 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 340.0, 25.0, 25.0 ]
+					"patching_rect" : [ 17.0, 374.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -71,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 66.0, 87.0, 197.0, 20.0 ],
+					"patching_rect" : [ 10.0, 63.0, 235.0, 20.0 ],
 					"text" : "jcom.oscroute /slide/up /slide/down"
 				}
 
@@ -85,8 +85,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 158.0, 295.0, 295.0, 20.0 ],
-					"text" : "jit.gl.texture OpenGL @defaultimage black @layer #1-2"
+					"patching_rect" : [ 43.0, 286.0, 418.0, 19.0 ],
+					"text" : "jit.gl.texture Jamoma_Render_Window @defaultimage black @colormode uyvy"
 				}
 
 			}
@@ -100,7 +100,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 233.0, 164.0, 50.0, 20.0 ]
+					"patching_rect" : [ 118.0, 155.0, 50.0, 19.0 ]
 				}
 
 			}
@@ -113,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.0, 187.0, 121.0, 18.0 ],
+					"patching_rect" : [ 118.0, 178.0, 121.0, 17.0 ],
 					"text" : "param slide_down $1"
 				}
 
@@ -127,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.0, 187.0, 106.0, 18.0 ],
+					"patching_rect" : [ 10.0, 178.0, 106.0, 17.0 ],
 					"text" : "param slide_up $1"
 				}
 
@@ -142,7 +142,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 125.0, 164.0, 50.0, 20.0 ]
+					"patching_rect" : [ 10.0, 155.0, 50.0, 19.0 ]
 				}
 
 			}
@@ -155,8 +155,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 132.0, 262.0, 256.0, 20.0 ],
-					"text" : "jit.gl.slab OpenGL @file tp.slide.jxs @layer #1-1"
+					"patching_rect" : [ 17.0, 253.0, 379.0, 19.0 ],
+					"text" : "jit.gl.slab Jamoma_Render_Window @file tp.slide.jxs @colormode uyvy"
 				}
 
 			}
@@ -211,7 +211,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 134.5, 255.0, 141.5, 255.0 ],
+					"midpoints" : [ 19.5, 246.0, 26.5, 246.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -221,7 +221,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 242.5, 252.0, 141.5, 252.0 ],
+					"midpoints" : [ 127.5, 243.0, 26.5, 243.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -240,7 +240,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 167.5, 323.0, 473.0, 323.0, 473.0, 257.0, 378.5, 257.0 ],
+					"midpoints" : [ 52.5, 351.0, 487.0, 351.0, 487.0, 248.0, 386.5, 248.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -259,7 +259,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 313.5, 150.0, 111.0, 150.0, 111.0, 246.0, 141.5, 246.0 ],
+					"midpoints" : [ 313.5, 225.5, 26.5, 225.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

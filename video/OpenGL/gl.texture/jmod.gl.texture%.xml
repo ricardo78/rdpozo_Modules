@@ -5,9 +5,8 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='colormode' type='generic' priority='0' mixweight='1'>uyvy</item>
-    <item name='flip' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='flip' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>

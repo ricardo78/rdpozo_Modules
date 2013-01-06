@@ -26,7 +26,6 @@
     <item name='position/x' type='decimal' priority='0' mixweight='1'>50.000000</item>
     <item name='position/y' type='decimal' priority='0' mixweight='1'>50.000000</item>
     <item name='position/z' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='preview' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='rotate/x' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='rotate/y' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='rotate/z' type='decimal' priority='0' mixweight='1'>0.000000</item>

@@ -140,8 +140,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 11.0, 221.0, 218.0, 20.0 ],
-					"text" : "jit.gl.slab OpenGL @file v001.mirror.jxs"
+					"patching_rect" : [ 11.0, 221.0, 414.0, 20.0 ],
+					"text" : "jit.gl.slab Jamoma_Render_Window @file v001.mirror.jxs @colormode uyvy"
 				}
 
 			}

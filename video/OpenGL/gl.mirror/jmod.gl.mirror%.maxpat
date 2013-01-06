@@ -982,8 +982,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 487.0, 222.315063, 93.0, 20.0 ],
-					"text" : "jalg.gl.mirror #0"
+					"patching_rect" : [ 487.0, 222.315063, 104.0, 20.0 ],
+					"text" : "jalg.gl.mirror% #0"
 				}
 
 			}
@@ -991,7 +991,6 @@
 				"box" : 				{
 					"has_bypass" : 1,
 					"has_panel" : 1,
-					"has_preview" : 1,
 					"id" : "obj-1",
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,
@@ -1110,7 +1109,7 @@
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 476.5, 204.315063, 570.5, 204.315063 ],
+					"midpoints" : [ 476.5, 204.315063, 581.5, 204.315063 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1180,7 +1179,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jalg.gl.mirror.maxpat",
+				"name" : "jalg.gl.mirror%.maxpat",
 				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.mirror/lib",
 				"patcherrelativepath" : "../gl.mirror/lib",
 				"type" : "JSON",

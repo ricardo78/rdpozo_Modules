@@ -8,7 +8,6 @@
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='origin/x' type='decimal' priority='2' mixweight='1'>0.000000</item>
     <item name='origin/y' type='decimal' priority='2' mixweight='1'>0.000000</item>
-    <item name='preview' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>

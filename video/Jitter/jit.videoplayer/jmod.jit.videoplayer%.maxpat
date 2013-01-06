@@ -1236,8 +1236,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 859.0, 518.5, 578.0, 33.0 ],
-									"text" : "jcom.parameter looppoints @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @dataspace none @priority 6 @description \"loop points in video file\"",
+									"patching_rect" : [ 859.0, 518.5, 565.0, 33.0 ],
+									"text" : "jcom.parameter looppoints @type array @range/clipmode none @repetitions/allow 1 @ramp/drive none @dataspace none @priority 6 @description \"loop points in video file\"",
 									"varname" : "looppoints"
 								}
 

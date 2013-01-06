@@ -3188,6 +3188,7 @@
 			}
 , 			{
 				"box" : 				{
+					"has_bypass" : 1,
 					"has_panel" : 1,
 					"id" : "obj-6",
 					"maxclass" : "jcom.ui",

@@ -485,8 +485,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 212.0, 20.0 ],
-									"text" : "jcom.oscroute /red /blue /green /alpha"
+									"patching_rect" : [ 77.1875, 93.0, 212.0, 20.0 ],
+									"text" : "jcom.oscroute /red /green /blue /alpha"
 								}
 
 							}
@@ -499,7 +499,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 38.0, 145.0, 113.0, 20.0 ],
+									"patching_rect" : [ 38.0, 145.0, 202.9375, 20.0 ],
 									"text" : "pak color 1. 1. 1. 1."
 								}
 

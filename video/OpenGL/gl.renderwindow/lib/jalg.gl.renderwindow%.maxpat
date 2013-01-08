@@ -28,6 +28,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-7",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 695.0, 392.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -139,7 +150,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 375.0, 100.0, 20.0 ],
+					"patching_rect" : [ 720.0, 392.0, 100.0, 20.0 ],
 					"text" : "s #1-fps-to-GUI"
 				}
 
@@ -625,6 +636,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]

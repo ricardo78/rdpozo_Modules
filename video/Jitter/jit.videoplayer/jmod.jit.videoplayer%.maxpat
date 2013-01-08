@@ -457,7 +457,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 771.0, 64.0, 251.0, 260.0 ],
+						"rect" : [ 658.0, 67.0, 251.0, 260.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -773,7 +773,7 @@
 									"presentation_rect" : [ 9.0, 65.0, 59.0, 20.0 ],
 									"rounded" : 4.0,
 									"text" : "read",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"texton" : "Recording...",
 									"textoncolor" : [ 0.911718, 0.911858, 0.911654, 1.0 ],
 									"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1197,7 +1197,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 109.0, 189.0, 130.0, 20.0 ],
 									"rounded" : 4,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
 
 							}
@@ -1224,13 +1224,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 532.875, 115.0, 271.0, 47.0 ],
-									"text" : "jcom.parameter unique @type boolean @range/clipmode none @priority 5 @description \"only unique frames\"",
+									"patching_rect" : [ 532.875, 115.0, 597.0, 33.0 ],
+									"text" : "jcom.parameter unique @type boolean @range/clipmode none @priority 5 @description \"only unique frames\" @repetitions/allow 1",
 									"varname" : "unique"
 								}
 
@@ -1358,7 +1358,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 501.875, 163.0, 18.0, 18.0 ],
+									"patching_rect" : [ 501.875, 129.5, 18.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 226.0, 239.0, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
@@ -1372,7 +1372,7 @@
 									}
 ,
 									"size" : 1,
-									"values" : [ 1 ],
+									"values" : [ 0 ],
 									"varname" : "radiogroup"
 								}
 
@@ -1638,7 +1638,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 79.0, 65.0, 161.0, 20.0 ],
 									"rounded" : 4,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"textcolor2" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
 									"types" : [ "MooV", "MPEG", "JPEG", "PICT", "PNG ", "MOV " ]
 								}
@@ -1681,6 +1681,20 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 100.0, 80.0, 59.0, 20.0 ],
+													"text" : "tosymbol"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -1832,6 +1846,15 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -1967,7 +1990,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
+													"destination" : [ "obj-10", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-53", 0 ]
@@ -2012,7 +2035,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 109.0, 166.0, 130.0, 20.0 ],
 									"rounded" : 4,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
 
 							}
@@ -2276,7 +2299,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 110.0, 142.5, 130.0, 20.0 ],
 									"rounded" : 4,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
 
 							}

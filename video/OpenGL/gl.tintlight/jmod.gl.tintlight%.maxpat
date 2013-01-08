@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 324.0, 66.0, 1116.0, 927.0 ],
+		"rect" : [ 566.0, 274.0, 532.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -457,7 +457,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 408.0, 207.0, 251.0, 258.0 ],
+						"rect" : [ 385.0, 215.0, 251.0, 258.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -477,7 +477,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"annotation" : "",
@@ -518,7 +517,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 364.5, 452.0, 50.0, 20.0 ],
+									"patching_rect" : [ 361.5, 452.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 100.5, 111.699684, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
@@ -537,7 +536,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 422.5, 445.5, 558.0, 33.0 ],
+									"patching_rect" : [ 419.5, 445.5, 558.0, 33.0 ],
 									"text" : "jcom.parameter blue @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 3",
 									"varname" : "red[2]"
 								}
@@ -587,9 +586,9 @@
 									"orientation" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 882.5, 181.5, 144.0, 18.0 ],
+									"patching_rect" : [ 469.5, 143.5, 144.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 16.5, 205.0, 128.0, 18.0 ],
+									"presentation_rect" : [ 16.5, 204.431396, 128.0, 18.0 ],
 									"size" : 1.0
 								}
 
@@ -603,7 +602,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 882.5, 219.5, 86.0, 19.0 ],
+									"patching_rect" : [ 469.5, 181.5, 86.0, 19.0 ],
 									"text" : "saturation $1"
 								}
 
@@ -617,7 +616,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "float" ],
-									"patching_rect" : [ 777.5, 321.5, 89.0, 20.0 ],
+									"patching_rect" : [ 364.5, 283.5, 89.0, 20.0 ],
 									"text" : "unpack 0. 0. 0."
 								}
 
@@ -631,7 +630,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 777.5, 293.5, 73.0, 20.0 ],
+									"patching_rect" : [ 364.5, 255.5, 73.0, 20.0 ],
 									"text" : "vexpr $f1/1."
 								}
 
@@ -661,7 +660,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 777.5, 246.931396, 128.0, 32.0 ],
+									"patching_rect" : [ 364.5, 208.931396, 128.0, 32.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 16.5, 170.431396, 128.0, 32.0 ]
 								}
@@ -731,7 +730,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 740.0, 208.931396, 148.0, 18.0 ],
+									"patching_rect" : [ 327.0, 170.931396, 148.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 16.5, 152.431396, 82.0, 18.0 ],
 									"text" : "quick pick",

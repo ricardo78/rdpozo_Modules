@@ -30,6 +30,19 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 67.0, 357.0, 80.0, 35.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -352,7 +365,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 39.5, 313.5, 436.0, 20.0 ],
-					"text" : "jit.qt.movie @autostart 0 @loopreport 1 @adapt 0 @vol 0. @interp 1 @unique 1"
+					"text" : "jit.qt.movie @autostart 0 @loopreport 1 @adapt 0 @vol 0. @interp 1"
 				}
 
 			}
@@ -629,6 +642,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
@@ -1155,10 +1177,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 609.75, 258.0, 49.0, 258.0 ],
+					"midpoints" : [ 609.75, 304.0, 49.0, 304.0 ],
 					"source" : [ "obj-72", 0 ]
 				}
 

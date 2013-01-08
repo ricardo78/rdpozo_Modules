@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 61.0, 369.0, 972.0, 396.0 ],
+		"rect" : [ 61.0, 369.0, 1035.0, 396.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 714.833313, 230.0, 79.0, 20.0 ],
+					"patching_rect" : [ 714.833313, 282.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -289,7 +289,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 543.333313, 158.0, 20.0, 20.0 ]
+					"patching_rect" : [ 543.333313, 210.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -303,7 +303,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 543.333313, 190.0, 362.0, 20.0 ],
+					"patching_rect" : [ 543.333313, 242.0, 362.0, 20.0 ],
 					"text" : "jcom.message showPanel @type boolean @range/clipmode none",
 					"varname" : "showPanel[1]"
 				}
@@ -392,7 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 774.833313, 268.0, 53.0, 20.0 ],
+					"patching_rect" : [ 774.833313, 320.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1965,7 +1965,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 714.833313, 317.0, 67.0, 20.0 ],
+					"patching_rect" : [ 714.833313, 369.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2018,7 +2018,8 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 424.0, 106.0, 147.0, 20.0 ],
 					"text" : "jalg.gl.renderwindow% #0"
 				}
@@ -2036,6 +2037,23 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 404.0, 56.0, 59.0, 20.0 ],
 					"text" : "jcom.in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 424.0, 143.5, 590.0, 33.0 ],
+					"text" : "jcom.return fps @type decimal @range/clipmode none @repetitions/allow 1 @dataspace none @description \"return frames per seconds\"",
+					"varname" : "fps"
 				}
 
 			}
@@ -2117,6 +2135,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2130,7 +2157,7 @@
 					"destination" : [ "obj-103", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 784.333313, 302.0, 724.333313, 302.0 ],
+					"midpoints" : [ 784.333313, 354.0, 724.333313, 354.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -2193,10 +2220,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
+			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
 			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ],
 			"obj-103::obj-6" : [ "radiogroup[2]", "radiogroup", 0 ],
-			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
-			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
 			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ]
 		}
 ,
@@ -2220,6 +2247,10 @@
 				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.in.mxo",

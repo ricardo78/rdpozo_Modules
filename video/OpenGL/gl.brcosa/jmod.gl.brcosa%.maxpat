@@ -457,7 +457,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 408.0, 207.0, 251.0, 153.0 ],
+						"rect" : [ 477.0, 283.0, 251.0, 153.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -736,13 +736,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-16",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 193.5, 393.0, 601.0, 47.0 ],
-									"text" : "jcom.parameter saturation @range/bounds 0. 100. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 5 @description \"set contrast ratio\" @dataspace/unit none",
+									"patching_rect" : [ 193.5, 393.0, 603.0, 33.0 ],
+									"text" : "jcom.parameter saturation . @type decimal @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @priority 5 @description \"set contrast ratio\"",
 									"varname" : "saturation"
 								}
 
@@ -753,13 +753,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 193.5, 452.0, 596.0, 47.0 ],
-									"text" : "jcom.parameter alpha @range/bounds 0. 100. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 6 @description \"set contrast ratio\" @dataspace/unit none",
+									"patching_rect" : [ 193.5, 452.0, 573.0, 33.0 ],
+									"text" : "jcom.parameter alpha @type decimal @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @priority 6 @description \"set contrast ratio\"",
 									"varname" : "alpha"
 								}
 
@@ -775,8 +775,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 192.0, 229.0, 594.0, 33.0 ],
-									"text" : "jcom.parameter avgluma @range/bounds 0. 100. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 3 @description \"set contrast ratio\"",
+									"patching_rect" : [ 192.0, 229.0, 589.0, 33.0 ],
+									"text" : "jcom.parameter avgluma @type decimal @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @priority 3 @description \"set contrast ratio\"",
 									"varname" : "avgluma"
 								}
 
@@ -787,13 +787,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-15",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 192.0, 282.0, 604.0, 47.0 ],
-									"text" : "jcom.parameter brightness @range/bounds 0. 100. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 4 @description \"set contrast ratio\" @dataspace/unit none",
+									"patching_rect" : [ 192.0, 282.0, 599.0, 33.0 ],
+									"text" : "jcom.parameter brightness @type decimal @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @priority 4 @description \"set contrast ratio\" @dataspace/unit none",
 									"varname" : "brightness"
 								}
 
@@ -809,8 +809,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 192.0, 348.0, 581.0, 33.0 ],
-									"text" : "jcom.parameter image @range/bounds 0. 100. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 1",
+									"patching_rect" : [ 192.0, 348.0, 576.0, 33.0 ],
+									"text" : "jcom.parameter image @type decimal @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @priority 1",
 									"varname" : "image"
 								}
 
@@ -826,8 +826,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 192.0, 172.0, 592.0, 33.0 ],
-									"text" : "jcom.parameter contrast @range/bounds 0. 100. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 2 @description \"set contrast ratio\"",
+									"patching_rect" : [ 192.0, 172.0, 586.0, 33.0 ],
+									"text" : "jcom.parameter contrast @type decimal @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @priority 2 @description \"set contrast ratio\"",
 									"varname" : "contrast"
 								}
 

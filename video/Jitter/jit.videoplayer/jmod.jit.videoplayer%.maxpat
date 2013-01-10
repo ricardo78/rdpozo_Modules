@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 154.0, 202.0, 950.0, 419.0 ],
+		"rect" : [ 128.0, 114.0, 950.0, 419.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 62.5, 394.0, 856.0, 20.0 ],
+					"text" : "jcom.message frame @type integer @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 12",
+					"varname" : "frame"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "video out",
 					"id" : "obj-28",
@@ -3202,8 +3217,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
-			"obj-103::obj-2" : [ "radiogroup[1]", "radiogroup", 0 ]
+			"obj-103::obj-2" : [ "radiogroup[1]", "radiogroup", 0 ],
+			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

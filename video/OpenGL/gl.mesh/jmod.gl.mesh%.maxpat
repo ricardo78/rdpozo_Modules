@@ -451,6 +451,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -1708,7 +1709,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1007.0, 540.5, 48.0, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 138.5, 62.0, 100.5, 39.0 ],
+									"presentation_rect" : [ 163.75, 62.0, 75.25, 39.0 ],
 									"rightvalue" : 100,
 									"topvalue" : 100
 								}

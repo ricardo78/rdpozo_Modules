@@ -30,6 +30,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 62.5, 330.0, 502.0, 20.0 ],
+					"text" : "jcom.message stop @type generic @range/clipmode none @repetitions/allow 1 @priority 13",
+					"varname" : "start[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3036,6 +3051,21 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 62.5, 359.0, 502.0, 20.0 ],
+					"text" : "jcom.message start @type generic @range/clipmode none @repetitions/allow 1 @priority 13",
+					"varname" : "start"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3257,6 +3287,10 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
@@ -3294,10 +3328,6 @@
 			}
 , 			{
 				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{

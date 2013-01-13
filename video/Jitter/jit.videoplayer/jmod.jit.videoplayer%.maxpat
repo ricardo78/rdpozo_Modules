@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 128.0, 114.0, 950.0, 419.0 ],
+		"rect" : [ 128.0, 114.0, 950.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -35,8 +35,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 62.5, 330.0, 502.0, 20.0 ],
-					"text" : "jcom.message stop @type generic @range/clipmode none @repetitions/allow 1 @priority 13",
+					"patching_rect" : [ 62.5, 330.0, 434.0, 20.0 ],
+					"text" : "jcom.message stop @type generic @range/clipmode none @repetitions/allow 1",
 					"varname" : "start[1]"
 				}
 
@@ -46,12 +46,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 62.5, 394.0, 856.0, 20.0 ],
-					"text" : "jcom.message frame @type integer @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 12",
+					"patching_rect" : [ 62.5, 394.0, 570.0, 33.0 ],
+					"text" : "jcom.message frame @type integer @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
 					"varname" : "frame"
 				}
 
@@ -3060,8 +3061,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 62.5, 359.0, 502.0, 20.0 ],
-					"text" : "jcom.message start @type generic @range/clipmode none @repetitions/allow 1 @priority 13",
+					"patching_rect" : [ 62.5, 359.0, 435.0, 20.0 ],
+					"text" : "jcom.message start @type generic @range/clipmode none @repetitions/allow 1",
 					"varname" : "start"
 				}
 

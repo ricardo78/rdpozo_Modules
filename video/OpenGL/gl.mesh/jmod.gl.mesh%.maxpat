@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 173.0, 113.0, 947.0, 636.0 ],
+		"rect" : [ 531.0, 144.0, 947.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -431,7 +431,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 416.0, 155.0, 251.0, 446.0 ],
+						"rect" : [ 270.0, 182.0, 251.0, 446.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1709,7 +1709,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1007.0, 540.5, 48.0, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 163.75, 62.0, 75.25, 39.0 ],
+									"presentation_rect" : [ 174.5, 62.0, 55.0, 39.0 ],
 									"rightvalue" : 100,
 									"topvalue" : 100
 								}

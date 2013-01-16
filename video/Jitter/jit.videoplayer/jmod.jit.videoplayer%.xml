@@ -8,7 +8,7 @@
     <item name='colormode' type='generic' priority='3' mixweight='1'>Select mode </item>
     <item name='dimension' type='generic' priority='4' mixweight='1'>Select mode </item>
     <item name='loadRam' type='boolean' priority='8' mixweight='1'>0</item>
-    <item name='loopMode' type='generic' priority='7' mixweight='1'>Select mode </item>
+    <item name='loopMode' type='generic' priority='7' mixweight='1'>normalloop</item>
     <item name='looppoints' type='generic' priority='6' mixweight='1'>0 0 </item>
     <item name='rate' type='decimal' priority='9' mixweight='1'>1.000000</item>
     <item name='readFolder' type='string' priority='1' mixweight='1'>0</item>

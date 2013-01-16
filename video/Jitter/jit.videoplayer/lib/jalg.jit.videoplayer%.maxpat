@@ -262,7 +262,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 25.0, 69.0, 620.0, 206.0 ],
+						"rect" : [ 25.0, 69.0, 817.0, 336.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -359,7 +359,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
 									"patching_rect" : [ 12.0, 56.0, 596.0, 20.0 ],
-									"text" : "sel \"no loopint\" \"normal looping\" \"palindrome looping\" \"no looping, but use looppoints to define playback limits\""
+									"text" : "sel noloop normalloop palindrome defined"
 								}
 
 							}

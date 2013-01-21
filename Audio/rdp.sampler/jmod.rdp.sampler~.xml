@@ -14,13 +14,12 @@
     <item name='legato' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='loop' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='maxsustain' type='decimal' priority='0' mixweight='1'>-1.000000</item>
-    <item name='regionEnd' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='regionStart' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='release' type='decimal' priority='0' mixweight='1'>3842.519043</item>
     <item name='retrigger' type='decimal' priority='0' mixweight='1'>10.000000</item>
     <item name='steal' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='sustain' type='decimal' priority='0' mixweight='1'>5.590550</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
     <item name='voices' type='integer' priority='1' mixweight='1'>16</item>
   </preset>
 </jamoma>

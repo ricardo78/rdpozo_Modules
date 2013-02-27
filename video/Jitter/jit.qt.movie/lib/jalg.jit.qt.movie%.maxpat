@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 71.0, 44.0, 1264.0, 756.0 ],
+		"rect" : [ 113.0, 44.0, 1264.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,8 +62,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.0, 457.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 835.0, 452.0, 0.0, 0.0 ]
+					"patching_rect" : [ 835.0, 457.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -74,8 +73,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.875, 443.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 637.75, 443.0, 0.0, 0.0 ]
+					"patching_rect" : [ 632.875, 443.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -86,8 +84,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 680.0, 494.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 676.75, 497.0, 0.0, 0.0 ]
+					"patching_rect" : [ 680.0, 494.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -98,8 +95,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.75, 443.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 587.5, 454.0, 0.0, 0.0 ]
+					"patching_rect" : [ 585.75, 443.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -127,7 +123,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 689.649353, 47.0, 67.0, 20.0 ],
-					"presentation_rect" : [ 718.0, 73.0, 0.0, 0.0 ],
 					"text" : "t b gettime"
 				}
 
@@ -169,7 +164,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 75.0, 133.0, 32.5, 20.0 ],
-					"presentation_rect" : [ 80.424438, 136.0, 0.0, 0.0 ],
 					"text" : "t i i"
 				}
 
@@ -196,8 +190,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 689.649353, 10.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 694.0, 14.0, 0.0, 0.0 ]
+					"patching_rect" : [ 689.649353, 10.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -211,7 +204,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 257.0, 34.0, 18.0 ],
-					"presentation_rect" : [ 225.0, 290.0, 0.0, 0.0 ],
 					"text" : "start"
 				}
 
@@ -263,12 +255,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 660.400818, 153.0, 84.299377, 33.0 ],
+					"patching_rect" : [ 660.400818, 158.5, 64.0, 33.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "coll #1-loopMode"
+					"text" : "coll loopMode"
 				}
 
 			}
@@ -1567,6 +1559,13 @@
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loopMode.txt",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/video/Jitter/jit.qt.movie/lib",
+				"patcherrelativepath" : "",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

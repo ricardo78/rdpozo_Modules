@@ -1,2 +1,2 @@
-argb, 0;
-uyvy, 1;
+"argb", 0;
+"uyvy", 1;

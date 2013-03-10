@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 61.0, 369.0, 1035.0, 396.0 ],
+		"rect" : [ 178.0, 267.0, 942.0, 431.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,17 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "bang ro qt.movie",
+					"id" : "obj-8",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 424.0, 170.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "OSC messages",
 					"id" : "obj-27",
@@ -1199,16 +1210,16 @@
 									"presentation_rect" : [ 80.0, 213.078949, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "radiogroup[4]",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[4]"
+											"parameter_shortname" : "radiogroup"
 										}
 
 									}
 ,
 									"size" : 1,
-									"values" : [ 0 ],
+									"values" : [ 1 ],
 									"varname" : "radiogroup[4]"
 								}
 
@@ -1231,10 +1242,10 @@
 									"presentation_rect" : [ 80.0, 196.210327, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "radiogroup[2]",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[2]"
+											"parameter_shortname" : "radiogroup"
 										}
 
 									}
@@ -1263,10 +1274,10 @@
 									"presentation_rect" : [ 80.0, 179.341705, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "radiogroup[3]",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[3]"
+											"parameter_shortname" : "radiogroup"
 										}
 
 									}
@@ -1295,10 +1306,10 @@
 									"presentation_rect" : [ 80.0, 162.473083, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "radiogroup[1]",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[1]"
+											"parameter_shortname" : "radiogroup"
 										}
 
 									}
@@ -1345,10 +1356,10 @@
 									"presentation_rect" : [ 80.0, 145.604462, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "radiogroup",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup"
+											"parameter_shortname" : "radiogroup"
 										}
 
 									}
@@ -2040,23 +2051,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 424.0, 143.5, 590.0, 33.0 ],
-					"text" : "jcom.return fps @type decimal @range/clipmode none @repetitions/allow 1 @dataspace none @description \"return frames per seconds\"",
-					"varname" : "fps"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2135,7 +2129,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
@@ -2220,11 +2214,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
 			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
-			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ],
 			"obj-103::obj-6" : [ "radiogroup[2]", "radiogroup", 0 ],
-			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ]
+			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ],
+			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
+			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2247,10 +2241,6 @@
 				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.in.mxo",

@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 318.0, 85.0, 1021.0, 563.0 ],
+		"rect" : [ 483.0, 332.0, 916.0, 377.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -33,8 +33,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 192.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 414.0, 201.0, 0.0, 0.0 ]
+					"patching_rect" : [ 389.0, 155.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -48,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 416.0, 158.0, 66.0, 20.0 ],
+					"patching_rect" : [ 389.0, 121.0, 66.0, 20.0 ],
 					"text" : "jcom.out 1"
 				}
 
@@ -60,7 +59,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 309.0, 25.0, 25.0 ]
+					"patching_rect" : [ 18.0, 272.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -72,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 189.5, 25.0, 25.0 ]
+					"patching_rect" : [ 18.0, 152.5, 25.0, 25.0 ]
 				}
 
 			}
@@ -84,7 +83,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "front", "open" ],
+					"outlettype" : [ "front", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -290,7 +289,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 726.833313, 264.0, 79.0, 20.0 ],
+					"patching_rect" : [ 699.833313, 227.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -316,7 +315,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 555.333313, 192.0, 20.0, 20.0 ]
+					"patching_rect" : [ 528.333313, 155.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -330,7 +329,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 555.333313, 224.0, 362.0, 20.0 ],
+					"patching_rect" : [ 528.333313, 187.0, 362.0, 20.0 ],
 					"text" : "jcom.message showPanel @type boolean @range/clipmode none",
 					"varname" : "showPanel[1]"
 				}
@@ -346,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 119.0, 292.0, 259.0, 20.0 ],
+					"patching_rect" : [ 92.0, 255.0, 259.0, 20.0 ],
 					"text" : "jcom.pass /view/panel /module_name @strip 0"
 				}
 
@@ -361,7 +360,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 192.0, 130.0, 20.0 ],
+					"patching_rect" : [ 58.0, 155.0, 130.0, 20.0 ],
 					"text" : "jcom.parameterCreate"
 				}
 
@@ -376,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 238.0, 345.0, 20.0 ],
+					"patching_rect" : [ 18.0, 201.0, 345.0, 20.0 ],
 					"text" : "jcom.hub @module_type video @description \"alpha layer stuff\""
 				}
 
@@ -391,7 +390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 221.0, 165.0, 55.0, 20.0 ],
+					"patching_rect" : [ 194.0, 128.0, 55.0, 20.0 ],
 					"text" : "jcom.init"
 				}
 
@@ -405,7 +404,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 192.0, 110.0, 18.0 ],
+					"patching_rect" : [ 194.0, 155.0, 110.0, 18.0 ],
 					"text" : "module_name:/get"
 				}
 
@@ -419,7 +418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 786.833313, 302.0, 53.0, 20.0 ],
+					"patching_rect" : [ 759.833313, 265.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -434,10 +433,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 85.0, 97.0, 18.0 ],
+					"patching_rect" : [ 108.0, 48.0, 97.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 32.684937, 93.0, 18.0 ],
-					"text" : "gl.mes%",
+					"text" : "gl.kinect%",
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 				}
 
@@ -458,7 +457,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 1700.0, 511.0, 1504.0, 879.0 ],
+						"rect" : [ 106.0, 322.0, 1504.0, 879.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -478,8 +477,172 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 349.5, 428.0, 578.0, 20.0 ],
+									"text" : "jcom.parameter kinectMode @type generic @repetitions/allow 1 @priority 4 @description \"mode of render\"",
+									"varname" : "kinectMode"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 349.5, 372.0, 628.0, 20.0 ],
+									"presentation_rect" : [ 348.0, 372.0, 0.0, 0.0 ],
+									"text" : "jcom.parameter start @type boolean @repetitions/allow 0 @priority 2 @description \"on off rendering from the kinect\"",
+									"varname" : "start[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 1010.0, 134.5, 496.0, 47.0 ],
+									"text" : "jcom.parameter depthRange @range/bounds 0. 255. @type integerArray @range/clipmode both @repetitions/allow 1 @ramp/drive none @dataspace none @priority 3 @description \"Sets the depth of the kinect\"",
+									"varname" : "depthRange"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 712.5, 184.0, 32.5, 20.0 ],
+									"text" : "pak"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 629.0, 486.0, 74.0, 20.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"align" : 1,
+									"annotation" : "set colormode of playback",
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"items" : [ "rawdata", ",", "normalized_b-w", ",", "normalized_w-b", ",", "distance_in-cm" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 202.0, 428.0, 117.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 191.0, 188.0, 113.788605, 20.0 ],
+									"rounded" : 3,
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial Bold",
+									"fontsize" : 14.0,
+									"frgb" : 0.0,
+									"id" : "obj-38",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 447.0, 184.0, 101.0, 22.0 ],
+									"text" : "Depth Range:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bordercolor" : [ 0.327329, 0.327329, 0.327329, 1.0 ],
+									"fgcolor" : [ 0.592157, 0.278431, 0.486275, 1.0 ],
+									"floatoutput" : 1,
+									"id" : "obj-22",
+									"maxclass" : "rslider",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 712.5, 142.0, 265.0, 32.0 ],
+									"size" : 255.0,
+									"varname" : "rslider"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 629.0, 459.0, 115.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"text" : "coll #0-kinect-mode"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"linecount" : 4,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 449.0, 259.0, 369.0, 60.0 ],
+									"text" : "jcom.parameter tilt @range/bounds -30. 30. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @dataspace none @priority 1 @description \"this controls the tilt function of the kinect\"",
+									"varname" : "tilt"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -545,11 +708,13 @@
 									"htricolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "flonum",
+									"maximum" : 30.0,
+									"minimum" : -30.0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 255.0, 283.0, 50.0, 20.0 ],
+									"patching_rect" : [ 371.5, 283.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 86.0, 153.5, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
@@ -599,7 +764,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "front" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.5, 34.0, 25.0, 25.0 ]
 								}
 
@@ -724,6 +889,87 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -751,6 +997,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -771,7 +1026,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 726.833313, 351.0, 67.0, 20.0 ],
+					"patching_rect" : [ 699.833313, 314.0, 67.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -797,7 +1052,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 51.0, 300.0, 70.0 ],
+					"patching_rect" : [ 18.0, 14.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 15.0, 150.0, 35.0 ],
 					"text" : "/editing_this_module"
@@ -812,7 +1067,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.0, 57.0, 25.0, 25.0 ]
+					"patching_rect" : [ 389.0, 20.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -826,8 +1081,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 416.0, 126.0, 104.0, 20.0 ],
-					"text" : "jalg.gl.kinect% #0"
+					"patching_rect" : [ 389.0, 89.0, 103.0, 20.0 ],
+					"text" : "jalg.jit.kinect% #0"
 				}
 
 			}
@@ -841,7 +1096,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 416.0, 90.0, 49.0, 20.0 ],
+					"patching_rect" : [ 389.0, 53.0, 49.0, 20.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -852,7 +1107,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 94.5, 225.0, 54.5, 225.0 ],
+					"midpoints" : [ 67.5, 188.0, 27.5, 188.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -871,7 +1126,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 279.0, 128.5, 279.0 ],
+					"midpoints" : [ 27.5, 242.0, 101.5, 242.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -917,7 +1172,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 230.5, 229.0, 54.5, 229.0 ],
+					"midpoints" : [ 203.5, 192.0, 27.5, 192.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -927,7 +1182,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 796.333313, 336.0, 736.333313, 336.0 ],
+					"midpoints" : [ 769.333313, 299.0, 709.333313, 299.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -991,7 +1246,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 248.5, 336.0, 736.333313, 336.0 ],
+					"midpoints" : [ 221.5, 299.0, 709.333313, 299.0 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
@@ -1001,16 +1256,16 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 128.5, 336.0, 736.333313, 336.0 ],
+					"midpoints" : [ 101.5, 299.0, 709.333313, 299.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jalg.gl.kinect%.maxpat",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.kinect/lib",
-				"patcherrelativepath" : "../gl.kinect/lib",
+				"name" : "jalg.jit.kinect%.maxpat",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/video/Jitter/jit.kinect/lib",
+				"patcherrelativepath" : "../jit.kinect/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1046,6 +1301,10 @@
 			}
 , 			{
 				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{

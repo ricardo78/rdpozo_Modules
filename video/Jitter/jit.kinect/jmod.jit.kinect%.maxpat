@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 358.0, 48.0, 916.0, 377.0 ],
+		"rect" : [ 354.0, 192.0, 916.0, 377.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -504,7 +504,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 349.5, 372.0, 628.0, 20.0 ],
-									"presentation_rect" : [ 348.0, 372.0, 0.0, 0.0 ],
 									"text" : "jcom.parameter start @type boolean @repetitions/allow 0 @priority 2 @description \"on off rendering from the kinect\"",
 									"varname" : "start[1]"
 								}
@@ -521,7 +520,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1010.0, 134.5, 496.0, 47.0 ],
+									"patching_rect" : [ 1010.0, 134.5, 497.0, 47.0 ],
 									"text" : "jcom.parameter depthRange @range/bounds 0. 255. @type integerArray @range/clipmode both @repetitions/allow 1 @ramp/drive none @dataspace none @priority 3 @description \"Sets the depth of the kinect\"",
 									"varname" : "depthRange"
 								}
@@ -592,6 +591,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "Sets the depth of the kinect",
 									"bordercolor" : [ 0.327329, 0.327329, 0.327329, 1.0 ],
 									"fgcolor" : [ 0.592157, 0.278431, 0.486275, 1.0 ],
 									"floatoutput" : 1,
@@ -636,7 +636,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 449.0, 259.0, 369.0, 60.0 ],
+									"patching_rect" : [ 449.0, 259.0, 372.0, 60.0 ],
 									"text" : "jcom.parameter tilt @range/bounds -30. 30. @type decimal @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @dataspace none @priority 1 @description \"this controls the tilt function of the kinect\"",
 									"varname" : "tilt"
 								}
@@ -698,7 +698,7 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "",
+									"annotation" : "this controls the tilt function of the kinect",
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 									"fontname" : "Arial",

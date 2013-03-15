@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1613.0, 102.0, 1269.0, 782.0 ],
+		"rect" : [ 43.0, 62.0, 1269.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,

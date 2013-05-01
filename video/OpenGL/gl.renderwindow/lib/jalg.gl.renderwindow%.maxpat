@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 168.0, 219.0, 1218.0, 499.0 ],
+		"rect" : [ 114.0, 132.0, 1218.0, 499.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +28,36 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 479.0, 150.0, 42.0, 20.0 ],
+					"text" : "pak i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 466.824707, 117.0, 111.0, 20.0 ],
+					"presentation_rect" : [ 469.824707, 163.0, 0.0, 0.0 ],
+					"text" : "jcom.oscroute /x /y"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "bang to qt movie",
 					"id" : "obj-7",
@@ -124,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 27.0, 76.0, 507.0, 20.0 ],
+					"patching_rect" : [ 27.0, 76.0, 521.656799, 20.0 ],
 					"text" : "jcom.oscroute /fullscreen /floating /colormode /menubar /border /position /antialias /dimension"
 				}
 
@@ -260,7 +291,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 516.824707, 251.25, 50.0, 20.0 ]
+					"patching_rect" : [ 524.824707, 251.25, 50.0, 20.0 ]
 				}
 
 			}
@@ -466,6 +497,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -553,10 +602,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 463.5, 195.0, 576.0, 195.0, 576.0, 306.0, 560.5, 306.0 ],
 					"source" : [ "obj-49", 7 ]
 				}
 
@@ -566,7 +614,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 158.5, 297.0, 208.5, 297.0 ],
+					"midpoints" : [ 162.1642, 297.0, 208.5, 297.0 ],
 					"source" : [ "obj-49", 2 ]
 				}
 
@@ -576,7 +624,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 97.5, 267.0, 130.5, 267.0 ],
+					"midpoints" : [ 99.3321, 267.0, 130.5, 267.0 ],
 					"source" : [ "obj-49", 1 ]
 				}
 
@@ -586,7 +634,7 @@
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 402.5, 195.0, 748.5, 195.0 ],
+					"midpoints" : [ 413.492615, 195.0, 748.5, 195.0 ],
 					"source" : [ "obj-49", 6 ]
 				}
 
@@ -596,7 +644,7 @@
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 267.0, 322.5, 267.0 ],
+					"midpoints" : [ 224.996307, 267.0, 322.5, 267.0 ],
 					"source" : [ "obj-49", 3 ]
 				}
 
@@ -606,7 +654,7 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 280.5, 267.0, 407.5, 267.0 ],
+					"midpoints" : [ 287.8284, 267.0, 407.5, 267.0 ],
 					"source" : [ "obj-49", 4 ]
 				}
 
@@ -616,7 +664,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 341.5, 195.0, 465.324707, 195.0 ],
+					"midpoints" : [ 350.660492, 195.0, 465.324707, 195.0 ],
 					"source" : [ "obj-49", 5 ]
 				}
 
@@ -709,6 +757,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

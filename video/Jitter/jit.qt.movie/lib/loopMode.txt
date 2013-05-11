@@ -1,4 +1,4 @@
 noloop, 0;
 normalloop, 1;
 palindrome, 2;
-define, 3;
+defined, 3;

@@ -5,13 +5,11 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='function' type='string' priority='1' mixweight='1'>cosine</item>
-    <item name='outputMax' type='decimal' priority='3' mixweight='1'>1.000000</item>
-    <item name='outputMin' type='decimal' priority='2' mixweight='1'>0.000000</item>
-    <item name='parameterDecimalValue' type='decimal' priority='5' mixweight='1'>0.000000</item>
-    <item name='parameterMenuValue' type='string' priority='4' mixweight='1'>axis</item>
-    <item name='symmetry' type='string' priority='6' mixweight='1'>0</item>
-    <item name='timescale' type='decimal' priority='7' mixweight='1'>1.000000</item>
+    <item name='scaleMidiVelocity/function' type='string' priority='1' mixweight='1'>exponential</item>
+    <item name='scaleMidiVelocity/functionParameterMenu' type='string' priority='4' mixweight='1'>0</item>
+    <item name='scaleMidiVelocity/functionParameterValue' type='decimal' priority='5' mixweight='1'>114.000000</item>
+    <item name='scaleMidiVelocity/functionParameter' type='string' priority='6' mixweight='1'>base</item>
+    <item name='scaleMidiVelocity/time' type='decimal' priority='7' mixweight='1'>0.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>

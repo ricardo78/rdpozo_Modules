@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 8
+		}
+,
 		"rect" : [ 166.0, 44.0, 1198.0, 644.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 166.0, 44.0, 1198.0, 644.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
@@ -12,18 +16,22 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.426503,
-					"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -46,10 +54,14 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 8
+						}
+,
 						"rect" : [ 303.0, 47.0, 368.0, 223.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 303.0, 47.0, 368.0, 223.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -57,12 +69,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"title" : "/editing_this_module",
 						"boxes" : [ 							{
 								"box" : 								{
@@ -82,7 +98,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
-									"annotation" : "Select Chord Set",
+									"annotation" : "",
 									"appearance" : 1,
 									"hint" : "Select Chord Set",
 									"id" : "obj-27",
@@ -98,25 +114,14 @@
 										"valueof" : 										{
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 14.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "mode",
+											"parameter_annotation_name" : "select",
 											"parameter_modmax" : 14.0,
 											"parameter_longname" : "mode",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 4,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "select"
+											"parameter_modmode" : 4
 										}
 
 									}
@@ -128,6 +133,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"hint" : "Adds a random factor to the velocity of every note ...",
 									"id" : "obj-44",
@@ -141,27 +147,14 @@
 									"presentation_rect" : [ 246.0, 142.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_steps" : 1,
 											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 127.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "dynamic",
-											"parameter_modmax" : 127.0,
 											"parameter_longname" : "dynamic[3]",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 4,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 1,
-											"parameter_invisible" : 0,
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_modmode" : 4
 										}
 
 									}
@@ -173,6 +166,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"hint" : "shift all notes up or down in octaves",
 									"id" : "obj-47",
@@ -186,6 +180,7 @@
 									"presentation_rect" : [ 190.0, 142.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_steps" : 1,
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 3.0,
 											"parameter_mmin" : -3.0,
@@ -196,17 +191,7 @@
 											"parameter_modmax" : 3.0,
 											"parameter_longname" : "octave up/down[3]",
 											"parameter_modmin" : -3.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 4,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 1,
-											"parameter_invisible" : 0,
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_modmode" : 4
 										}
 
 									}
@@ -218,7 +203,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
-									"annotation" : "randomly shifts notes UP and Down",
+									"annotation" : "",
 									"appearance" : 1,
 									"hint" : "randomly shifts notes UP and Down",
 									"id" : "obj-48",
@@ -234,25 +219,13 @@
 										"valueof" : 										{
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 100.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "random",
-											"parameter_modmax" : 127.0,
 											"parameter_longname" : "random[2]",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
 											"parameter_modmode" : 4,
-											"parameter_info" : "",
-											"parameter_units" : "test",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_units" : "test"
 										}
 
 									}
@@ -264,6 +237,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"hint" : "spreads the notes over your keyboard",
 									"id" : "obj-49",
@@ -279,25 +253,12 @@
 										"valueof" : 										{
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 70.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "spread",
-											"parameter_modmax" : 127.0,
 											"parameter_longname" : "spread[2]",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 4,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_modmode" : 4
 										}
 
 									}
@@ -309,6 +270,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"hint" : "Adds more notes to the root note according to the selected Chord Set",
 									"id" : "obj-51",
@@ -324,25 +286,13 @@
 										"valueof" : 										{
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 4.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 3 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "addnotes",
 											"parameter_modmax" : 4.0,
 											"parameter_longname" : "add notes[2]",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 4,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_modmode" : 4
 										}
 
 									}
@@ -450,6 +400,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 1073.0, 264.0, 100.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 308.0, 200.0, 51.0, 15.0 ],
@@ -568,6 +519,7 @@
 									"numoutlets" : 2,
 									"offset" : 24,
 									"outlettype" : [ "int", "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 424.0, 506.0, 350.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 69.0, 350.0, 34.0 ],
@@ -590,6 +542,7 @@
 									"numoutlets" : 2,
 									"offset" : 24,
 									"outlettype" : [ "int", "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 425.0, 506.0, 350.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 69.0, 350.0, 34.0 ],
@@ -610,6 +563,7 @@
 									"numoutlets" : 2,
 									"offset" : 24,
 									"outlettype" : [ "int", "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 424.0, 506.0, 350.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 69.0, 350.0, 34.0 ],
@@ -631,6 +585,7 @@
 									"numoutlets" : 2,
 									"offset" : 24,
 									"outlettype" : [ "int", "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 422.0, 506.0, 350.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 69.0, 350.0, 34.0 ],
@@ -656,6 +611,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "",
 									"arrowframe" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
@@ -666,13 +622,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 579.0, 338.0, 269.0, 18.0 ],
 									"pattrmode" : 1,
 									"prefix_mode" : 2,
 									"presentation" : 1,
 									"presentation_rect" : [ 271.0, 111.0, 86.0, 18.0 ],
-									"rounded" : 4,
-									"types" : [  ]
+									"rounded" : 4
 								}
 
 							}
@@ -761,10 +717,14 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 0,
+											"revision" : 8
+										}
+,
 										"rect" : [ 174.0, 44.0, 1217.0, 830.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 174.0, 44.0, 1217.0, 830.0 ],
-										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
@@ -772,23 +732,27 @@
 										"gridonopen" : 0,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"boxanimatetime" : 200,
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
 										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 19.0,
-													"frgb" : [ 0.141176, 0.25098, 0.109804, 1.0 ],
+													"frgb" : 0.0,
 													"id" : "obj-7",
 													"linecount" : 4,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 29.0, 251.0, 1069.0, 94.0 ],
+													"patching_rect" : [ 29.0, 251.0, 1069.0, 91.0 ],
 													"text" : "SCHWARZONATOR \nis a note twister and about helping non-musicians or musicians finding the right notes and chords in realtime.\nIt turns one finger playing into chords that fit together well. You can choose from a list of Chord Sets in a drop down menu. \nAll notes you play on your keyboard will fit into the selected Chord Set. ",
 													"textcolor" : [ 0.141176, 0.25098, 0.109804, 1.0 ]
 												}
@@ -799,7 +763,7 @@
 													"fontface" : 1,
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 0.639216 ],
+													"frgb" : 0.0,
 													"id" : "obj-40",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -826,12 +790,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
+													"frgb" : 0.0,
 													"id" : "obj-1",
 													"linecount" : 32,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 31.0, 392.0, 520.0, 522.0 ],
+													"patching_rect" : [ 31.0, 392.0, 520.0, 507.0 ],
 													"text" : "ADD NOTES \ncorrects the note you play on the keyboard according to the selected scale and adds 1-4 notes to create a chord instead of a single note.\n\nSPREAD \nspreads the played chord over the keyboard to make it sound wider and creates \nvariations of the played chord.\n\nRANDOM \nadds some life to the played chords by pitching certain notes up and down by octaves.\n\nOCTAVE \npitches the output up and down by +/- 12 semitones\n\nDYNAMIC \nadds a random factor the the velocity of the output notes to make the sound more vivid.\n\nSELECT\nchooses the Chord Set from the dropdown and creates great results when you automate the chord change from within Live.\n\nCHORD SET \nis a basic setting and lets you choose from scales and harmonies from different songs. Jump between different Chord Sets and listen to the harmonic changes.\n\nMONO INPUT \nif this is set ON, then only one note can pass through the plug in at one time. If you press a second note while you hold the first one then the first note will be stopped and replaced by the new one.\n\n"
 												}
 
@@ -840,12 +805,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
+													"frgb" : 0.0,
 													"id" : "obj-3",
 													"linecount" : 29,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 590.0, 392.0, 503.0, 473.0 ],
+													"patching_rect" : [ 590.0, 392.0, 503.0, 460.0 ],
 													"text" : "ROOT NOTE\nis a visual control only. If this is set ON then you can see the note you play on your keyboard in red.\n\nNOTES IN CHORD\nis a visual control only. If this is set ON you can see which notes the Patch sends out.\n\nNOTES IN SCALE\nThe white keys show you which notes belong to the scale. This is also just a visual control.\n\nTHE LITTLE BROTHER\nThere is a second patch that works a bit like a slave to the master Schwarzonator patch. You may drop it into a midi channel and it will adjust all notes according to the selected Chord Set in Schwarzonator. \nPlease make sure that you drop Schwarzonator before you drop Little Brother! \nYou may change the Chords of your whole song by changing the Chord Set in Schwarzonator. All Little Brother instances will follow the change. \nWith Little Brother you can for example use a piano with chords in one midi channel with the master patch and then play a bassline in another channel with the slave patch and all the notes you play will fit the piano chords in the first channel automatically. You can add as many Little Brothers as you like.\nLittle Brother also uses the visual control buttons Root Note, Notes in Chord and Notes in Scale like in Schwarzonator.\n\nFORUM\nIf you have questions or ideas please visit the forum at www.schwarzonator.com"
 												}
 
@@ -880,13 +846,16 @@
 ,
 									"patching_rect" : [ 1204.0, 332.0, 70.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "patcher help"
@@ -898,6 +867,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-34",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -912,6 +882,7 @@
 , 							{
 								"box" : 								{
 									"activebgoncolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"annotation" : "",
 									"hint" : "show or hide root note",
 									"id" : "obj-39",
 									"maxclass" : "live.toggle",
@@ -924,28 +895,13 @@
 									"presentation_rect" : [ 11.0, 112.0, 81.0, 16.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 10,
+											"parameter_enum" : [ "off", "on" ],
 											"parameter_mmax" : 1.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "live.toggle",
-											"parameter_modmax" : 127.0,
-											"parameter_longname" : "live.toggle[2]",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 0,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_longname" : "live.toggle[2]"
 										}
 
 									}
@@ -959,6 +915,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-40",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -973,6 +930,7 @@
 , 							{
 								"box" : 								{
 									"activebgoncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"annotation" : "",
 									"hint" : "show or hide chords",
 									"id" : "obj-41",
 									"maxclass" : "live.toggle",
@@ -985,28 +943,13 @@
 									"presentation_rect" : [ 96.0, 112.0, 81.0, 16.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 10,
+											"parameter_enum" : [ "off", "on" ],
 											"parameter_mmax" : 1.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "live.toggle",
-											"parameter_modmax" : 127.0,
-											"parameter_longname" : "live.toggle[1]",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 0,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_longname" : "live.toggle[1]"
 										}
 
 									}
@@ -1020,6 +963,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"frgb" : 0.0,
 									"id" : "obj-42",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1035,6 +979,7 @@
 								"box" : 								{
 									"activebgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"activebgoncolor" : [ 0.678431, 0.701961, 0.721569, 1.0 ],
+									"annotation" : "",
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgoncolor" : [ 0.682353, 0.698039, 0.721569, 1.0 ],
 									"hint" : "show or hide all notes in scale",
@@ -1049,28 +994,13 @@
 									"presentation_rect" : [ 181.0, 112.0, 81.0, 16.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 10,
+											"parameter_enum" : [ "on", "off" ],
 											"parameter_mmax" : 1.0,
-											"parameter_mmin" : 0.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 2,
-											"parameter_initial_enable" : 0,
 											"parameter_shortname" : "scale view",
-											"parameter_modmax" : 127.0,
 											"parameter_longname" : "scale view",
-											"parameter_modmin" : 0.0,
-											"parameter_linknames" : 0,
-											"parameter_modmode" : 0,
-											"parameter_info" : "",
-											"parameter_units" : "",
-											"parameter_order" : 1,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0,
-											"parameter_steps" : 0,
-											"parameter_invisible" : 0,
-											"parameter_enum" : [ "on", "off" ],
-											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : ""
+											"parameter_order" : 1
 										}
 
 									}
@@ -1091,10 +1021,14 @@
 									"outlettype" : [ "front" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 0,
+											"revision" : 8
+										}
+,
 										"rect" : [ 840.0, 548.0, 600.0, 426.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 840.0, 548.0, 600.0, 426.0 ],
-										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
@@ -1102,12 +1036,16 @@
 										"gridonopen" : 0,
 										"gridsize" : [ 5.0, 5.0 ],
 										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"boxanimatetime" : 200,
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
 										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
@@ -1177,8 +1115,8 @@
 										"lines" : [ 											{
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [  ],
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -1186,8 +1124,8 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [  ],
 													"source" : [ "obj-2", 1 ]
 												}
 
@@ -1195,8 +1133,8 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [  ],
 													"source" : [ "obj-2", 0 ]
 												}
 
@@ -1204,8 +1142,8 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [  ],
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -1213,8 +1151,8 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [  ],
 													"source" : [ "obj-4", 0 ]
 												}
 
@@ -1224,13 +1162,16 @@
 ,
 									"patching_rect" : [ 10.0, 101.0, 42.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"globalpatchername" : "",
+										"default_fontsize" : 10.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p front"
@@ -1246,6 +1187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 150.0, 30.0, 45.0, 45.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 8.0, 45.0, 45.0 ],
@@ -1298,7 +1240,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 20.0,
-									"frgb" : [ 0.4, 0.4, 0.4, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1316,7 +1258,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
-									"frgb" : [ 0.62, 0.0, 0.36, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-28",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1361,8 +1303,8 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -1370,8 +1312,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 1 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -1379,8 +1321,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -1388,8 +1330,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -1397,8 +1339,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -1406,8 +1348,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -1415,8 +1357,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -1424,8 +1366,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -1433,8 +1375,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-89", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -1442,8 +1384,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -1451,8 +1393,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1460,8 +1402,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -1469,8 +1411,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -1478,8 +1420,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -1487,8 +1429,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -1496,8 +1438,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-89", 1 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -1505,8 +1447,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -1514,8 +1456,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -1523,8 +1465,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -1532,8 +1474,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-51", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-38", 0 ]
 								}
 
@@ -1541,8 +1483,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -1550,8 +1492,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-41", 0 ]
 								}
 
@@ -1559,8 +1501,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -1568,8 +1510,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -1577,8 +1519,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-47", 0 ]
 								}
 
@@ -1586,8 +1528,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1595,8 +1537,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-49", 0 ]
 								}
 
@@ -1604,8 +1546,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1613,8 +1555,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -1622,8 +1564,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-59", 0 ]
 								}
 
@@ -1631,8 +1573,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -1640,8 +1582,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-41", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -1651,13 +1593,16 @@
 ,
 					"patching_rect" : [ 334.0, 395.5, 136.5, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p panel"
@@ -1757,7 +1702,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 392.0, 98.0, 19.0 ],
+					"patching_rect" : [ 11.0, 395.5, 98.0, 19.0 ],
 					"text" : "jalg.rdp.notes #0"
 				}
 
@@ -1834,8 +1779,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1843,8 +1788,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1852,8 +1797,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1861,8 +1806,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1870,8 +1815,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1879,8 +1824,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1888,8 +1833,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1897,8 +1842,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1906,8 +1851,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1915,8 +1860,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1924,36 +1869,105 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-41" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-33::obj-35" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-2::obj-49" : [ "spread[2]", "spread", 0 ],
+			"obj-33::obj-25" : [ "random[1]", "random", 0 ],
 			"obj-2::obj-43" : [ "scale view", "scale view", 1 ],
 			"obj-2::obj-27" : [ "mode", "mode", 0 ],
-			"obj-33::obj-25" : [ "random[1]", "random", 0 ],
-			"obj-33::obj-35" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-2::obj-51" : [ "add notes[2]", "addnotes", 0 ],
 			"obj-33::obj-41" : [ "select", "select", 0 ],
+			"obj-33::obj-20" : [ "spread[1]", "spread", 0 ],
+			"obj-33::obj-90" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-33::obj-17" : [ "octave up/down[2]", "octave", 0 ],
+			"obj-2::obj-44" : [ "dynamic[3]", "dynamic", 0 ],
+			"obj-2::obj-39" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-33::obj-15" : [ "add notes[1]", "addnotes", 0 ],
 			"obj-33::obj-44" : [ "dynamic[1]", "dynamic", 0 ],
 			"obj-2::obj-47" : [ "octave up/down[3]", "octave", 0 ],
-			"obj-2::obj-48" : [ "random[2]", "random", 0 ],
-			"obj-33::obj-90" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-33::obj-20" : [ "spread[1]", "spread", 0 ],
-			"obj-33::obj-79" : [ "help[1]", "help", 0 ],
-			"obj-2::obj-39" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-2::obj-49" : [ "spread[2]", "spread", 0 ],
 			"obj-33::obj-30" : [ "scale view[1]", "scale view", 1 ],
-			"obj-2::obj-41" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-2::obj-51" : [ "add notes[2]", "addnotes", 0 ],
-			"obj-33::obj-17" : [ "octave up/down[2]", "octave", 0 ],
-			"obj-2::obj-44" : [ "dynamic[3]", "dynamic", 0 ],
+			"obj-33::obj-79" : [ "help[1]", "help", 0 ],
+			"obj-2::obj-48" : [ "random[2]", "random", 0 ],
 			"obj-33::obj-33" : [ "live.toggle[5]", "live.toggle", 0 ]
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "jalg.rdp.notes.maxpat",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/rdp.notes/lib",
+				"patcherrelativepath" : "../rdp.notes/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "20091212_schwarzonator.js",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/rdp.notes/lib",
+				"patcherrelativepath" : "../rdp.notes/lib",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.parameterCreate.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpuiButton.png",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.hub.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

@@ -4,11 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 1
+			"revision" : 8
 		}
 ,
 		"rect" : [ 379.0, 331.0, 453.0, 332.0 ],
-		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,8 +84,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 30.0, 222.0, 178.0, 20.0 ],
-					"text" : "jit.gl.texture OpenGL @layer #1"
+					"patching_rect" : [ 30.0, 222.0, 316.0, 20.0 ],
+					"text" : "jit.gl.texture Jamoma_Render_Window @colormode uyvy"
 				}
 
 			}

@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 270.0, 166.0, 952.0, 592.0 ],
+		"rect" : [ 277.0, 69.0, 952.0, 592.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +29,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
@@ -35,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 95.0, 214.0, 196.0, 20.0 ],
+					"patching_rect" : [ 95.0, 214.5, 196.0, 20.0 ],
 					"text" : "jcom.pass /module_name @strip 0"
 				}
 
@@ -162,6 +164,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
@@ -169,7 +172,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 350.0, 104.0, 55.0, 20.0 ],
+					"patching_rect" : [ 350.0, 104.5, 55.0, 20.0 ],
 					"text" : "jcom.init"
 				}
 
@@ -198,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 62.684937, 117.0, 18.0 ],
+					"patching_rect" : [ 31.0, 47.184937, 117.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 17.684937, 124.0, 18.0 ],
 					"text" : "nlp",
@@ -218,11 +221,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 225.0, 133.0, 394.0, 654.0 ],
+						"rect" : [ 74.0, 138.0, 394.0, 654.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -242,6 +246,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -2344,8 +2349,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2740,8 +2746,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3136,8 +3143,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3532,8 +3540,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3928,8 +3937,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4324,8 +4334,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -4750,8 +4761,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1010.0, 684.0 ],
@@ -5684,8 +5696,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -6368,8 +6381,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 840.0, 548.0, 600.0, 426.0 ],
@@ -8449,6 +8463,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-24",
@@ -8456,7 +8471,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 127.0, 131.0, 19.0 ],
+					"patching_rect" : [ 87.0, 127.5, 131.0, 19.0 ],
 					"text" : "jcom.parameterCreate"
 				}
 
@@ -8486,6 +8501,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
@@ -8494,7 +8510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 49.0, 169.0, 392.0, 33.0 ],
+					"patching_rect" : [ 49.0, 169.5, 392.0, 33.0 ],
 					"text" : "jcom.hub @module_type audio @description \"Novation Launchpad Sequencer\""
 				}
 
@@ -8515,6 +8531,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
@@ -8522,7 +8539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 487.0, 46.684937, 49.0, 20.0 ],
+					"patching_rect" : [ 487.0, 47.184937, 49.0, 20.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -8638,7 +8655,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 96.5, 156.5, 58.5, 156.5 ],
+					"midpoints" : [ 96.5, 157.0, 58.5, 157.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -8702,50 +8719,50 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.rdp.nlp.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/rdp.nlp/lib",
-				"patcherrelativepath" : "../rdp.nlp/lib",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/rdp.nlp/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.mtoxy.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
 				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.xytom.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
 				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CCtoxy.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
 				"patcherrelativepath" : "../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

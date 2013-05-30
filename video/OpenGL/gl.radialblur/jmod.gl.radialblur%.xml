@@ -6,10 +6,10 @@
 >
   <preset number='1' name='default'>
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
-    <item name='horizontal' type='decimal' priority='0' mixweight='1'>0.500000</item>
-    <item name='preview' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='vertical' type='decimal' priority='0' mixweight='1'>0.500000</item>
+    <item name='horizontal' type='decimal' priority='3' mixweight='1'>0</item>
+    <item name='vertical' type='decimal' priority='3' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='width' type='decimal' priority='0' mixweight='1'>0.500000</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
+    <item name='width' type='decimal' priority='2' mixweight='1'>0</item>
   </preset>
 </jamoma>

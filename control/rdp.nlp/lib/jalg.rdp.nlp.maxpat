@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 452.0, 44.0, 904.0, 738.0 ],
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -175,8 +177,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -311,8 +314,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -447,8 +451,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -583,8 +588,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -719,8 +725,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -855,8 +862,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 528.0, 369.0 ],
@@ -1069,8 +1077,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 396.0, 361.0 ],
@@ -1205,8 +1214,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -1592,7 +1602,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -3577,8 +3587,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -3992,7 +4003,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -5995,8 +6006,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -6382,7 +6394,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -8367,8 +8379,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -8754,7 +8767,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -10739,8 +10752,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 108.0, 1313.0, 781.0 ],
@@ -11126,7 +11140,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -13111,8 +13125,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 114.0, 1313.0, 781.0 ],
@@ -13526,7 +13541,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -15557,8 +15572,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 1060.0, 404.0 ],
@@ -15593,8 +15609,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -15896,8 +15913,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16199,8 +16217,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16502,8 +16521,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -16805,8 +16825,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -17108,8 +17129,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -17411,8 +17433,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -17714,8 +17737,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -18270,8 +18294,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 13.0, 302.0, 436.0, 589.0 ],
@@ -18685,8 +18710,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 24.0, 87.0, 967.0, 585.0 ],
@@ -18862,8 +18888,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -18968,8 +18995,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -19600,7 +19628,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "list", "list" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 50.0, 555.0, 130.0, 130.0 ],
+													"patching_rect" : [ 50.0, 555.0, 130.0, 128.0 ],
 													"presentation_rect" : [ 509.0, 735.0, 130.0, 128.0 ],
 													"rows" : 8
 												}
@@ -21060,8 +21088,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 534.0, 70.0, 906.0, 600.0 ],
@@ -21506,8 +21535,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 37.0, 47.0, 1403.0, 775.0 ],
@@ -21639,8 +21669,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 1010.0, 684.0 ],
@@ -22786,8 +22817,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 681.0, 235.0, 640.0, 480.0 ],
@@ -22947,8 +22979,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -23151,7 +23184,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "list", "list" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 416.75, 975.0, 130.0, 130.0 ],
+									"patching_rect" : [ 416.75, 975.0, 130.0, 128.0 ],
 									"presentation_rect" : [ 195.0, 195.0, 130.0, 128.0 ],
 									"rows" : 8
 								}
@@ -23943,8 +23976,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 71.0, 88.0, 1280.0, 537.0 ],
@@ -23979,8 +24013,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 606.0, 630.0, 1440.0, 806.0 ],
@@ -24015,8 +24050,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 421.0, 48.0, 733.0, 806.0 ],
@@ -24865,8 +24901,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -25715,8 +25752,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -26565,8 +26603,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -27415,8 +27454,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -28265,8 +28305,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -29115,8 +29156,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -29965,8 +30007,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -31204,8 +31247,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 800.0, 554.0 ],
@@ -32229,8 +32273,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
@@ -33254,8 +33299,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 213.0, 1440.0, 806.0 ],
@@ -33290,8 +33336,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -34201,8 +34248,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -35112,8 +35160,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -36023,8 +36072,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -36934,8 +36984,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -37845,8 +37896,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -38779,8 +38831,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 1,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 637.0, 44.0, 733.0, 806.0 ],
@@ -40086,8 +40139,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 1,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
@@ -41775,8 +41829,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 1,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 127.0, 46.0, 1313.0, 781.0 ],
@@ -42149,7 +42204,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 779.0, 787.5, 32.5, 18.0 ],
-									"text" : "62"
+									"text" : "60"
 								}
 
 							}
@@ -44628,28 +44683,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rdp.mtoxy.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
 				"patcherrelativepath" : "../../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rdp.xytom.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
 				"patcherrelativepath" : "../../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CCtoxy.maxpat",
-				"bootpath" : "/Users/MAC1/rdpozo_Modules/control/miditoxy",
+				"bootpath" : "/Users/pozo/rdpozo_Modules/control/miditoxy",
 				"patcherrelativepath" : "../../miditoxy",
 				"type" : "JSON",
 				"implicit" : 1

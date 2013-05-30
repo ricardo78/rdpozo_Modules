@@ -5,7 +5,6 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='device' type='generic' priority='0' mixweight='1'>2</item>
     <item name='sequencer.1/append' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='sequencer.1/delay' type='integer' priority='0' mixweight='1'>0</item>
     <item name='sequencer.1/mode' type='generic' priority='0' mixweight='1'>button</item>
@@ -56,8 +55,9 @@
     <item name='sequencer.7/speed' type='integer' priority='0' mixweight='1'>0</item>
     <item name='sequencer.7/stop' type='integer' priority='0' mixweight='1'>0</item>
     <item name='sequencer.8/seqOnOff' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='sequencer.8/seqQuantize' type='generic' priority='0' mixweight='1'>16n</item>
+    <item name='sequencer.8/seqQuantize' type='generic' priority='0' mixweight='1'>16</item>
     <item name='sequencer.8/seqTempo' type='decimal' priority='0' mixweight='1'>124.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>
 </jamoma>

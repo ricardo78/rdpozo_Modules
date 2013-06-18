@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -48.0, 76.0, 1487.0, 738.0 ],
+		"rect" : [ 0.0, 76.0, 1487.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -122,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 886.5, 507.0, 123.0, 20.0 ],
+					"patching_rect" : [ 887.0, 588.0, 123.0, 20.0 ],
 					"text" : "jit.unpack 1 @jump 5"
 				}
 
@@ -136,7 +136,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 653.96875, 541.0, 251.53125, 20.0 ],
+					"patching_rect" : [ 653.96875, 624.0, 251.53125, 20.0 ],
 					"text" : "switch"
 				}
 
@@ -248,7 +248,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 886.5, 457.5, 531.0, 36.0 ],
+					"patching_rect" : [ 887.0, 538.5, 531.0, 36.0 ],
 					"text" : "jit.gl.gridshape Jamoma_Render_Window @matrixoutput 1 @antialias 1@blend_enable 1 @lighting_enable 0"
 				}
 
@@ -2265,7 +2265,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1259.5, 444.0, 896.0, 444.0 ],
+					"midpoints" : [ 1259.5, 444.0, 896.5, 444.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 

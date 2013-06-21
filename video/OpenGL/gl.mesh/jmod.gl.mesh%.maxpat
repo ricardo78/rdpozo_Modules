@@ -411,7 +411,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 89.0, 97.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 32.684937, 93.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 17.684937, 93.0, 18.0 ],
 					"text" : "gl.mes%",
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 				}
@@ -454,6 +454,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -6237,7 +6238,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 55.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 35.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
 					"text" : "/editing_this_module"
 				}
 

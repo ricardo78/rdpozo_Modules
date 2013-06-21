@@ -26,15 +26,18 @@
     <item name='position/x' type='decimal' priority='0' mixweight='1'>50.000000</item>
     <item name='position/y' type='decimal' priority='0' mixweight='1'>50.000000</item>
     <item name='position/z' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='radMinor' type='decimal' priority='22' mixweight='1'>0</item>
     <item name='rotate/x' type='decimal' priority='19' mixweight='1'>0.000000</item>
     <item name='rotate/y' type='decimal' priority='2' mixweight='1'>0.000000</item>
     <item name='rotate/z' type='decimal' priority='3' mixweight='1'>0.000000</item>
     <item name='scale/hight' type='decimal' priority='5' mixweight='1'>0.400000</item>
     <item name='scale/width' type='decimal' priority='4' mixweight='1'>0.400000</item>
-    <item name='shape' type='string' priority='1' mixweight='1'>plane</item>
-    <item name='shapeDim/x' type='integer' priority='20' mixweight='1'>20</item>
-    <item name='shapeDim/y' type='integer' priority='21' mixweight='1'>20</item>
+    <item name='shape/dim/x' type='integer' priority='20' mixweight='1'>20</item>
+    <item name='shape/dim/y' type='integer' priority='21' mixweight='1'>20</item>
+    <item name='shape/form' type='string' priority='1' mixweight='1'>plane</item>
+    <item name='shape/radius' type='decimal' priority='22' mixweight='1'>10.000000</item>
+    <item name='shape/rotation/x' type='decimal' priority='23' mixweight='1'>0.000000</item>
+    <item name='shape/rotation/y' type='decimal' priority='24' mixweight='1'>0.000000</item>
+    <item name='shape/rotation/z' type='decimal' priority='25' mixweight='1'>0.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>20</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>

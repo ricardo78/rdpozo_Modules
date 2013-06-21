@@ -3275,7 +3275,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 978.0, 752.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 129.5, 59.5, 100.0, 20.0 ]
+									"presentation_rect" : [ 100.0, 59.5, 129.5, 20.0 ]
 								}
 
 							}
@@ -4549,7 +4549,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1007.0, 540.5, 48.0, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 174.5, 84.0, 55.0, 39.0 ],
+									"presentation_rect" : [ 174.5, 84.0, 55.0, 35.0 ],
 									"rightvalue" : 100,
 									"topvalue" : 100
 								}
@@ -6439,14 +6439,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.mesh%.maxpat",
-				"bootpath" : "/Users/pozo/Dropbox/GitHub/rdpozo_Modules/video/OpenGL/gl.mesh/lib",
+				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/video/OpenGL/gl.mesh/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/pozo/Dropbox/GitHub/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
@@ -6454,14 +6454,14 @@
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

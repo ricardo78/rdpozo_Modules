@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 65.0, 1487.0, 738.0 ],
+		"rect" : [ 0.0, 65.0, 1371.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1847,7 +1847,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 649.0, 16.0, 25.0, 25.0 ]
+					"patching_rect" : [ 653.96875, 12.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -1859,7 +1859,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 25.0, 25.0, 25.0 ]
+					"patching_rect" : [ 35.0, 12.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -2458,7 +2458,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 658.5, 225.5, 44.5, 225.5 ],
+					"midpoints" : [ 663.46875, 225.5, 44.5, 225.5 ],
 					"source" : [ "obj-62", 0 ]
 				}
 

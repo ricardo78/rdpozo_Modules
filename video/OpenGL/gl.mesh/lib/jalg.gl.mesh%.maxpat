@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1098.25, 507.0, 107.0, 20.0 ],
+					"patching_rect" : [ 1098.25, 503.0, 107.0, 20.0 ],
 					"text" : "prepend rotatexyz"
 				}
 
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1015.25, 330.0, 123.0, 20.0 ],
+					"patching_rect" : [ 1014.25, 340.0, 123.0, 20.0 ],
 					"text" : "jcom.oscroute /x /y /z"
 				}
 
@@ -2088,7 +2088,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 541.888916, 150.0, 1024.75, 150.0 ],
+					"midpoints" : [ 541.888916, 150.0, 1023.75, 150.0 ],
 					"source" : [ "obj-14", 2 ]
 				}
 
@@ -2167,7 +2167,7 @@
 					"destination" : [ "obj-11", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1094.083374, 410.0, 1136.75, 410.0 ],
+					"midpoints" : [ 1093.083374, 410.0, 1136.75, 410.0 ],
 					"source" : [ "obj-19", 2 ]
 				}
 
@@ -2177,7 +2177,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1059.416626, 410.0, 1122.25, 410.0 ],
+					"midpoints" : [ 1058.416626, 410.0, 1122.25, 410.0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -2187,7 +2187,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1024.75, 410.0, 1107.75, 410.0 ],
+					"midpoints" : [ 1023.75, 410.0, 1107.75, 410.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -2235,6 +2235,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 980.75, 528.0, 896.5, 528.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 

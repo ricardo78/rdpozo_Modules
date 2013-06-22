@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "bang to qt movie",
+					"id" : "obj-1",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 906.0, 363.458557, 25.0, 25.0 ],
+					"presentation_rect" : [ 650.5, 367.291443, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
@@ -52,7 +64,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 466.824707, 117.0, 111.0, 20.0 ],
-					"presentation_rect" : [ 469.824707, 163.0, 0.0, 0.0 ],
 					"text" : "jcom.oscroute /x /y"
 				}
 
@@ -168,7 +179,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 685.0, 365.958557, 100.0, 20.0 ],
+					"patching_rect" : [ 652.0, 365.958557, 100.0, 20.0 ],
 					"text" : "s #1-fps-to-GUI"
 				}
 
@@ -666,6 +677,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 350.660492, 195.0, 465.324707, 195.0 ],
 					"source" : [ "obj-49", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 661.5, 351.0, 891.0, 351.0, 891.0, 351.0, 915.5, 351.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

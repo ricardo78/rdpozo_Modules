@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 376.0, 264.0, 942.0, 431.0 ],
+		"rect" : [ 111.0, 135.0, 1219.0, 430.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 552.0, 137.0, 588.0, 33.0 ],
+					"text" : "jcom.return fps @type generic @range/clipmode none @repetitions/allow 1 @dataspace none @description \"frames per second\"",
+					"varname" : "showPanel[2]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "bang ro qt.movie",
 					"id" : "obj-8",
@@ -75,7 +92,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -442,11 +459,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 382.0, 104.0, 251.0, 265.0 ],
+						"rect" : [ 119.0, 113.0, 251.0, 265.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -789,7 +806,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -985,16 +1002,16 @@
 									"presentation_rect" : [ 80.0, 213.078949, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "radiogroup[4]",
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[4]"
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}
 ,
 									"size" : 1,
-									"values" : [ 1 ],
+									"values" : [ 0 ],
 									"varname" : "radiogroup[4]"
 								}
 
@@ -1017,10 +1034,10 @@
 									"presentation_rect" : [ 80.0, 196.210327, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "radiogroup[2]",
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[2]"
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1049,10 +1066,10 @@
 									"presentation_rect" : [ 80.0, 179.341705, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "radiogroup[3]",
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[3]"
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1081,10 +1098,10 @@
 									"presentation_rect" : [ 80.0, 162.473083, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "radiogroup[1]",
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup[1]"
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1131,10 +1148,10 @@
 									"presentation_rect" : [ 80.0, 145.604462, 18.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 3,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "radiogroup",
 											"parameter_shortname" : "radiogroup",
-											"parameter_longname" : "radiogroup"
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1813,8 +1830,8 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 424.0, 106.0, 147.0, 20.0 ],
 					"text" : "jalg.gl.renderwindow% #0"
 				}
@@ -1913,6 +1930,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1998,23 +2024,23 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
-			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ],
 			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
 			"obj-103::obj-6" : [ "radiogroup[2]", "radiogroup", 0 ],
-			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ]
+			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ],
+			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
+			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.renderwindow%.maxpat",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.renderwindow/lib",
+				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/video/OpenGL/gl.renderwindow/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
@@ -2022,7 +2048,7 @@
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2064,6 +2090,10 @@
 			}
 , 			{
 				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
  ]

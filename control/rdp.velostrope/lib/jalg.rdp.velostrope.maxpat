@@ -4219,10 +4219,10 @@
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 29.0, 55.0, 319.0, 20.0 ],
-					"text" : "jcom.oscroute /scaleMidiVelocity /scaleTime /OSCaddress"
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 29.0, 55.0, 390.0, 20.0 ],
+					"text" : "jcom.oscroute /scaleMidiVelocity /scaleTime /OSCaddress /midiVelocity"
 				}
 
 			}
@@ -4235,18 +4235,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 17.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-286",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 11.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -4266,16 +4254,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 377.5, 108.5, 150.5, 108.5 ],
-					"source" : [ "obj-286", 0 ]
 				}
 
 			}
@@ -4303,8 +4281,18 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 238.5, 165.0, 377.5, 165.0 ],
+					"midpoints" : [ 224.0, 165.0, 377.5, 165.0 ],
 					"source" : [ "obj-54", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 316.75, 108.0, 150.5, 108.0 ],
+					"source" : [ "obj-54", 3 ]
 				}
 
 			}
@@ -4322,7 +4310,7 @@
 					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 138.5, 97.0, 199.5, 97.0 ],
+					"midpoints" : [ 131.25, 97.0, 199.5, 97.0 ],
 					"source" : [ "obj-54", 1 ]
 				}
 

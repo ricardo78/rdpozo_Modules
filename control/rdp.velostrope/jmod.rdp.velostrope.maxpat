@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 215.0, 131.0, 883.0, 468.0 ],
+		"rect" : [ 306.0, 179.0, 883.0, 468.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,18 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"comment" : "velocity in",
-					"id" : "obj-5",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 47.5, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"comment" : "video out",
 					"id" : "obj-28",
@@ -477,7 +465,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -637,8 +624,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1287.5, 240.5, 598.0, 33.0 ],
-									"text" : "jcom.parameter scaleTime/outputMax @type decimal @repetitions/allow 1 @priority 9 @range/clipmode none @ramp/drive scheduler @ramp/function linear @dataspace none",
+									"patching_rect" : [ 1287.5, 240.5, 604.0, 33.0 ],
+									"text" : "jcom.parameter scaleTime/outputMax @type decimal @repetitions/allow 1 @priority 10 @range/clipmode none @ramp/drive scheduler @ramp/function linear @dataspace none",
 									"varname" : "function[10]"
 								}
 
@@ -2541,7 +2528,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 426.0, 142.0, 125.0, 20.0 ],
@@ -2557,10 +2544,26 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 426.0, 82.0, 49.0, 20.0 ],
+					"text" : "jcom.in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 406.0, 82.0, 59.0, 20.0 ],
-					"text" : "jcom.in 1"
+					"patching_rect" : [ 69.5, 427.0, 601.0, 33.0 ],
+					"text" : "jcom.message midiVelocity @range/bounds 0. 127. @type integer @range/clipmode both @repetitions/allow 1 @ramp/drive none @dataspace none",
+					"varname" : "midiVelocity"
 				}
 
 			}
@@ -2571,16 +2574,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 435.5, 131.5, 435.5, 131.5 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 415.5, 118.0, 541.5, 118.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2690,15 +2683,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2729,14 +2713,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.rdp.velostrope.maxpat",
-				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/control/rdp.velostrope/lib",
+				"bootpath" : "/Users/Ricardo/_Github Projects/rdpozo_Modules/control/rdp.velostrope/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/Ricardo/_Github Projects/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
@@ -2747,6 +2731,10 @@
 				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.in.mxo",
@@ -2782,10 +2770,6 @@
 			}
 , 			{
 				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
 				"type" : "iLaX"
 			}
  ]

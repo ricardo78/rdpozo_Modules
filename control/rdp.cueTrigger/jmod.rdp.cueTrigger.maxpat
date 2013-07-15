@@ -1384,7 +1384,7 @@
 					"bgcolor" : [ 0.188235, 0.188235, 0.188235, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Geneva",
-					"fontsize" : 24.0,
+					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"hint" : "Next cue to be triggered",
 					"id" : "obj-10",
@@ -1427,7 +1427,11 @@
 					"patching_rect" : [ 605.0, 190.0, 226.0, 77.0 ],
 					"precision" : 4,
 					"presentation" : 1,
+<<<<<<< HEAD
 					"presentation_rect" : [ 4.0, 100.0, 291.0, 314.0 ],
+=======
+					"presentation_rect" : [ 4.0, 100.0, 291.0, 315.0 ],
+>>>>>>> 042472aca5e95a6ac1cd6ccea6ddfc4bbddc4f65
 					"rowheight" : 14,
 					"rows" : 256,
 					"selmode" : 3

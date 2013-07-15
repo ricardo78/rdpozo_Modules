@@ -8,14 +8,14 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 953.0, 230.0, 968.0, 636.0 ],
+		"rect" : [ 438.0, 208.0, 962.0, 595.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Verdana",
 		"gridonopen" : 0,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 473.0, 52.0, 19.0 ],
+					"patching_rect" : [ 25.0, 458.0, 52.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 23.0, 182.0, 19.0 ]
 				}
@@ -55,7 +55,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 95.0, 475.0, 525.0, 19.0 ],
+					"patching_rect" : [ 80.0, 460.0, 525.0, 19.0 ],
 					"text" : "jcom.parameter repeat @type string @repetitions/allow 1 @description \"repeat mode: none, all, one \""
 				}
 
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 490.0, 390.0, 257.0, 43.0 ],
+					"patching_rect" : [ 475.0, 375.0, 257.0, 43.0 ],
 					"text" : "jcom.return cue @type string @repetitions/allow 1 @description \"Cue to be triggered. For communication with jmod.cuelist.\""
 				}
 
@@ -84,7 +84,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 325.0, 33.0, 17.0 ],
+					"patching_rect" : [ 610.0, 310.0, 33.0, 17.0 ],
 					"text" : "clear"
 				}
 
@@ -98,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 740.0, 145.0, 48.0, 17.0 ],
+					"patching_rect" : [ 725.0, 130.0, 48.0, 17.0 ],
 					"text" : "clear all"
 				}
 
@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 40.0, 445.0, 498.0, 19.0 ],
+					"patching_rect" : [ 25.0, 430.0, 498.0, 19.0 ],
 					"text" : "jcom.message rewind @type none @repetitions/allow 1 @description \"Rewind to first cue in list.\""
 				}
 
@@ -129,7 +129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.0, 412.0, 26.0, 21.0 ],
+					"patching_rect" : [ 25.0, 397.0, 26.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 23.0, 26.0, 19.0 ],
 					"varname" : "Rewind"
@@ -146,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 40.0, 505.0, 407.0, 31.0 ],
+					"patching_rect" : [ 25.0, 490.0, 407.0, 31.0 ],
 					"text" : "jcom.message cues @type generic @repetitions/allow 1 @description \"Stream of all cues as symbols.\""
 				}
 
@@ -1345,7 +1345,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 490.0, 285.0, 82.0, 19.0 ],
+					"patching_rect" : [ 475.0, 270.0, 82.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -1373,7 +1373,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 430.0, 155.0, 65.0, 75.0 ],
+					"patching_rect" : [ 415.0, 140.0, 65.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 23.0, 72.0, 75.0 ]
 				}
@@ -1384,7 +1384,7 @@
 					"bgcolor" : [ 0.188235, 0.188235, 0.188235, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Geneva",
-					"fontsize" : 18.0,
+					"fontsize" : 24.0,
 					"frgb" : 0.0,
 					"hint" : "Next cue to be triggered",
 					"id" : "obj-10",
@@ -1394,7 +1394,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 511.0, 342.0, 295.0, 36.0 ],
+					"patching_rect" : [ 495.0, 335.0, 295.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 44.0, 216.0, 54.0 ],
 					"readonly" : 1,
@@ -1424,14 +1424,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 605.0, 190.0, 226.0, 77.0 ],
+					"patching_rect" : [ 590.0, 175.0, 226.0, 77.0 ],
 					"precision" : 4,
 					"presentation" : 1,
-<<<<<<< HEAD
-					"presentation_rect" : [ 4.0, 100.0, 291.0, 314.0 ],
-=======
 					"presentation_rect" : [ 4.0, 100.0, 291.0, 315.0 ],
->>>>>>> 042472aca5e95a6ac1cd6ccea6ddfc4bbddc4f65
 					"rowheight" : 14,
 					"rows" : 256,
 					"selmode" : 3
@@ -1447,7 +1443,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 50.0, 131.0, 19.0 ],
+					"patching_rect" : [ 415.0, 35.0, 131.0, 19.0 ],
 					"text" : "loadmess nosymquote 1"
 				}
 
@@ -1462,7 +1458,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 205.0, 196.0, 17.0 ],
+					"patching_rect" : [ 65.0, 190.0, 196.0, 17.0 ],
 					"text" : "/preset/store 1 default, /preset/write"
 				}
 
@@ -1476,7 +1472,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 625.0, 71.0, 46.0, 19.0 ],
+					"patching_rect" : [ 610.0, 95.0, 46.0, 19.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -1490,7 +1486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 230.0, 31.0, 17.0 ],
+					"patching_rect" : [ 225.0, 215.0, 31.0, 17.0 ],
 					"text" : "/init"
 				}
 
@@ -2179,7 +2175,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 625.0, 96.0, 92.0, 19.0 ],
+					"patching_rect" : [ 610.0, 120.0, 92.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
@@ -2207,7 +2203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.0, 275.0, 320.0, 31.0 ],
+					"patching_rect" : [ 25.0, 260.0, 320.0, 31.0 ],
 					"text" : "jcom.hub @module_type control @description \"graphical interface for triggering cues in conjunction with jmod.cuelist.\"",
 					"varname" : "jcom.hub"
 				}
@@ -2221,7 +2217,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 195.0, 25.0, 25.0 ]
+					"patching_rect" : [ 25.0, 180.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -2232,7 +2228,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 315.0, 25.0, 25.0 ]
+					"patching_rect" : [ 25.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -2246,7 +2242,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 230.0, 137.0, 17.0 ],
+					"patching_rect" : [ 85.0, 215.0, 137.0, 17.0 ],
 					"text" : "/documentation/generate"
 				}
 
@@ -2258,7 +2254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 15.0, 300.0, 140.0 ],
+					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 420.0 ],
 					"text" : "/editing_this_module"
@@ -2271,7 +2267,7 @@
 					"destination" : [ "obj-8", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 614.5, 282.0, 562.5, 282.0 ],
+					"midpoints" : [ 599.5, 267.0, 547.5, 267.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -2281,7 +2277,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 89.5, 263.0, 49.5, 263.0 ],
+					"midpoints" : [ 74.5, 248.0, 34.5, 248.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -2309,7 +2305,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 249.5, 263.0, 49.5, 263.0 ],
+					"midpoints" : [ 234.5, 248.0, 34.5, 248.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2319,7 +2315,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 707.5, 170.5, 614.5, 170.5 ],
+					"midpoints" : [ 692.5, 155.5, 599.5, 155.5 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -2329,7 +2325,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 634.5, 158.0, 531.0, 158.0 ],
+					"midpoints" : [ 619.5, 143.0, 516.0, 143.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -2339,7 +2335,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 634.5, 342.5, 520.5, 342.5 ],
+					"midpoints" : [ 619.5, 327.5, 504.5, 327.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2367,7 +2363,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 109.5, 263.0, 49.5, 263.0 ],
+					"midpoints" : [ 94.5, 248.0, 34.5, 248.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -2404,7 +2400,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 499.5, 303.0, 499.5, 303.0 ],
+					"midpoints" : [ 484.5, 288.0, 484.5, 288.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -2415,7 +2411,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 520.5, 322.0, 520.5, 322.0 ],
+					"midpoints" : [ 505.5, 307.0, 504.5, 307.0 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -2426,7 +2422,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 562.5, 310.0, 843.0, 310.0, 843.0, 186.0, 821.5, 186.0 ],
+					"midpoints" : [ 547.5, 295.0, 828.0, 295.0, 828.0, 171.0, 806.5, 171.0 ],
 					"source" : [ "obj-8", 3 ]
 				}
 
@@ -2437,7 +2433,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 541.5, 313.0, 850.0, 313.0, 850.0, 180.0, 614.5, 180.0 ],
+					"midpoints" : [ 526.5, 298.0, 835.0, 298.0, 835.0, 165.0, 599.5, 165.0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 
@@ -2447,7 +2443,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 439.5, 257.0, 499.5, 257.0 ],
+					"midpoints" : [ 424.5, 242.0, 484.5, 242.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

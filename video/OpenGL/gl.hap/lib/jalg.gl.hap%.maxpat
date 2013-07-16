@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -802,7 +802,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 269.925903, 498.0, 63.0, 498.0 ],
+					"midpoints" : [ 269.925903, 471.0, 63.0, 471.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1147,13 +1147,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loopMode.txt",
-				"bootpath" : "/Users/pozo/Dropbox/GitHub/rdpozo_Modules/video/Jitter/jit.qt.movie/lib",
+				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/video/Jitter/jit.qt.movie/lib",
 				"patcherrelativepath" : "../../../Jitter/jit.qt.movie/lib",
 				"type" : "TEXT",
 				"implicit" : 1

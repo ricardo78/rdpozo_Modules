@@ -5,22 +5,18 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='clock/active' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='clock/active' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='clock/interval' type='integer' priority='0' mixweight='1'>11</item>
-    <item name='clock/stepsize' type='decimal' priority='0' mixweight='1'>0.140000</item>
+    <item name='clock/stepsize' type='decimalArray' priority='0' mixweight='1'>0.140000</item>
     <item name='connect' type='string' priority='1' mixweight='1'>0</item>
-    <item name='movement' type='string' priority='0' mixweight='1'>5</item>
+    <item name='movement' type='string' priority='0' mixweight='1'>0</item>
     <item name='point' type='integer' priority='2' mixweight='1'>1</item>
-    <item name='trajectory/interpolation' type='string' priority='0' mixweight='1'>1</item>
-    <item name='trajectory/method' type='string' priority='0' mixweight='1'>1</item>
-    <item name='trajectory/read' type='generic' priority='5' mixweight='1'>none</item>
-    <item name='trajectory/recall' type='string' priority='6' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
-    <item name='volume/color' type='array' priority='0' mixweight='1'>0.057078 1.000000 0.531233 </item>
-    <item name='volume/offset' type='array' priority='4' mixweight='1'>0.000000 0.000000 0.000000 </item>
+    <item name='volume/color' type='decimalArray' priority='0' mixweight='1'>0.057078 1.000000 0.531233 </item>
+    <item name='volume/offset' type='decimalArray' priority='4' mixweight='1'>0.000000 0.000000 0.000000 </item>
     <item name='volume/show' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='volume/size' type='array' priority='4' mixweight='1'>0.500000 0.500000 0.200000 </item>
+    <item name='volume/size' type='decimalArray' priority='4' mixweight='1'>0.500000 0.500000 0.200000 </item>
     <item name='volume/type' type='string' priority='3' mixweight='1'>box</item>
   </preset>
 </jamoma>

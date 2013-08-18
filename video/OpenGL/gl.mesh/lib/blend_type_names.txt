@@ -1,7 +1,0 @@
-multiply,0;
-screen, 1;
-exclusion, 2;
-colorblend, 3;
-alphablend, 4;
-coloradd, 5;
-alphaadd, 6;

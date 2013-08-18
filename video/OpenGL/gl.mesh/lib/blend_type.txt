@@ -1,7 +1,0 @@
-multiply, blend_mode 2 1;
-screen, blend_mode 4 1;
-exclusion, blend_mode 4 5;
-colorblend, blend_mode 3 4;
-alphablend, blend_mode 6 7;
-coloradd, blend_mode 3 1;
-alphaadd, blend_mode 6 1;

@@ -5,11 +5,10 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='blend_type' type='string' priority='17' mixweight='1'>0</item>
     <item name='color/alpha' type='decimal' priority='30' mixweight='1'>1.000000</item>
-    <item name='color/blue' type='decimal' priority='29' mixweight='1'>0.333333</item>
-    <item name='color/green' type='decimal' priority='28' mixweight='1'>0.333333</item>
-    <item name='color/red' type='decimal' priority='27' mixweight='1'>0.333333</item>
+    <item name='color/blue' type='decimal' priority='29' mixweight='1'>1.000000</item>
+    <item name='color/green' type='decimal' priority='28' mixweight='1'>1.000000</item>
+    <item name='color/red' type='decimal' priority='27' mixweight='1'>1.000000</item>
     <item name='cornerpin/lower/left/corner/horizontal' type='decimal' priority='10' mixweight='1'>-1.000000</item>
     <item name='cornerpin/lower/left/corner/vertical' type='decimal' priority='11' mixweight='1'>-1.000000</item>
     <item name='cornerpin/lower/right/corner/horizontal' type='decimal' priority='14' mixweight='1'>1.000000</item>
@@ -20,12 +19,10 @@
     <item name='cornerpin/upper/right/corner/vertical' type='decimal' priority='13' mixweight='1'>1.000000</item>
     <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma_Render_Window</item>
     <item name='enable' type='boolean' priority='30' mixweight='1'>1</item>
-    <item name='freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='layer' type='integer' priority='16' mixweight='1'>0</item>
     <item name='position/x' type='decimal' priority='18' mixweight='1'>50.000000</item>
     <item name='position/y' type='decimal' priority='19' mixweight='1'>50.000000</item>
     <item name='position/z' type='decimal' priority='20' mixweight='1'>0.000000</item>
-    <item name='preview' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='rotate/x' type='decimal' priority='3' mixweight='1'>0.000000</item>
     <item name='rotate/y' type='decimal' priority='4' mixweight='1'>0.000000</item>
     <item name='rotate/z' type='decimal' priority='5' mixweight='1'>0.000000</item>

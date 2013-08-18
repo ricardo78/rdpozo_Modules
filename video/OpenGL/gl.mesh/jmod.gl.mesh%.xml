@@ -5,39 +5,39 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='axes' type='generic' priority='0' mixweight='1'>0</item>
-    <item name='color/alpha' type='decimal' priority='0' mixweight='1'>1.000000</item>
-    <item name='color/blue' type='decimal' priority='0' mixweight='1'>1.000000</item>
-    <item name='color/green' type='decimal' priority='0' mixweight='1'>1.000000</item>
-    <item name='color/red' type='decimal' priority='0' mixweight='1'>1.000000</item>
-    <item name='cornerpin/lower/left/corner/horizontal' type='decimal' priority='14' mixweight='1'>-1.000000</item>
-    <item name='cornerpin/lower/left/corner/vertical' type='decimal' priority='15' mixweight='1'>-1.000000</item>
-    <item name='cornerpin/lower/right/corner/horizontal' type='decimal' priority='16' mixweight='1'>1.000000</item>
-    <item name='cornerpin/lower/right/corner/vertical' type='decimal' priority='17' mixweight='1'>-1.000000</item>
-    <item name='cornerpin/upper/left/corner/horizontal' type='decimal' priority='10' mixweight='1'>-1.000000</item>
-    <item name='cornerpin/upper/left/corner/vertical' type='decimal' priority='11' mixweight='1'>1.000000</item>
+    <item name='blend_type' type='string' priority='17' mixweight='1'>0</item>
+    <item name='color/alpha' type='decimal' priority='30' mixweight='1'>1.000000</item>
+    <item name='color/blue' type='decimal' priority='29' mixweight='1'>0.333333</item>
+    <item name='color/green' type='decimal' priority='28' mixweight='1'>0.333333</item>
+    <item name='color/red' type='decimal' priority='27' mixweight='1'>0.333333</item>
+    <item name='cornerpin/lower/left/corner/horizontal' type='decimal' priority='10' mixweight='1'>-1.000000</item>
+    <item name='cornerpin/lower/left/corner/vertical' type='decimal' priority='11' mixweight='1'>-1.000000</item>
+    <item name='cornerpin/lower/right/corner/horizontal' type='decimal' priority='14' mixweight='1'>1.000000</item>
+    <item name='cornerpin/lower/right/corner/vertical' type='decimal' priority='15' mixweight='1'>-1.000000</item>
+    <item name='cornerpin/upper/left/corner/horizontal' type='decimal' priority='8' mixweight='1'>-1.000000</item>
+    <item name='cornerpin/upper/left/corner/vertical' type='decimal' priority='9' mixweight='1'>1.000000</item>
     <item name='cornerpin/upper/right/corner/horizontal' type='decimal' priority='12' mixweight='1'>1.000000</item>
     <item name='cornerpin/upper/right/corner/vertical' type='decimal' priority='13' mixweight='1'>1.000000</item>
-    <item name='edgeblend/bottom' type='decimal' priority='9' mixweight='1'>0.000000</item>
-    <item name='edgeblend/left' type='decimal' priority='6' mixweight='1'>0.000000</item>
-    <item name='edgeblend/right' type='decimal' priority='8' mixweight='1'>0.000000</item>
-    <item name='edgeblend/top' type='decimal' priority='7' mixweight='1'>0.000000</item>
-    <item name='layer' type='integer' priority='18' mixweight='1'>0</item>
-    <item name='position/x' type='decimal' priority='0' mixweight='1'>50.000000</item>
-    <item name='position/y' type='decimal' priority='0' mixweight='1'>50.000000</item>
-    <item name='position/z' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='rotate/x' type='decimal' priority='19' mixweight='1'>0.000000</item>
-    <item name='rotate/y' type='decimal' priority='2' mixweight='1'>0.000000</item>
-    <item name='rotate/z' type='decimal' priority='3' mixweight='1'>0.000000</item>
-    <item name='scale/hight' type='decimal' priority='5' mixweight='1'>0.800000</item>
-    <item name='scale/width' type='decimal' priority='4' mixweight='1'>0.800000</item>
-    <item name='shape/dim/x' type='integer' priority='20' mixweight='1'>20</item>
-    <item name='shape/dim/y' type='integer' priority='21' mixweight='1'>20</item>
-    <item name='shape/form' type='string' priority='1' mixweight='1'>plane</item>
-    <item name='shape/radius' type='decimal' priority='22' mixweight='1'>2.000000</item>
-    <item name='shape/rotation/x' type='decimal' priority='23' mixweight='1'>0.000000</item>
-    <item name='shape/rotation/y' type='decimal' priority='24' mixweight='1'>0.000000</item>
-    <item name='shape/rotation/z' type='decimal' priority='25' mixweight='1'>0.000000</item>
+    <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma_Render_Window</item>
+    <item name='enable' type='boolean' priority='30' mixweight='1'>1</item>
+    <item name='freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='layer' type='integer' priority='16' mixweight='1'>0</item>
+    <item name='position/x' type='decimal' priority='18' mixweight='1'>50.000000</item>
+    <item name='position/y' type='decimal' priority='19' mixweight='1'>50.000000</item>
+    <item name='position/z' type='decimal' priority='20' mixweight='1'>0.000000</item>
+    <item name='preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='rotate/x' type='decimal' priority='3' mixweight='1'>0.000000</item>
+    <item name='rotate/y' type='decimal' priority='4' mixweight='1'>0.000000</item>
+    <item name='rotate/z' type='decimal' priority='5' mixweight='1'>0.000000</item>
+    <item name='scale/hight' type='decimal' priority='7' mixweight='1'>0.800000</item>
+    <item name='scale/width' type='decimal' priority='6' mixweight='1'>0.800000</item>
+    <item name='shape/dim/x' type='integer' priority='21' mixweight='1'>20</item>
+    <item name='shape/dim/y' type='integer' priority='22' mixweight='1'>20</item>
+    <item name='shape/form' type='string' priority='2' mixweight='1'>plane</item>
+    <item name='shape/radius' type='decimal' priority='23' mixweight='1'>2.000000</item>
+    <item name='shape/rotation/x' type='decimal' priority='24' mixweight='1'>0.000000</item>
+    <item name='shape/rotation/y' type='decimal' priority='25' mixweight='1'>0.000000</item>
+    <item name='shape/rotation/z' type='decimal' priority='26' mixweight='1'>0.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
   </preset>

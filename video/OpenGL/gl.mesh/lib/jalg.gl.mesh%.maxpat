@@ -2476,8 +2476,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 19.0, 262.0, 565.0, 33.0 ],
-					"text" : "jit.gl.mesh Jamoma_Render_Window @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 0",
+					"patching_rect" : [ 19.0, 262.0, 517.0, 33.0 ],
+					"text" : "jit.gl.mesh Jamoma @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 0",
 					"varname" : "mesh"
 				}
 

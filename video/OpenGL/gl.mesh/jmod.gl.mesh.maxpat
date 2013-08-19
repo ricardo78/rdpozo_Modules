@@ -40,7 +40,7 @@
 					"patching_rect" : [ 86.0, 61.5, 86.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 18.0, 94.0, 18.0 ],
-					"text" : "gl.mesh%",
+					"text" : "gl.mesh",
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 				}
 
@@ -647,7 +647,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 109.25, 426.0, 19.0, 18.0 ],
 									"size" : 1,
-									"values" : [ 0 ],
+									"values" : [ 1 ],
 									"varname" : "LimiterToggle[1]"
 								}
 
@@ -5452,7 +5452,7 @@
 									"patching_rect" : [ 113.0, 20.25, 175.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 51.0, 8.0, 171.0, 29.0 ],
-									"text" : "gl.mesh%",
+									"text" : "gl.mesh",
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"varname" : "name"
 								}
@@ -6560,8 +6560,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 94.0, 102.0, 20.0 ],
-					"text" : "jalg.gl.mesh% #0"
+					"patching_rect" : [ 364.0, 94.0, 91.0, 20.0 ],
+					"text" : "jalg.gl.mesh #0"
 				}
 
 			}
@@ -6707,7 +6707,7 @@
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 353.5, 78.5, 456.5, 78.5 ],
+					"midpoints" : [ 353.5, 78.5, 445.5, 78.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -6734,8 +6734,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jalg.gl.mesh%.maxpat",
-				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.mesh/lib",
+				"name" : "jalg.gl.mesh.maxpat",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/Component/gl.mesh/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6743,21 +6743,21 @@
 , 			{
 				"name" : "RDPJamomaLogo.png",
 				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/_Dependencies",
-				"patcherrelativepath" : "../../../_Dependencies",
+				"patcherrelativepath" : "../../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

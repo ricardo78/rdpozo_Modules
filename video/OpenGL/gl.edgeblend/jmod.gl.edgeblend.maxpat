@@ -460,7 +460,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 45.0, 44.0, 1395.0, 852.0 ],
+						"rect" : [ 503.0, 121.0, 900.0, 617.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3305,7 +3305,7 @@
 									"patching_rect" : [ 113.0, 20.25, 175.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 51.0, 8.0, 171.0, 29.0 ],
-									"text" : "gl.mesh%",
+									"text" : "gl.layer",
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"varname" : "name"
 								}

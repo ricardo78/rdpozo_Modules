@@ -29,6 +29,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 609.0, 508.0, 35.0, 18.0 ],
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1116.461548, 302.0, 94.0, 20.0 ],
+					"text" : "prepend drawto"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -328,10 +356,10 @@
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 13,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 54.0, 84.0, 1053.0, 20.0 ],
-					"text" : "jcom.oscroute /start /loopreport /frame /jump /looppoints /loopMode /rate /dispose /selectFile /dimension clearLoopPoints /fliptexture"
+					"numoutlets" : 14,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 54.0, 84.0, 1170.0, 20.0 ],
+					"text" : "jcom.oscroute /start /loopreport /frame /jump /looppoints /loopMode /rate /dispose /selectFile /dimension clearLoopPoints /fliptexture /drawto"
 				}
 
 			}
@@ -413,7 +441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.224182, 671.0, 60.0, 20.0 ],
+					"patching_rect" : [ 100.0, 671.0, 60.0, 20.0 ],
 					"text" : "jcom.thru"
 				}
 
@@ -528,7 +556,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 53.5, 513.0, 272.0, 20.0 ],
-					"text" : "jit.gl.hap Jamoma_Render_Window @autostart 0"
+					"text" : "jit.gl.hap Jamoma @autostart 0"
 				}
 
 			}
@@ -542,7 +570,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 122.224182, 593.0, 158.0, 33.0 ],
+					"patching_rect" : [ 100.0, 593.0, 158.0, 33.0 ],
 					"text" : "t getduration getlooppoints gettimescale getfps"
 				}
 
@@ -612,7 +640,7 @@
 					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 270.724182, 658.0, 131.724182, 658.0 ],
+					"midpoints" : [ 248.5, 658.0, 109.5, 658.0 ],
 					"source" : [ "obj-10", 3 ]
 				}
 
@@ -622,7 +650,7 @@
 					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 224.390854, 658.0, 131.724182, 658.0 ],
+					"midpoints" : [ 202.166672, 658.0, 109.5, 658.0 ],
 					"source" : [ "obj-10", 2 ]
 				}
 
@@ -632,7 +660,7 @@
 					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 178.05751, 658.0, 131.724182, 658.0 ],
+					"midpoints" : [ 155.833328, 658.0, 109.5, 658.0 ],
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -642,7 +670,7 @@
 					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 131.724182, 640.0, 131.724182, 640.0 ],
+					"midpoints" : [ 109.5, 640.0, 109.5, 640.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -697,6 +725,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -718,7 +755,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 316.0, 579.5, 131.724182, 579.5 ],
+					"midpoints" : [ 316.0, 579.5, 109.5, 579.5 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -982,7 +1019,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 131.724182, 704.0, 23.0, 704.0, 23.0, 466.0, 63.0, 466.0 ],
+					"midpoints" : [ 109.5, 704.0, 23.0, 704.0, 23.0, 466.0, 63.0, 466.0 ],
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -992,7 +1029,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 322.0, 307.0, 340.925903, 307.0 ],
+					"midpoints" : [ 329.115387, 307.0, 340.925903, 307.0 ],
 					"source" : [ "obj-77", 3 ]
 				}
 
@@ -1002,7 +1039,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 839.0, 270.0, 838.137085, 270.0 ],
+					"midpoints" : [ 860.34613, 270.0, 838.137085, 270.0 ],
 					"source" : [ "obj-77", 9 ]
 				}
 
@@ -1012,7 +1049,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 235.833328, 312.0, 269.925903, 312.0 ],
+					"midpoints" : [ 240.57692, 312.0, 269.925903, 312.0 ],
 					"source" : [ "obj-77", 2 ]
 				}
 
@@ -1022,7 +1059,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 149.666672, 332.0, 178.5, 332.0 ],
+					"midpoints" : [ 152.038467, 332.0, 178.5, 332.0 ],
 					"source" : [ "obj-77", 1 ]
 				}
 
@@ -1032,7 +1069,7 @@
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 408.166656, 316.0, 410.5625, 316.0 ],
+					"midpoints" : [ 417.653839, 316.0, 410.5625, 316.0 ],
 					"source" : [ "obj-77", 4 ]
 				}
 
@@ -1042,7 +1079,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 752.833313, 286.0, 725.649414, 286.0 ],
+					"midpoints" : [ 771.807678, 286.0, 725.649414, 286.0 ],
 					"source" : [ "obj-77", 8 ]
 				}
 
@@ -1052,7 +1089,7 @@
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 666.666687, 253.0, 666.649353, 253.0 ],
+					"midpoints" : [ 683.269226, 253.0, 666.649353, 253.0 ],
 					"source" : [ "obj-77", 7 ]
 				}
 
@@ -1071,7 +1108,7 @@
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1011.333313, 309.0, 1053.5, 309.0 ],
+					"midpoints" : [ 1037.423096, 309.0, 1053.5, 309.0 ],
 					"source" : [ "obj-77", 11 ]
 				}
 
@@ -1081,7 +1118,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 925.166687, 254.0, 925.25, 254.0 ],
+					"midpoints" : [ 948.884644, 254.0, 925.25, 254.0 ],
 					"source" : [ "obj-77", 10 ]
 				}
 
@@ -1091,8 +1128,17 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 580.5, 267.0, 609.300171, 267.0 ],
+					"midpoints" : [ 594.730774, 267.0, 609.300171, 267.0 ],
 					"source" : [ "obj-77", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-77", 12 ]
 				}
 
 			}
@@ -1101,7 +1147,7 @@
 					"destination" : [ "obj-80", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 494.333344, 287.0, 539.900818, 287.0 ],
+					"midpoints" : [ 506.192322, 287.0, 539.900818, 287.0 ],
 					"source" : [ "obj-77", 5 ]
 				}
 
@@ -1112,6 +1158,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1125.961548, 333.0, 1026.0, 333.0, 1026.0, 498.0, 63.0, 498.0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -1146,14 +1202,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loopMode.txt",
-				"bootpath" : "/Users/pozo/_Github Projects/rdpozo_Modules/video/Jitter/jit.qt.movie/lib",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/Jitter/jit.qt.movie/lib",
 				"patcherrelativepath" : "../../../Jitter/jit.qt.movie/lib",
 				"type" : "TEXT",
 				"implicit" : 1

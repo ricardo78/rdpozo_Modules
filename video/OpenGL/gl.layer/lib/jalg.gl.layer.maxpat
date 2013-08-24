@@ -2517,7 +2517,7 @@
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 18.888889, 79.0, 817.285706, 20.0 ],
-					"text" : "jcom.oscroute /scale /position /rotate /color /axes /cornerpin /shape /layer /drawto /getstate /enable"
+					"text" : "jcom.oscroute /scale /position /rotate /color /axes /cornerpin /shape /layer /drawto /dump /enable"
 				}
 
 			}

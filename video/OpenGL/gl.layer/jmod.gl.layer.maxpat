@@ -454,6 +454,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -538,8 +539,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 810.333313, 107.5, 519.0, 20.0 ],
-									"text" : "jcom.message getstate @type generic @repetitions/allow 1 @description \"state of mesh object\"",
+									"patching_rect" : [ 810.333313, 107.5, 506.0, 20.0 ],
+									"text" : "jcom.message dump @type generic @repetitions/allow 1 @description \"state of mesh object\"",
 									"varname" : "getstate"
 								}
 
@@ -6733,7 +6734,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.layer.maxpat",
-				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.mesh/lib",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.layer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1

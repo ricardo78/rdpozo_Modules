@@ -120,7 +120,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 592.285706, 265.0, 99.0, 20.0 ],
+					"patching_rect" : [ 559.285706, 264.5, 99.0, 20.0 ],
 					"text" : "s #0-size"
 				}
 
@@ -570,7 +570,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 87.0, 44.0, 1400.0, 852.0 ],
+						"rect" : [ 40.0, 44.0, 1400.0, 852.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2611,6 +2611,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 601.785706, 220.0, 568.785706, 220.0 ],
 					"source" : [ "obj-2", 4 ]
 				}
 

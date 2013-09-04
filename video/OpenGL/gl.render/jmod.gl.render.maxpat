@@ -463,7 +463,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 119.0, 113.0, 251.0, 296.0 ],
+						"rect" : [ 0.0, 44.0, 251.0, 297.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2122,11 +2122,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
 			"obj-103::obj-6" : [ "radiogroup[2]", "radiogroup", 0 ],
 			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ],
 			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
-			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ],
-			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ]
+			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

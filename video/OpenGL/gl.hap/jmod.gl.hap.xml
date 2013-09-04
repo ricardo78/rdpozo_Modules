@@ -5,7 +5,6 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='destination_dim' type='integerArray' priority='3' mixweight='1'>0</item>
     <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma</item>
     <item name='enable' type='boolean' priority='12' mixweight='1'>1</item>
     <item name='flip' type='boolean' priority='8' mixweight='1'>1</item>
@@ -13,12 +12,9 @@
     <item name='loop/points' type='integerArray' priority='5' mixweight='1'>0 0 </item>
     <item name='loop/report' type='boolean' priority='14' mixweight='1'>0</item>
     <item name='loop/type' type='string' priority='16' mixweight='1'>normalloop</item>
-    <item name='loopreport' type='boolean' priority='9' mixweight='1'>0</item>
-    <item name='nativ_dim' type='integerArray' priority='4' mixweight='1'>0</item>
     <item name='on/off' type='boolean' priority='7' mixweight='1'>0</item>
     <item name='perserves/pitch' type='decimal' priority='11' mixweight='1'>0.000000</item>
     <item name='rate' type='decimal' priority='6' mixweight='1'>1.000000</item>
-    <item name='read/file' type='string' priority='2' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
     <item name='volume' type='decimal' priority='13' mixweight='1'>0.000000</item>

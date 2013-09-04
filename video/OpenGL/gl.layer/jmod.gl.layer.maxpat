@@ -434,7 +434,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 530.0, 159.0, 251.0, 450.0 ],
+						"rect" : [ 76.0, 44.0, 251.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -454,7 +454,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -5451,7 +5450,7 @@
 									"patching_rect" : [ 113.0, 20.25, 175.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 51.0, 8.0, 171.0, 29.0 ],
-									"text" : "gl.mesh",
+									"text" : "gl.layer",
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"varname" : "name"
 								}

@@ -2471,13 +2471,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 19.0, 262.0, 517.0, 33.0 ],
-					"text" : "jit.gl.mesh Jamoma @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 0",
+					"patching_rect" : [ 19.0, 262.0, 564.0, 20.0 ],
+					"text" : "jit.gl.mesh Jamoma @color 1 1 1 1 @scale 1.333 1. 1. @antialias 1 @blend_enable 1 @depth_enable 1",
 					"varname" : "mesh"
 				}
 

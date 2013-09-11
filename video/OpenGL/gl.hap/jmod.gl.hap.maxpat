@@ -127,18 +127,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "connect qmetro to get current time ONLY.",
-					"id" : "obj-13",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 3.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "video out",
 					"id" : "obj-28",
 					"maxclass" : "outlet",
@@ -932,7 +920,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 306.0, 315.0, 167.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 64.0, 108.0, 179.0, 18.0 ]
+									"presentation_rect" : [ 54.0, 108.0, 190.182907, 18.0 ]
 								}
 
 							}
@@ -946,7 +934,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 286.105713, 268.0, 153.0, 18.0 ],
+									"patching_rect" : [ 148.5, 315.0, 153.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 7.394302, 107.5, 65.788605, 18.0 ],
 									"text" : "Video file",
@@ -2627,10 +2615,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 318.0, 37.0, 59.0, 20.0 ],
-					"text" : "jcom.in 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 338.0, 45.0, 49.0, 20.0 ],
+					"text" : "jcom.in"
 				}
 
 			}
@@ -2673,7 +2661,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -2721,15 +2709,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}

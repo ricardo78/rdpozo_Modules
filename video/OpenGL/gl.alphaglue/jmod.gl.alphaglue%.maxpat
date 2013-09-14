@@ -449,7 +449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 153.0, 81.0, 127.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 16.684937, 104.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 17.684937, 104.0, 18.0 ],
 					"text" : "gl.alphaglue",
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 				}
@@ -492,7 +492,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -529,7 +528,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 111.25, 60.0, 134.25, 18.0 ],
 									"rounded" : 4.0,
-									"text" : "Jamoma"
+									"text" : "\"0\""
 								}
 
 							}
@@ -731,8 +730,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 272.0, 291.0, 604.0, 33.0 ],
-									"text" : "jcom.parameter threshold @type decimal @range/bounds 0. 1000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @dataspace none @priority 3 @ramp/function linear",
+									"patching_rect" : [ 272.0, 291.0, 600.0, 33.0 ],
+									"text" : "jcom.parameter threshold @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @dataspace none @priority 3 @ramp/function linear",
 									"varname" : "threshold"
 								}
 
@@ -748,8 +747,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 272.0, 338.0, 572.0, 33.0 ],
-									"text" : "jcom.parameter fade @type decimal @range/bounds 0. 100. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @dataspace none @priority 4 @ramp/function linear",
+									"patching_rect" : [ 272.0, 338.0, 573.0, 33.0 ],
+									"text" : "jcom.parameter fade @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @dataspace none @priority 4 @ramp/function linear",
 									"varname" : "fade"
 								}
 
@@ -1139,7 +1138,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 63.0, 47.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -1.0, 150.0, 35.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
 					"text" : "/editing_this_module"
 				}
 

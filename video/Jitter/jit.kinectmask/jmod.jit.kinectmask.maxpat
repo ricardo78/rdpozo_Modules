@@ -8,9 +8,9 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 790.0, 231.0, 924.0, 615.0 ],
+		"rect" : [ 577.0, 185.0, 796.0, 631.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -449,7 +449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 105.5, 51.0, 97.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 32.684937, 93.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 17.684937, 93.0, 18.0 ],
 					"text" : "gl.kinectmask",
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 				}
@@ -472,7 +472,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 285.0, 153.0, 734.0, 447.0 ],
+						"rect" : [ 938.0, 248.0, 251.0, 164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -495,6 +495,250 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.0, 157.0, 153.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 42.0, 144.0, 87.0, 18.0 ],
+									"text" : "Clear depth",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+									"id" : "obj-20",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 135.0, 142.0, 153.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 141.0, 144.0, 87.0, 18.0 ],
+									"text" : "Unique frame:",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 200.5, 590.0, 32.5, 20.0 ],
+									"text" : "pak"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 482.0, 547.0, 636.0, 33.0 ],
+									"text" : "jcom.parameter depth_range @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @ramp/function linear @dataspace none @priority 6 @description \"depth of capture\" @range/bounds 0. 255.",
+									"varname" : "depth_range"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "depth of capture",
+									"bgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fgcolor" : [ 0.592157, 0.278431, 0.486275, 1.0 ],
+									"floatoutput" : 1,
+									"id" : "obj-22",
+									"maxclass" : "rslider",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 200.5, 547.0, 265.0, 32.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 99.5, 236.0, 32.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "rslider",
+											"parameter_shortname" : "rslider",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
+										}
+
+									}
+,
+									"size" : 255.0,
+									"varname" : "rslider"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "the number of kinect in use",
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hbgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+									"htextcolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
+									"htricolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
+									"id" : "obj-109",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 143.125, 470.0, 50.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 132.0, 73.0, 105.0, 20.0 ],
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"linecount" : 4,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 200.5, 450.0, 371.0, 60.0 ],
+									"text" : "jcom.parameter kinect_num @type integer @range/clipmode none @repetitions/allow 1 @ramp/drive none @ramp/function linear @dataspace none @priority 1 @description \"the number of kinect in use\" @range/bounds 0. 1.",
+									"varname" : "kinect_num"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 200.5, 393.0, 450.0, 20.0 ],
+									"text" : "jcom.parameter clear_depth @type boolean @priority 5 @description \"clear depth\"",
+									"varname" : "open/close[2]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "clear depth",
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"disabled" : [ 0 ],
+									"id" : "obj-15",
+									"itemtype" : 1,
+									"maxclass" : "radiogroup",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 170.5, 393.0, 18.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 124.0, 144.0, 19.0, 18.0 ],
+									"size" : 1,
+									"values" : [ 0 ],
+									"varname" : "LimiterToggle[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.741176, 0.364706, 0.647059, 1.0 ],
+									"activeneedlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"annotation" : "the angle of the kinect",
+									"appearance" : 1,
+									"id" : "obj-13",
+									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 143.125, 263.0, 47.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 82.0, 55.0, 47.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "angle",
+											"parameter_shortname" : "angle",
+											"parameter_type" : 0,
+											"parameter_mmin" : -30.0,
+											"parameter_mmax" : 30.0,
+											"parameter_initial" : [ 4.188966 ],
+											"parameter_unitstyle" : 1
+										}
+
+									}
+,
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"varname" : "sustain"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 200.5, 257.5, 585.0, 47.0 ],
+									"text" : "jcom.parameter angle @range/bounds -30. 29. @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 4 @description \"the angle of the kinect\"",
+									"varname" : "tilt"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 200.5, 315.0, 466.0, 20.0 ],
+									"text" : "jcom.parameter unique @type boolean @priority 3 @description \"only unique frames\"",
+									"varname" : "open/close[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "Start capture with kinect",
 									"border" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -505,7 +749,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 129.5, 262.0, 100.0, 20.0 ],
+									"patching_rect" : [ 92.0, 344.0, 100.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 62.0, 67.0, 29.0 ],
 									"rounded" : 4.0,
 									"text" : "ON",
 									"texton" : "OFF"
@@ -522,7 +768,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 238.0, 262.0, 512.0, 20.0 ],
+									"patching_rect" : [ 200.5, 344.0, 512.0, 20.0 ],
 									"text" : "jcom.parameter open/close @type boolean @priority 2 @description \"Start capture with kinect\"",
 									"varname" : "open/close"
 								}
@@ -540,69 +786,15 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 116.5, 197.0, 153.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.288605, 199.0, 87.0, 18.0 ],
-									"text" : "Jump to frame",
+									"presentation_rect" : [ 132.0, 55.0, 87.0, 18.0 ],
+									"text" : "Kincet number:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "",
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hbgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"htextcolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
-									"htricolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
-									"id" : "obj-88",
-									"maxclass" : "flonum",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "float", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 65.500061, 249.5, 50.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 132.288605, 216.0, 105.0, 20.0 ],
-									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
-									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-									"id" : "obj-70",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 572.932068, 18.0, 36.135868, 24.848484 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 6.394302, 134.0, 237.788605, 18.0 ],
-									"rounded" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-									"id" : "obj-90",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 330.375, 97.0, 85.0, 51.5 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 105.0, 247.0, 23.0 ],
-									"rounded" : 4
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"annotation" : "",
+									"annotation" : "only unique frames",
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"disabled" : [ 0 ],
 									"id" : "obj-32",
@@ -612,11 +804,11 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 65.500061, 212.0, 18.0, 18.0 ],
+									"patching_rect" : [ 170.5, 315.0, 18.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 225.0, 279.5, 19.0, 18.0 ],
+									"presentation_rect" : [ 222.0, 144.0, 19.0, 18.0 ],
 									"size" : 1,
-									"values" : [ 1 ],
+									"values" : [ 0 ],
 									"varname" : "LimiterToggle[2]"
 								}
 
@@ -628,15 +820,13 @@
 									"fontsize" : 10.426503,
 									"frgb" : 0.0,
 									"id" : "obj-46",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 116.5, 45.0, 207.0, 30.0 ],
+									"patching_rect" : [ 116.5, 45.0, 207.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 60.0, 31.0, 181.0, 30.0 ],
-									"text" : "A module for using the kinect as a live mask of video",
+									"presentation_rect" : [ 60.0, 31.0, 181.0, 18.0 ],
+									"text" : "A module for kinect as  mask ",
 									"textcolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ]
 								}
 
@@ -768,7 +958,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.375, 18.0, 85.0, 51.5 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 278.0, 247.0, 42.0 ],
+									"presentation_rect" : [ 2.0, 144.0, 247.0, 18.0 ],
 									"rounded" : 4
 								}
 
@@ -782,35 +972,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 401.375, 18.0, 85.0, 51.5 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 55.0, 247.0, 25.0 ],
-									"rounded" : 4
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-									"id" : "obj-77",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 609.067932, 18.0, 85.0, 51.5 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 81.0, 247.0, 23.0 ],
-									"rounded" : 4
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-									"id" : "obj-30",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 330.375, 33.0, 85.0, 51.5 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 129.0, 247.0, 148.0 ],
+									"presentation_rect" : [ 2.0, 55.0, 247.0, 88.0 ],
 									"rounded" : 4
 								}
 
@@ -822,6 +984,96 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-109", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
@@ -880,6 +1132,25 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 207.125, 304.0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-109", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -911,7 +1182,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.5, 16.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 150.0, 35.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
 					"text" : "/editing_this_module"
 				}
 
@@ -943,21 +1214,6 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 489.0, 72.5, 59.0, 20.0 ],
 					"text" : "jcom.in 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 275.0, 335.0, 562.0, 20.0 ],
-					"text" : "jcom.parameter format @type generic @priority 3 @description \"Set output format\" @repetitions/allow 1",
-					"varname" : "format"
 				}
 
 			}
@@ -1132,6 +1388,11 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-103::obj-13" : [ "angle", "angle", 0 ],
+			"obj-103::obj-22" : [ "rslider", "rslider", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.jit.kinectmask.maxpat",
 				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/Jitter/jit.kinectmask/lib",
@@ -1154,10 +1415,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.in.mxo",
 				"type" : "iLaX"
 			}
@@ -1175,6 +1432,10 @@
 			}
 , 			{
 				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{

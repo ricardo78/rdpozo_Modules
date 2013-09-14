@@ -324,7 +324,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 530.400818, 308.5, 101.0, 20.0 ],
+					"patching_rect" : [ 530.400818, 327.0, 101.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}

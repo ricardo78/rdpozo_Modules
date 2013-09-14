@@ -1,4 +1,4 @@
-0, noloop;
-1, normalloop;
-2, palindrome;
-3, defined;
+noloop, 0;
+normalloop, 1;
+palindrome, 2;
+defined, 3;

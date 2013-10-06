@@ -1384,7 +1384,7 @@
 					"bgcolor" : [ 0.188235, 0.188235, 0.188235, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Geneva",
-					"fontsize" : 24.0,
+					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"hint" : "Next cue to be triggered",
 					"id" : "obj-10",

@@ -533,7 +533,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 100.197151, 64.0, 141.802856, 18.0 ],
 									"rounded" : 4.0,
-									"text" : "Jamoma"
+									"text" : "\"0\""
 								}
 
 							}
@@ -916,6 +916,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 59.0, 151.0, 100.0, 20.0 ],
+													"prefix" : "0",
 													"prefix_mode" : 2,
 													"rounded" : 4,
 													"types" : [ "MooV", "MPEG", "JPEG", "PICT", "PNG ", "GIFF" ]
@@ -1527,6 +1528,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 76.75, 514.0, 180.0, 20.0 ],
+									"prefix" : "0",
 									"prefix_mode" : 2,
 									"presentation" : 1,
 									"presentation_rect" : [ 100.197151, 90.0, 142.591461, 20.0 ],
@@ -1643,7 +1645,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-20",
-									"items" : [ 320, 240, ",", 640, 480, ",", 720, 480, ",", 1280, 720, ",", 1920, 1080 ],
+									"items" : [ 320, 240, ",", 640, 480, ",", 720, 480, ",", 1280, 800, ",", 1920, 1080 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2255,7 +2257,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 115.0, 154.0, 59.0, 20.0 ],
+													"patching_rect" : [ 121.0, 155.0, 59.0, 20.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -2269,12 +2271,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 121.0, 206.0, 114.0, 20.0 ],
+													"patching_rect" : [ 121.0, 206.0, 59.5, 20.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
 ,
-													"text" : "coll resolutionMode"
+													"text" : "coll"
 												}
 
 											}
@@ -2287,7 +2289,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 235.0, 276.0, 74.0, 20.0 ],
+													"patching_rect" : [ 121.0, 248.0, 74.0, 20.0 ],
 													"text" : "prepend set"
 												}
 
@@ -2299,7 +2301,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 217.5, 356.0, 25.0, 25.0 ]
+													"patching_rect" : [ 121.0, 307.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -3401,6 +3403,13 @@
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loopMode.txt",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.hap/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

@@ -6,9 +6,10 @@
 >
   <preset number='1' name='default'>
     <item name='color/alpha' type='decimal' priority='30' mixweight='1'>1.000000</item>
-    <item name='color/blue' type='decimal' priority='29' mixweight='1'>1.000000</item>
-    <item name='color/green' type='decimal' priority='28' mixweight='1'>1.000000</item>
-    <item name='color/red' type='decimal' priority='27' mixweight='1'>1.000000</item>
+    <item name='color/blue' type='decimal' priority='29' mixweight='1'>0.481749</item>
+    <item name='color/green' type='decimal' priority='28' mixweight='1'>0.837121</item>
+    <item name='color/red' type='decimal' priority='27' mixweight='1'>0.185606</item>
+    <item name='color/saturation' type='decimal' priority='35' mixweight='1'>1.000000</item>
     <item name='cornerpin/lower/left/corner/horizontal' type='decimal' priority='10' mixweight='1'>-1.000000</item>
     <item name='cornerpin/lower/left/corner/vertical' type='decimal' priority='11' mixweight='1'>-1.000000</item>
     <item name='cornerpin/lower/right/corner/horizontal' type='decimal' priority='14' mixweight='1'>1.000000</item>

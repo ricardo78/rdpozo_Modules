@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='function' type='generic' priority='70' mixweight='1'>smoothPolynomial</item>
+    <item name='node.1' type='decimalArray' priority='2' mixweight='1'>0.733689 0.514894 0.269527 </item>
+    <item name='node.1/active' type='boolean' priority='3' mixweight='1'>1</item>
+    <item name='node.10' type='decimalArray' priority='20' mixweight='1'>0.620492 0.855319 0.183748 </item>
+    <item name='node.10/active' type='boolean' priority='21' mixweight='1'>1</item>
+    <item name='node.11' type='decimalArray' priority='22' mixweight='1'>0.394096 0.097872 0.126993 </item>
+    <item name='node.11/active' type='boolean' priority='23' mixweight='1'>1</item>
+    <item name='node.12' type='decimalArray' priority='24' mixweight='1'>0.117390 0.782979 0.211382 </item>
+    <item name='node.12/active' type='boolean' priority='25' mixweight='1'>1</item>
+    <item name='node.13' type='decimalArray' priority='26' mixweight='1'>0.461176 0.540426 0.302179 </item>
+    <item name='node.13/active' type='boolean' priority='27' mixweight='1'>1</item>
+    <item name='node.14' type='decimalArray' priority='28' mixweight='1'>0.641454 0.102128 0.125557 </item>
+    <item name='node.14/active' type='boolean' priority='29' mixweight='1'>1</item>
+    <item name='node.15' type='decimalArray' priority='30' mixweight='1'>0.100620 0.629787 0.129762 </item>
+    <item name='node.15/active' type='boolean' priority='31' mixweight='1'>1</item>
+    <item name='node.16' type='decimalArray' priority='32' mixweight='1'>0.285091 0.238298 0.131197 </item>
+    <item name='node.16/active' type='boolean' priority='33' mixweight='1'>1</item>
+    <item name='node.17' type='decimalArray' priority='34' mixweight='1'>0.536641 0.246809 0.131300 </item>
+    <item name='node.17/active' type='boolean' priority='35' mixweight='1'>1</item>
+    <item name='node.18' type='decimalArray' priority='36' mixweight='1'>0.855272 0.102128 0.145826 </item>
+    <item name='node.18/active' type='boolean' priority='37' mixweight='1'>1</item>
+    <item name='node.19' type='decimalArray' priority='38' mixweight='1'>0.888812 0.880851 0.249013 </item>
+    <item name='node.19/active' type='boolean' priority='39' mixweight='1'>1</item>
+    <item name='node.2' type='decimalArray' priority='4' mixweight='1'>0.075465 0.076596 0.129905 </item>
+    <item name='node.2/active' type='boolean' priority='5' mixweight='1'>1</item>
+    <item name='node.20' type='decimalArray' priority='40' mixweight='1'>0.955892 0.400000 0.123404 </item>
+    <item name='node.20/active' type='boolean' priority='41' mixweight='1'>1</item>
+    <item name='node.3' type='decimalArray' priority='6' mixweight='1'>0.222203 0.080851 0.125934 </item>
+    <item name='node.3/active' type='boolean' priority='7' mixweight='1'>1</item>
+    <item name='node.4' type='decimalArray' priority='8' mixweight='1'>0.096428 0.463830 0.176325 </item>
+    <item name='node.4/active' type='boolean' priority='9' mixweight='1'>1</item>
+    <item name='node.5' type='decimalArray' priority='10' mixweight='1'>0.490524 0.093617 0.122208 </item>
+    <item name='node.5/active' type='boolean' priority='11' mixweight='1'>1</item>
+    <item name='node.6' type='decimalArray' priority='12' mixweight='1'>0.867850 0.251064 0.166441 </item>
+    <item name='node.6/active' type='boolean' priority='13' mixweight='1'>1</item>
+    <item name='node.7' type='decimalArray' priority='14' mixweight='1'>0.352171 0.876596 0.218986 </item>
+    <item name='node.7/active' type='boolean' priority='15' mixweight='1'>1</item>
+    <item name='node.8' type='decimalArray' priority='16' mixweight='1'>0.092235 0.225532 0.155874 </item>
+    <item name='node.8/active' type='boolean' priority='17' mixweight='1'>1</item>
+    <item name='node.9' type='decimalArray' priority='18' mixweight='1'>0.704342 0.246809 0.138033 </item>
+    <item name='node.9/active' type='boolean' priority='19' mixweight='1'>1</item>
+    <item name='numNode' type='integer' priority='1' mixweight='1'>20</item>
+    <item name='time' type='decimal' priority='71' mixweight='1'>1000.000000</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+    <item name='wander' type='boolean' priority='72' mixweight='1'>0</item>
+  </preset>
+</jamoma>

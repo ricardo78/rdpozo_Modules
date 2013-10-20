@@ -8,6 +8,7 @@
     <item name='amount' type='decimal' priority='4' mixweight='1'>0.000000</item>
     <item name='blue' type='decimal' priority='3' mixweight='1'>1.000000</item>
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma</item>
     <item name='green' type='decimal' priority='2' mixweight='1'>1.000000</item>
     <item name='red' type='decimal' priority='1' mixweight='1'>1.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>

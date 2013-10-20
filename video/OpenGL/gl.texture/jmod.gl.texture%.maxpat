@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 617.0, 251.0, 468.0, 272.0 ],
+		"rect" : [ 267.0, 266.0, 747.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -83,13 +84,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "front", "open" ],
+					"outlettype" : [ "front", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -453,11 +455,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 775.0, 122.0, 251.0, 121.0 ],
+						"rect" : [ 775.0, 122.0, 251.0, 135.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -484,13 +487,83 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
 									"frgb" : 0.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 55.0, 153.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 58.0, 91.0, 18.0 ],
+									"text" : "Render context:",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "name of rendering context to render to",
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"keymode" : 1,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 308.0, 308.0, 175.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 109.0, 60.0, 134.25, 18.0 ],
+									"rounded" : 4.0,
+									"text" : "Jamoma"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-54",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 308.0, 361.0, 601.0, 33.0 ],
+									"text" : "jcom.parameter drawto @type string @repetitions/allow 1 @priority 1 @description \"name of rendering context to render to\"",
+									"varname" : "drawto"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 308.0, 332.5, 61.0, 20.0 ],
+									"text" : "route text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 160.0, 103.0, 153.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 168.0, 100.0, 70.0, 18.0 ],
+									"presentation_rect" : [ 168.0, 114.0, 70.0, 18.0 ],
 									"text" : "Flip image:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -509,8 +582,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -947,7 +1021,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 489.0, 263.0, 18.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 229.0, 100.0, 19.0, 18.0 ],
+									"presentation_rect" : [ 229.0, 114.0, 19.0, 18.0 ],
 									"size" : 1,
 									"values" : [ 1 ],
 									"varname" : "LimiterToggle[7]"
@@ -998,7 +1072,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 38.0, 493.5, 153.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 66.0, 76.0, 18.0 ],
+									"presentation_rect" : [ 5.0, 80.0, 76.0, 18.0 ],
 									"text" : "Color mode:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -1007,7 +1081,6 @@
 , 							{
 								"box" : 								{
 									"align" : 1,
-									"bgcolor" : [ 0.854902, 0.854902, 0.854902, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-20",
@@ -1019,9 +1092,8 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 345.0, 180.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 109.0, 66.0, 123.0, 20.0 ],
-									"rounded" : 4,
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"presentation_rect" : [ 109.0, 80.0, 134.0, 20.0 ],
+									"rounded" : 4
 								}
 
 							}
@@ -1067,7 +1139,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "front" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.5, 34.0, 25.0, 25.0 ]
 								}
 
@@ -1170,7 +1242,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 315.375, 18.0, 85.0, 51.5 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 98.0, 247.0, 21.0 ],
+									"presentation_rect" : [ 2.0, 112.0, 247.0, 21.0 ],
 									"rounded" : 4
 								}
 
@@ -1184,7 +1256,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 401.375, 18.0, 85.0, 51.5 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 56.0, 247.0, 40.0 ],
+									"presentation_rect" : [ 2.0, 56.0, 247.0, 54.0 ],
 									"rounded" : 4
 								}
 
@@ -1228,6 +1300,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1260,6 +1350,16 @@
 									"hidden" : 0,
 									"midpoints" : [ 126.0, 129.0, 20.0, 129.0 ],
 									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 317.5, 393.0, 288.0, 393.0, 288.0, 304.0, 317.5, 304.0 ],
+									"source" : [ "obj-54", 0 ]
 								}
 
 							}
@@ -1530,28 +1630,24 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.texture%.maxpat",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.texture/lib",
-				"patcherrelativepath" : "../gl.texture/lib",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.texture/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -1,4 +1,0 @@
-rawdata, 0;
-normalized_b-w, 1;
-normalized_w-b, 2;
-distance_in-cm, 3;

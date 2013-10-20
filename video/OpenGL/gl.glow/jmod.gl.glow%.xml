@@ -8,6 +8,7 @@
     <item name='blurAmplification' type='decimal' priority='5' mixweight='1'>1.000000</item>
     <item name='blurSize' type='decimal' priority='4' mixweight='1'>1.000000</item>
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma</item>
     <item name='smoothing' type='decimal' priority='3' mixweight='1'>1.000000</item>
     <item name='target' type='decimal' priority='1' mixweight='1'>1.000000</item>
     <item name='tolerance' type='decimal' priority='2' mixweight='1'>1.000000</item>

@@ -7,6 +7,7 @@
   <preset number='1' name='default'>
     <item name='amount' type='decimal' priority='1' mixweight='1'>0.000000</item>
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>

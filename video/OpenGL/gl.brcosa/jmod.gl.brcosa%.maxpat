@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 232.0, 342.0, 1001.0, 422.0 ],
@@ -88,8 +89,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -453,11 +455,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 477.0, 283.0, 251.0, 153.0 ],
+						"rect" : [ 477.0, 283.0, 251.0, 169.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -477,8 +480,78 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 12.0, 61.0, 72.5, 30.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 8.0, 58.0, 93.5, 18.0 ],
+									"text" : "Render context:",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "name of rendering context to render to",
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"keymode" : 1,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 99.0, 524.0, 175.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 113.75, 58.0, 134.25, 18.0 ],
+									"rounded" : 4.0,
+									"text" : "Jamoma"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-54",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 99.0, 577.0, 601.0, 33.0 ],
+									"text" : "jcom.parameter drawto @type string @repetitions/allow 1 @priority 1 @description \"name of rendering context to render to\"",
+									"varname" : "drawto"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 99.0, 548.5, 61.0, 20.0 ],
+									"text" : "route text"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -490,7 +563,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 465.5, 72.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.0, 102.399994, 72.5, 18.0 ],
+									"presentation_rect" : [ 9.0, 118.399994, 72.5, 18.0 ],
 									"text" : "Alpha:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -508,7 +581,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 406.5, 72.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.0, 82.699982, 72.5, 18.0 ],
+									"presentation_rect" : [ 9.0, 98.699982, 72.5, 18.0 ],
 									"text" : "Saturation:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -526,7 +599,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 354.5, 72.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.0, 63.0, 72.5, 18.0 ],
+									"presentation_rect" : [ 9.0, 79.0, 72.5, 18.0 ],
 									"text" : "Image:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -544,7 +617,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 295.5, 72.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 119.0, 102.399994, 72.5, 18.0 ],
+									"presentation_rect" : [ 119.0, 118.399994, 72.5, 18.0 ],
 									"text" : "Brightness:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -562,7 +635,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 235.5, 64.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 119.0, 82.700012, 64.5, 18.0 ],
+									"presentation_rect" : [ 119.0, 98.700012, 64.5, 18.0 ],
 									"text" : "Avgluma:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -586,7 +659,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 136.0, 465.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 77.5, 102.399994, 50.0, 20.0 ],
+									"presentation_rect" : [ 77.5, 118.399994, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -610,7 +683,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 136.0, 406.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 77.5, 82.399994, 50.0, 20.0 ],
+									"presentation_rect" : [ 77.5, 98.399994, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -634,7 +707,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 136.0, 354.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 77.5, 62.399994, 50.0, 20.0 ],
+									"presentation_rect" : [ 77.5, 78.399994, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -658,7 +731,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 136.0, 295.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 187.5, 101.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 187.5, 117.5, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -682,7 +755,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 136.0, 235.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 187.5, 83.0, 50.0, 20.0 ],
+									"presentation_rect" : [ 187.5, 99.0, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -700,7 +773,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 178.5, 64.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 119.0, 63.0, 64.5, 18.0 ],
+									"presentation_rect" : [ 119.0, 79.0, 64.5, 18.0 ],
 									"text" : "Contrast:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -724,7 +797,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 136.0, 178.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 187.5, 63.0, 50.0, 20.0 ],
+									"presentation_rect" : [ 187.5, 79.0, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -977,7 +1050,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 336.5, 78.5, 85.0, 51.5 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 130.0, 247.0, 21.0 ],
+									"presentation_rect" : [ 2.0, 146.0, 247.0, 21.0 ],
 									"rounded" : 4
 								}
 
@@ -991,7 +1064,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 422.5, 78.5, 85.0, 51.5 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 56.0, 247.0, 72.0 ],
+									"presentation_rect" : [ 2.0, 56.0, 247.0, 88.0 ],
 									"rounded" : 4
 								}
 
@@ -1071,6 +1144,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1126,6 +1217,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 108.5, 609.0, 79.0, 609.0, 79.0, 520.0, 108.5, 520.0 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1175,6 +1276,7 @@
 , 			{
 				"box" : 				{
 					"has_bypass" : 1,
+					"has_freeze" : 1,
 					"has_panel" : 1,
 					"id" : "obj-6",
 					"maxclass" : "jcom.ui",
@@ -1403,22 +1505,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.brcosa%.maxpat",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.brcosa/lib",
-				"patcherrelativepath" : "../gl.brcosa/lib",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.brcosa/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

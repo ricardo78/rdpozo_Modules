@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 469.0, 238.0, 904.0, 353.0 ],
@@ -88,8 +89,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -453,8 +455,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 598.0, 270.0, 251.0, 206.0 ],
@@ -477,8 +480,77 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 13.0, 64.0, 86.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 13.0, 60.0, 86.0, 18.0 ],
+									"text" : "Render context",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "name of rendering context to render to",
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-31",
+									"keymode" : 1,
+									"maxclass" : "textedit",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 114.0, 539.0, 175.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 109.75, 60.0, 134.25, 18.0 ],
+									"rounded" : 4.0,
+									"text" : "Jamoma"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-54",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 114.0, 592.0, 601.0, 33.0 ],
+									"text" : "jcom.parameter drawto @type string @repetitions/allow 1 @priority 1 @description \"name of rendering context to render to\"",
+									"varname" : "drawto"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 114.0, 563.5, 61.0, 20.0 ],
+									"text" : "route text"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -490,7 +562,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 425.5, 107.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 48.0, 145.5, 107.0, 18.0 ],
+									"presentation_rect" : [ 13.0, 157.5, 107.0, 18.0 ],
 									"text" : "Blur Amplification:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -508,7 +580,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 376.5, 60.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 48.0, 127.5, 60.0, 18.0 ],
+									"presentation_rect" : [ 13.0, 139.5, 60.0, 18.0 ],
 									"text" : "Blur Size:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -549,7 +621,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 213.5, 425.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 160.5, 145.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 125.5, 157.5, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -590,7 +662,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 213.5, 376.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 160.5, 127.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 125.5, 139.5, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -631,7 +703,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 213.5, 337.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 160.5, 109.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 125.5, 121.5, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -683,7 +755,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 337.5, 68.5, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 48.0, 109.5, 68.5, 18.0 ],
+									"presentation_rect" : [ 13.0, 121.5, 68.5, 18.0 ],
 									"text" : "Smoothing:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -701,7 +773,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 251.5, 86.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 48.0, 75.0, 86.0, 18.0 ],
+									"presentation_rect" : [ 13.0, 87.0, 86.0, 18.0 ],
 									"text" : "Target:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -719,7 +791,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 294.5, 60.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 48.0, 91.5, 60.0, 18.0 ],
+									"presentation_rect" : [ 13.0, 103.5, 60.0, 18.0 ],
 									"text" : "Tolerance:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
@@ -743,7 +815,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 213.5, 294.5, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 160.5, 91.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 125.5, 103.5, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -767,7 +839,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 213.5, 249.0, 50.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 160.5, 75.0, 50.0, 20.0 ],
+									"presentation_rect" : [ 125.5, 87.0, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
@@ -976,6 +1048,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1026,6 +1116,16 @@
 									"hidden" : 0,
 									"midpoints" : [ 126.0, 129.0, 20.0, 129.0 ],
 									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 123.5, 624.0, 94.0, 624.0, 94.0, 535.0, 123.5, 535.0 ],
+									"source" : [ "obj-54", 0 ]
 								}
 
 							}
@@ -1098,6 +1198,7 @@
 , 			{
 				"box" : 				{
 					"has_bypass" : 1,
+					"has_freeze" : 1,
 					"has_panel" : 1,
 					"id" : "obj-6",
 					"maxclass" : "jcom.ui",
@@ -1326,29 +1427,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.glow%.maxpat",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/video/OpenGL/gl.glow/lib",
-				"patcherrelativepath" : "../gl.glow/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/jitter-examples/render/slab",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.glow/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/pozo/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

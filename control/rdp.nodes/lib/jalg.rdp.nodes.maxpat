@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
+		"rect" : [ 0.0, 44.0, 794.0, 673.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 336.25, 299.5, 32.5, 20.0 ],
-					"presentation_rect" : [ 333.25, 305.5, 0.0, 0.0 ],
 					"text" : "t f f"
 				}
 
@@ -128,12 +127,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 18.0, 47.0, 268.0, 20.0 ],
-					"text" : "jcom.oscroute /numNode /wander /time /function",
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 18.0, 47.0, 330.25, 33.0 ],
+					"text" : "jcom.oscroute /numNode /wander /time /function /externalTrigger",
 					"varname" : "jcomoscroute1"
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 235.25, 182.5, 41.0, 20.0 ],
+					"patching_rect" : [ 235.25, 178.5, 41.0, 20.0 ],
 					"text" : "metro"
 				}
 
@@ -518,6 +518,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 276.5, 104.0, 330.0, 104.0, 330.0, 205.0, 244.75, 205.0 ],
+					"source" : [ "obj-3", 4 ]
 				}
 
 			}

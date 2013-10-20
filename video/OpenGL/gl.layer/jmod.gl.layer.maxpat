@@ -434,7 +434,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 1440.0, 852.0 ],
+						"rect" : [ 0.0, 44.0, 251.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -944,6 +944,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "",
 									"contdata" : 1,
 									"ghostbar" : 20,
 									"id" : "obj-125",

@@ -9,7 +9,11 @@
 		}
 ,
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"rect" : [ 232.0, 528.0, 1061.0, 750.0 ],
+=======
+		"rect" : [ 293.0, 44.0, 1061.0, 750.0 ],
+>>>>>>> feature/node-upgrade
 =======
 		"rect" : [ 293.0, 44.0, 1061.0, 750.0 ],
 >>>>>>> feature/node-upgrade
@@ -33,6 +37,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"id" : "obj-22",
 					"maxclass" : "button",
@@ -478,11 +483,20 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 239.0, 161.0, 55.0, 20.0 ],
 					"text" : "jcom.init"
+=======
+					"comment" : "OSC messages",
+					"id" : "obj-27",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 63.0, 305.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 				}
 
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
@@ -524,6 +538,15 @@
 					"presentation_rect" : [ 4.0, 17.684937, 93.0, 18.0 ],
 					"text" : "rdp.node",
 					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+=======
+					"comment" : "OSC messages",
+					"id" : "obj-25",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 63.0, 185.5, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 				}
 
 			}
@@ -531,10 +554,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 					"id" : "obj-103",
+=======
+					"id" : "obj-12",
+>>>>>>> feature/node-upgrade
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "front", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -544,9 +572,13 @@
 							"architecture" : "x86"
 						}
 ,
+<<<<<<< HEAD
 						"rect" : [ 477.0, 337.0, 251.0, 384.0 ],
+=======
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+>>>>>>> feature/node-upgrade
 						"bglocked" : 0,
-						"openinpresentation" : 1,
+						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -554,7 +586,7 @@
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
@@ -563,6 +595,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+<<<<<<< HEAD
 						"title" : "/editing_this_module",
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -630,11 +663,23 @@
 									"presentation_rect" : [ 48.0, 361.0, 159.0, 18.0 ],
 									"text" : "Bang when impact with edge:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+=======
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-73",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 110.0, 100.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"annotation" : "Start random process",
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"disabled" : [ 0 ],
@@ -653,11 +698,23 @@
 									"size" : 1,
 									"values" : [ 0 ],
 									"varname" : "wander"
+=======
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "front", "open" ],
+									"patching_rect" : [ 50.0, 239.862793, 71.0, 20.0 ],
+									"text" : "t front open"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.035294 ],
 									"blinkcolor" : [ 0.461761, 0.913725, 0.856245, 1.0 ],
 									"fgcolor" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
@@ -670,11 +727,37 @@
 									"patching_rect" : [ 356.0, 596.0, 20.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 219.0, 361.0, 20.0, 20.0 ]
+=======
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-46",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "" ],
+									"patching_rect" : [ 80.5, 136.0, 46.0, 20.0 ],
+									"text" : "sel 0 1"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-60",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 64.0, 206.0, 43.0, 19.0 ],
+									"text" : "close"
+>>>>>>> feature/node-upgrade
+								}
+
+							}
+, 							{
+								"box" : 								{
+<<<<<<< HEAD
 									"comment" : "",
 									"id" : "obj-15",
 									"maxclass" : "inlet",
@@ -683,11 +766,23 @@
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 356.0, 555.0, 25.0, 25.0 ],
 									"varname" : "u784011733"
+=======
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-62",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.0, 206.0, 40.0, 19.0 ],
+									"text" : "open"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -699,11 +794,21 @@
 									"patching_rect" : [ 356.0, 627.0, 427.0, 20.0 ],
 									"text" : "jcom.return edges @type generic @range/clipmode none @repetitions/allow 1",
 									"varname" : "hitTheWall"
+=======
+									"comment" : "",
+									"id" : "obj-9",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.0, 40.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"annotation" : "set number of nodes",
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
@@ -725,11 +830,20 @@
 									"presentation_rect" : [ 106.0, 296.0, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
+=======
+									"comment" : "",
+									"id" : "obj-10",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 319.862793, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-16",
@@ -1217,10 +1331,74 @@
 									"patching_rect" : [ 493.0, 577.0, 100.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 271.0, 437.684937, 99.0, 20.0 ]
+=======
+									"comment" : "",
+									"id" : "obj-11",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 52.0, 319.862793, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-38", 0 ]
 								}
 
 							}
 , 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-38", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-62", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-46", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-60", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-62", 0 ]
+>>>>>>> feature/node-upgrade
+								}
+
+							}
+, 							{
+<<<<<<< HEAD
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1232,10 +1410,18 @@
 									"patching_rect" : [ 594.0, 577.0, 457.0, 20.0 ],
 									"text" : "jcom.parameter function @type generic @range/clipmode none @repetitions/allow 0",
 									"varname" : "function"
+=======
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-73", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
+<<<<<<< HEAD
 								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -1266,26 +1452,257 @@
 									"patching_rect" : [ 855.0, 313.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 48.0, 519.684937, 50.0, 20.0 ]
+=======
+								"patchline" : 								{
+									"destination" : [ "obj-73", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
-, 							{
+ ]
+					}
+,
+					"patching_rect" : [ 744.833313, 260.0, 79.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p open/close"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 573.333313, 188.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.831373, 0.54902, 0.839216, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 573.333313, 220.0, 362.0, 20.0 ],
+					"text" : "jcom.message showPanel @type boolean @range/clipmode none",
+					"varname" : "showPanel[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.883534, 0.534402, 0.859963, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 137.0, 288.0, 259.0, 20.0 ],
+					"text" : "jcom.pass /view/panel /module_name @strip 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.883534, 0.534402, 0.859963, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 103.0, 188.0, 130.0, 20.0 ],
+					"text" : "jcom.parameterCreate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.883534, 0.534402, 0.859963, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 63.0, 234.0, 345.0, 20.0 ],
+					"text" : "jcom.hub @module_type video @description \"alpha layer stuff\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.883534, 0.534402, 0.859963, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 239.0, 161.0, 55.0, 20.0 ],
+					"text" : "jcom.init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.0, 188.0, 110.0, 18.0 ],
+					"text" : "module_name:/get"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 804.833313, 288.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.426503,
+					"frgb" : 0.0,
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 153.0, 81.0, 97.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 17.684937, 93.0, 18.0 ],
+					"text" : "rdp.node",
+					"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 477.0, 337.0, 251.0, 384.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"title" : "/editing_this_module",
+						"visible" : 1,
+						"boxes" : [ 							{
 								"box" : 								{
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-24",
+									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 904.0, 313.0, 962.0, 20.0 ],
-									"text" : "jcom.parameter time @type decimal @range/bounds 0. 2000000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
-									"varname" : "time"
+									"patching_rect" : [ 422.5, 416.0, 488.0, 20.0 ],
+									"text" : "jcom.parameter wander @type boolean @priority 72 @description \"Start random process\"",
+									"varname" : "wander[2]"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-24",
+=======
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"linecount" : 2,
+>>>>>>> feature/node-upgrade
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
+									"patching_rect" : [ 904.0, 313.0, 962.0, 20.0 ],
+									"text" : "jcom.parameter time @type decimal @range/bounds 0. 2000000000. @range/clipmode both @repetitions/allow 1 @ramp/drive scheduler @ramp/function linear @dataspace none",
+									"varname" : "time"
+=======
+									"patching_rect" : [ 434.0, 354.5, 602.0, 33.0 ],
+									"text" : "jcom.parameter time @range/bounds 0. 200000000. @type decimal @range/clipmode both @ramp/drive none @dataspace none @priority 71 @description \"set time from A to B\"",
+									"varname" : "time[1]"
+>>>>>>> feature/node-upgrade
+								}
+
+							}
+, 							{
+								"box" : 								{
+<<<<<<< HEAD
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
@@ -1296,6 +1713,20 @@
 									"patching_rect" : [ 181.0, 706.0, 528.0, 20.0 ],
 									"text" : "jcom.return nodes @type generic @range/bounds 0. 1. @range/clipmode both @dataspace none",
 									"varname" : "nodes"
+=======
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 434.0, 293.5, 580.0, 33.0 ],
+									"text" : "jcom.parameter numNode @range/bounds 1. 20. @type integer @range/clipmode both @ramp/drive none @dataspace none @priority 1 @description \"set number of nodes\"",
+									"varname" : "numNode"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
@@ -1305,6 +1736,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
 									"frgb" : 0.0,
+<<<<<<< HEAD
 									"id" : "obj-23",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1313,24 +1745,71 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 100.0, 520.684937, 48.0, 18.0 ],
 									"text" : "edges:",
+=======
+									"id" : "obj-36",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 381.0, 598.0, 213.5, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 48.0, 361.0, 159.0, 18.0 ],
+									"text" : "Bang when impact with edge:",
+>>>>>>> feature/node-upgrade
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.035294 ],
 									"blinkcolor" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
 									"fgcolor" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
 									"id" : "obj-22",
+=======
+									"annotation" : "Start random process",
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"disabled" : [ 0 ],
+									"hint" : "",
+									"id" : "obj-31",
+									"itemtype" : 1,
+									"maxclass" : "radiogroup",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : 14,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 352.0, 416.0, 53.0, 16.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 219.0, 296.0, 19.0, 16.0 ],
+									"size" : 1,
+									"values" : [ 0 ],
+									"varname" : "wander"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.035294 ],
+									"blinkcolor" : [ 0.461761, 0.913725, 0.856245, 1.0 ],
+									"fgcolor" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"id" : "obj-30",
+>>>>>>> feature/node-upgrade
 									"maxclass" : "button",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
+<<<<<<< HEAD
 									"outlinecolor" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
 									"patching_rect" : [ 696.0, 158.0, 20.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 141.0, 519.684937, 20.0, 20.0 ]
+=======
+									"outlinecolor" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"patching_rect" : [ 356.0, 596.0, 20.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 219.0, 361.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
@@ -1342,12 +1821,21 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 695.0, 117.0, 25.0, 25.0 ]
+=======
+									"patching_rect" : [ 356.0, 555.0, 25.0, 25.0 ],
+									"varname" : "u784011733"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+=======
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+>>>>>>> feature/node-upgrade
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
@@ -1355,7 +1843,11 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 693.0, 189.0, 427.0, 20.0 ],
+=======
+									"patching_rect" : [ 356.0, 627.0, 427.0, 20.0 ],
+>>>>>>> feature/node-upgrade
 									"text" : "jcom.return edges @type generic @range/clipmode none @repetitions/allow 1",
 									"varname" : "hitTheWall"
 								}
@@ -1363,6 +1855,7 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
@@ -1389,13 +1882,35 @@
 									"maximum" : 64,
 									"minimum" : 1,
 									"mouseup" : 1,
+=======
+									"annotation" : "set number of nodes",
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hbgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+									"htextcolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
+									"htricolor" : [ 0.612708, 0.118032, 0.432078, 1.0 ],
+									"id" : "obj-122",
+									"maxclass" : "number",
+									"maximum" : 20,
+									"minimum" : 1,
+>>>>>>> feature/node-upgrade
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
+<<<<<<< HEAD
 									"patching_rect" : [ 539.0, 241.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 112.0, 434.0, 50.0, 20.0 ]
+=======
+									"patching_rect" : [ 354.0, 293.5, 50.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 106.0, 296.0, 50.0, 20.0 ],
+									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
+									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
@@ -1403,6 +1918,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+<<<<<<< HEAD
 									"id" : "obj-100",
 									"linecount" : 2,
 									"maxclass" : "newobj",
@@ -1470,6 +1986,9 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-35",
+=======
+									"id" : "obj-16",
+>>>>>>> feature/node-upgrade
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1483,7 +2002,11 @@
 											"architecture" : "x86"
 										}
 ,
+<<<<<<< HEAD
 										"rect" : [ 158.0, 59.0, 921.0, 198.0 ],
+=======
+										"rect" : [ 25.0, 69.0, 617.0, 656.0 ],
+>>>>>>> feature/node-upgrade
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1506,6 +2029,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+<<<<<<< HEAD
 													"id" : "obj-134",
 													"maxclass" : "newobj",
 													"numinlets" : 64,
@@ -21650,6 +22174,20 @@
 																					"patching_rect" : [ 345.5, 368.0, 25.0, 25.0 ]
 																				}
 =======
+=======
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 333.0, 372.0, 91.0, 20.0 ],
+													"text" : "prepend set 20"
+												}
+
+											}
+, 											{
+												"box" : 												{
+>>>>>>> feature/node-upgrade
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-12",
@@ -21660,6 +22198,9 @@
 													"patching_rect" : [ 333.0, 345.125, 91.0, 20.0 ],
 													"text" : "prepend set 19"
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -21817,6 +22358,7 @@
 												}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 															}
 , 															{
 																"box" : 																{
@@ -21868,6 +22410,8 @@
 																					"text" : "prepend active 31"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"box" : 												{
@@ -21881,6 +22425,9 @@
 													"patching_rect" : [ 31.0, 345.0, 84.0, 20.0 ],
 													"text" : "prepend set 7"
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -21897,6 +22444,7 @@
 													"text" : "prepend set 6"
 												}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 																			}
 , 																			{
@@ -22085,6 +22633,8 @@
 																					"text" : "p avoidStackOverflow"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"box" : 												{
@@ -22098,6 +22648,9 @@
 													"patching_rect" : [ 31.0, 291.0, 84.0, 20.0 ],
 													"text" : "prepend set 5"
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -22128,6 +22681,7 @@
 													"text" : "prepend set 3"
 												}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 																			}
 , 																			{
@@ -22316,6 +22870,8 @@
 																					"text" : "p avoidStackOverflow"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"box" : 												{
@@ -22329,6 +22885,9 @@
 													"patching_rect" : [ 31.0, 210.0, 84.0, 20.0 ],
 													"text" : "prepend set 2"
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -22489,6 +23048,7 @@
 												}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 															}
 , 															{
 																"box" : 																{
@@ -22540,6 +23100,8 @@
 																					"text" : "prepend active 32"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"patchline" : 												{
@@ -22548,6 +23110,9 @@
 													"hidden" : 0,
 													"source" : [ "obj-2", 0 ]
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -22559,6 +23124,7 @@
 													"source" : [ "obj-3", 0 ]
 												}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 																			}
 , 																			{
@@ -22747,6 +23313,8 @@
 																					"text" : "p avoidStackOverflow"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"patchline" : 												{
@@ -22755,6 +23323,9 @@
 													"hidden" : 0,
 													"source" : [ "obj-37", 3 ]
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -22784,6 +23355,7 @@
 													"source" : [ "obj-37", 18 ]
 												}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 																			}
 , 																			{
@@ -22972,6 +23544,8 @@
 																					"text" : "p avoidStackOverflow"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"patchline" : 												{
@@ -22980,6 +23554,9 @@
 													"hidden" : 0,
 													"source" : [ "obj-37", 17 ]
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -23109,6 +23686,7 @@
 												}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 															}
 , 															{
 																"box" : 																{
@@ -23160,6 +23738,8 @@
 																					"text" : "prepend active 30"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"patchline" : 												{
@@ -23168,6 +23748,9 @@
 													"hidden" : 0,
 													"source" : [ "obj-37", 9 ]
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -23179,6 +23762,7 @@
 													"source" : [ "obj-37", 8 ]
 												}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 																			}
 , 																			{
@@ -23367,6 +23951,8 @@
 																					"text" : "p avoidStackOverflow"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"patchline" : 												{
@@ -23375,6 +23961,9 @@
 													"hidden" : 0,
 													"source" : [ "obj-4", 0 ]
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -23404,6 +23993,7 @@
 													"source" : [ "obj-44", 0 ]
 												}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 																			}
 , 																			{
@@ -23592,6 +24182,8 @@
 																					"text" : "p avoidStackOverflow"
 																				}
 =======
+=======
+>>>>>>> feature/node-upgrade
 											}
 , 											{
 												"patchline" : 												{
@@ -23600,6 +24192,9 @@
 													"hidden" : 0,
 													"source" : [ "obj-47", 0 ]
 												}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 											}
@@ -23685,6 +24280,8 @@
 									"presentation_rect" : [ 106.0, 334.0, 137.520599, 20.0 ],
 									"rounded" : 4
 								}
+<<<<<<< HEAD
+=======
 
 							}
 , 							{
@@ -23718,10 +24315,24 @@
 									"text" : "jcom.return wave @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @dataspace none",
 									"varname" : "wave"
 								}
+>>>>>>> feature/node-upgrade
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 422.5, 226.0, 527.0, 20.0 ],
+									"text" : "jcom.parameter function @type generic @range/clipmode none @repetitions/allow 0 @priority 70",
+									"varname" : "function"
+=======
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
@@ -23731,11 +24342,26 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.5, 589.0, 155.0, 20.0 ],
 									"text" : "r #0-to-interface-jcom.ramp"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-27",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 30.5, 627.0, 302.0, 47.0 ],
+									"text" : "jcom.return wave @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @dataspace none",
+									"varname" : "wave"
+=======
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
@@ -23749,11 +24375,23 @@
 									"presentation_rect" : [ 171.0, 296.0, 48.0, 18.0 ],
 									"text" : "wander:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.5, 589.0, 155.0, 20.0 ],
+									"text" : "r #0-to-interface-jcom.ramp"
+=======
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
@@ -23767,11 +24405,27 @@
 									"presentation_rect" : [ 5.0, 315.0, 48.0, 18.0 ],
 									"text" : "Time:",
 									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 290.0, 416.0, 64.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 171.0, 296.0, 48.0, 18.0 ],
+									"text" : "wander:",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+=======
 									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -23784,11 +24438,76 @@
 									"patching_rect" : [ 30.5, 526.0, 249.0, 47.0 ],
 									"text" : "jcom.return nodes @type generic @range/bounds 0. 1. @range/clipmode both @dataspace none",
 									"varname" : "nodes"
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+<<<<<<< HEAD
+									"id" : "obj-29",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 290.0, 354.5, 64.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 315.0, 48.0, 18.0 ],
+									"text" : "Time:",
+=======
+									"id" : "obj-13",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 290.0, 287.0, 64.0, 30.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 297.0, 107.0, 18.0 ],
+									"text" : "Number of nodes:",
+>>>>>>> feature/node-upgrade
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+<<<<<<< HEAD
+									"color" : [ 0.775126, 0.553662, 0.780762, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 30.5, 526.0, 249.0, 47.0 ],
+									"text" : "jcom.return nodes @type generic @range/bounds 0. 1. @range/clipmode both @dataspace none",
+									"varname" : "nodes"
+=======
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.426503,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 312.0, 195.184937, 64.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 334.0, 59.0, 18.0 ],
+									"text" : "Function:",
+									"textcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ]
+>>>>>>> feature/node-upgrade
+								}
+
+							}
+, 							{
+								"box" : 								{
+<<<<<<< HEAD
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
@@ -23826,6 +24545,8 @@
 							}
 , 							{
 								"box" : 								{
+=======
+>>>>>>> feature/node-upgrade
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-35",
@@ -23962,6 +24683,7 @@
 																		"digest" : "",
 																		"tags" : "",
 																		"boxes" : [ 																			{
+<<<<<<< HEAD
 <<<<<<< HEAD
 																				"box" : 																				{
 																					"fontname" : "Arial",
@@ -24178,6 +24900,8 @@
 , 																			{
 =======
 >>>>>>> feature/node-upgrade
+=======
+>>>>>>> feature/node-upgrade
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
@@ -24230,6 +24954,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -24406,6 +25131,10 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 =======
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
@@ -24596,6 +25325,7 @@
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patcher" : 																					{
@@ -24778,6 +25508,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -24804,6 +25539,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -24984,6 +25720,10 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -25014,6 +25754,11 @@
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
@@ -25045,11 +25790,48 @@
 																					"hidden" : 0,
 																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
 																					"source" : [ "obj-6", 2 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+=======
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
@@ -25097,6 +25879,244 @@
 															}
 , 															{
 																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 302.0, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 20"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 311.5, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+>>>>>>> feature/node-upgrade
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.20 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 40",
+																	"varname" : "node.1"
+=======
+													"patching_rect" : [ 1398.75, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node20"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-18",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 283.0, 106.0, 20.0 ],
+																	"text" : "prepend active 19"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-36",
@@ -25299,6 +26319,8 @@
 															}
 , 															{
 																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
 																	"numinlets" : 1,
@@ -25370,6 +26392,7 @@
 																					"linecount" : 3,
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
@@ -25553,6 +26576,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -25579,6 +26607,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -25759,6 +26788,10 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -25789,6 +26822,11 @@
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
@@ -25801,11 +26839,29 @@
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+=======
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
@@ -25828,6 +26884,21 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
@@ -25866,6 +26937,8 @@
 																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
 																	"text" : "jcom.parameter node.19/active @type boolean @repetitions/allow 0 @dataspace none @priority 39",
 																	"varname" : "node.1[3]"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -25880,11 +26953,29 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-11",
@@ -25944,6 +27035,7 @@
 																					"linecount" : 3,
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
@@ -26127,6 +27219,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -26153,6 +27250,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -26329,6 +27427,10 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 =======
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
@@ -26425,6 +27527,8 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -26643,11 +27747,233 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 305.0, 284.0, 106.0, 20.0 ],
 																	"text" : "prepend active 18"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.19 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 38",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 302.0, 165.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 19"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 311.5, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 1325.5, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node19"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-17",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 451.0, 217.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 284.0, 106.0, 20.0 ],
+																	"text" : "prepend active 18"
+																}
+
+															}
+, 															{
+																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
 																	"numinlets" : 1,
@@ -26719,6 +28045,7 @@
 																					"linecount" : 3,
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
@@ -26902,6 +28229,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -26928,6 +28260,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -27108,6 +28441,10 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -27138,6 +28475,7 @@
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
@@ -27158,6 +28496,28 @@
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+=======
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 																					"source" : [ "obj-6", 1 ]
 																				}
 
@@ -27200,6 +28560,8 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -27215,6 +28577,7 @@
 																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
 																	"text" : "jcom.parameter node.18/active @type boolean @repetitions/allow 0 @dataspace none @priority 37",
 																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -27222,6 +28585,24 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.18/active @type boolean @repetitions/allow 0 @dataspace none @priority 37",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+=======
+>>>>>>> feature/node-upgrade
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
@@ -27273,6 +28654,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"id" : "obj-24",
 																					"maxclass" : "newobj",
@@ -27494,10 +28876,15 @@
 																					"id" : "obj-33",
 																					"maxclass" : "newobj",
 =======
+=======
+>>>>>>> feature/node-upgrade
 																					"frgb" : 0.0,
 																					"id" : "obj-9",
 																					"linecount" : 3,
 																					"maxclass" : "comment",
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
@@ -27515,6 +28902,7 @@
 																					"linecount" : 3,
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
@@ -27698,6 +29086,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -27712,6 +29105,7 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+<<<<<<< HEAD
 																				}
 
 																			}
@@ -27726,11 +29120,30 @@
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
+=======
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+>>>>>>> feature/node-upgrade
 																					"comment" : "",
 																					"id" : "obj-3",
 																					"maxclass" : "outlet",
@@ -27818,6 +29231,8 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -27825,6 +29240,212 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.18 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 36",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 302.0, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 18"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 311.5, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 1252.25, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node18"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-16",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 215.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-15",
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
@@ -28029,6 +29650,8 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+=======
+>>>>>>> feature/node-upgrade
 																	"id" : "obj-18",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
@@ -28089,6 +29712,7 @@
 																		"digest" : "",
 																		"tags" : "",
 																		"boxes" : [ 																			{
+<<<<<<< HEAD
 <<<<<<< HEAD
 																				"box" : 																				{
 																					"fontname" : "Arial",
@@ -28305,6 +29929,8 @@
 , 																			{
 =======
 >>>>>>> feature/node-upgrade
+=======
+>>>>>>> feature/node-upgrade
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
@@ -28357,6 +29983,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -28533,6 +30160,10 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 =======
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
@@ -28723,6 +30354,7 @@
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patcher" : 																					{
@@ -28905,6 +30537,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -28931,6 +30568,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -29111,6 +30749,10 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -29145,6 +30787,46 @@
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
 																				}
+<<<<<<< HEAD
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+=======
 
 																			}
 , 																			{
@@ -29341,6 +31023,242 @@
 																	"hidden" : 0,
 																	"source" : [ "obj-4", 1 ]
 																}
+>>>>>>> feature/node-upgrade
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.17 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 34",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+=======
+													"patching_rect" : [ 1179.0, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node17"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 303.5, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 17"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+=======
+																	"patching_rect" : [ 305.0, 282.0, 106.0, 20.0 ],
+																	"text" : "prepend active 16"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
 
 															}
 , 															{
@@ -29412,6 +31330,7 @@
 														"tags" : "",
 														"boxes" : [ 															{
 																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-18",
@@ -29426,6 +31345,8 @@
 															}
 , 															{
 																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
 																	"numinlets" : 1,
@@ -29498,6 +31419,7 @@
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patcher" : 																					{
@@ -29680,6 +31602,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -29706,6 +31633,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -29886,6 +31814,10 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -29916,6 +31848,7 @@
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
@@ -29928,15 +31861,44 @@
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-5", 0 ]
+=======
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-6", 1 ]
+=======
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+=======
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -29945,6 +31907,8 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+<<<<<<< HEAD
+=======
 																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
 																					"source" : [ "obj-6", 2 ]
 																				}
@@ -29955,6 +31919,7 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
@@ -29978,6 +31943,8 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -30007,11 +31974,44 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.16/active @type boolean @repetitions/allow 0 @dataspace none @priority 33",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-11",
@@ -30055,6 +32055,7 @@
 																					"id" : "obj-9",
 																					"linecount" : 3,
 																					"maxclass" : "comment",
+<<<<<<< HEAD
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
@@ -30254,6 +32255,12 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -30261,6 +32268,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
@@ -30460,11 +32468,22 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"comment" : "",
 																					"id" : "obj-3",
 																					"maxclass" : "outlet",
@@ -30834,6 +32853,17 @@
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
 																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -30841,6 +32871,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-8",
 																					"linecount" : 3,
@@ -31029,11 +33060,21 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-6",
@@ -31043,11 +33084,20 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -31257,6 +33307,14 @@
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+>>>>>>> feature/node-upgrade
 																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
 																				}
 
@@ -31265,6 +33323,7 @@
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
@@ -31277,15 +33336,44 @@
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-5", 0 ]
+=======
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-6", 1 ]
+=======
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+=======
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -31294,6 +33382,8 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+<<<<<<< HEAD
+=======
 																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
 																					"source" : [ "obj-6", 2 ]
 																				}
@@ -31304,6 +33394,7 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
@@ -31312,7 +33403,11 @@
  ]
 																	}
 ,
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Verdana",
@@ -31327,11 +33422,233 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
 , 															{
 																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.16 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 32",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 16"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 1105.75, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node16"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 106.0, 20.0 ],
+																	"text" : "prepend active 15"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-14",
@@ -31356,6 +33673,15 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+=======
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -31363,7 +33689,11 @@
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
+<<<<<<< HEAD
 																	"id" : "obj-11",
+=======
+																	"id" : "obj-10",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -31398,6 +33728,7 @@
 																		"tags" : "",
 																		"boxes" : [ 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 <<<<<<< HEAD
@@ -31581,18 +33912,45 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
-																					"fontname" : "Arial",
-																					"fontsize" : 12.0,
-																					"id" : "obj-25",
-																					"linecount" : 2,
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
+<<<<<<< HEAD
 																					"outlettype" : [ "", "", "" ],
 																					"patching_rect" : [ 87.0, 221.0, 601.0, 33.0 ],
 																					"text" : "jcom.parameter node.18/active @type boolean @range/bounds 0. 1 @range/clipmode both @repetitions/allow 0 @dataspace none @priority 36",
@@ -31630,6 +33988,11 @@
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
 																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -31637,6 +34000,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-8",
 																					"linecount" : 3,
@@ -31825,11 +34189,21 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-6",
@@ -31839,11 +34213,20 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -31875,6 +34258,14 @@
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+>>>>>>> feature/node-upgrade
 																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
 																				}
 
@@ -31930,7 +34321,11 @@
  ]
 																	}
 ,
+<<<<<<< HEAD
 																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Verdana",
@@ -31952,12 +34347,17 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-15",
 																	"linecount" : 2,
+=======
+																	"id" : "obj-14",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
 																	"text" : "jcom.parameter node.15 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 30",
 																	"varname" : "node.1"
@@ -32082,6 +34482,11 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-4", 1 ]
+=======
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.15/active @type boolean @repetitions/allow 0 @dataspace none @priority 31",
+																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -32156,6 +34561,7 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-18",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
@@ -32175,6 +34581,15 @@
 																	"outlettype" : [ "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+=======
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -32182,7 +34597,11 @@
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
+<<<<<<< HEAD
 																	"id" : "obj-10",
+=======
+																	"id" : "obj-11",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -32218,6 +34637,7 @@
 																		"boxes" : [ 																			{
 <<<<<<< HEAD
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Arial",
 																					"fontsize" : 12.0,
 																					"id" : "obj-20",
@@ -32435,10 +34855,15 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+>>>>>>> feature/node-upgrade
 																					"frgb" : 0.0,
 																					"id" : "obj-9",
 																					"linecount" : 3,
 																					"maxclass" : "comment",
+<<<<<<< HEAD
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
@@ -32472,6 +34897,12 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -32479,6 +34910,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"id" : "obj-5",
 																					"maxclass" : "newobj",
 																					"numinlets" : 2,
@@ -32664,6 +35096,50 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
 																				}
 
 																			}
@@ -32673,6 +35149,7 @@
 																					"id" : "obj-3",
 																					"maxclass" : "outlet",
 																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
 																				}
@@ -32741,7 +35218,11 @@
  ]
 																	}
 ,
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Verdana",
@@ -32763,14 +35244,24 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-14",
+=======
+																	"id" : "obj-15",
+																	"linecount" : 2,
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
 																	"text" : "jcom.parameter node.14/active @type boolean @repetitions/allow 0 @dataspace none @priority 29",
 																	"varname" : "node.1[3]"
+=======
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.15 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 30",
+																	"varname" : "node.1"
 																}
 
 															}
@@ -32778,6 +35269,196 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 15"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 1032.5, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node15"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
@@ -32785,6 +35466,27 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+=======
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 106.0, 20.0 ],
+																	"text" : "prepend active 14"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -32792,7 +35494,11 @@
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
+<<<<<<< HEAD
 																	"id" : "obj-11",
+=======
+																	"id" : "obj-10",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -32826,6 +35532,7 @@
 																		"digest" : "",
 																		"tags" : "",
 																		"boxes" : [ 																			{
+<<<<<<< HEAD
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
@@ -33042,6 +35749,44 @@
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
+=======
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
 																					"numoutlets" : 3,
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
@@ -33058,6 +35803,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -33238,6 +35984,10 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -33310,6 +36060,822 @@
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
+
+																			}
+ ]
+																	}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-15",
+																	"linecount" : 2,
+=======
+																	"id" : "obj-14",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.14 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 28",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 302.0, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 14"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 311.5, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+=======
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.14/active @type boolean @repetitions/allow 0 @dataspace none @priority 29",
+																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 959.25, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node14"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 214.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 281.0, 106.0, 20.0 ],
+																	"text" : "prepend active 13"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+=======
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+<<<<<<< HEAD
+																	"id" : "obj-10",
+=======
+																	"id" : "obj-11",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+<<<<<<< HEAD
+=======
 
 																			}
  ]
@@ -33468,6 +37034,7 @@
 																	"hidden" : 0,
 																	"source" : [ "obj-4", 1 ]
 																}
+>>>>>>> feature/node-upgrade
 
 															}
 , 															{
@@ -33482,6 +37049,23 @@
  ]
 													}
 ,
+<<<<<<< HEAD
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+=======
 													"patching_rect" : [ 959.25, 118.0, 61.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
@@ -33548,568 +37132,13 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 305.0, 281.0, 106.0, 20.0 ],
 																	"text" : "prepend active 13"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-17",
-																	"maxclass" : "toggle",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"parameter_enable" : 0,
-																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Verdana",
-																	"fontsize" : 10.0,
-																	"id" : "obj-10",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patcher" : 																	{
-																		"fileversion" : 1,
-																		"appversion" : 																		{
-																			"major" : 6,
-																			"minor" : 1,
-																			"revision" : 3,
-																			"architecture" : "x86"
-																		}
-,
-																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 10.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"gridonopen" : 0,
-																		"gridsize" : [ 5.0, 5.0 ],
-																		"gridsnaponopen" : 0,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"boxanimatetime" : 200,
-																		"imprint" : 0,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"boxes" : [ 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-9",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-8",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-<<<<<<< HEAD
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
-=======
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-6",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "int", "", "int" ],
-																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																					"text" : "t 1 l 0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-5",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-<<<<<<< HEAD
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
-=======
-																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																					"text" : "gate 1 1"
->>>>>>> feature/node-upgrade
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-3",
-																					"maxclass" : "outlet",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-1",
-																					"maxclass" : "inlet",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																				}
-
-																			}
- ],
-																		"lines" : [ 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 1 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-1", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-6", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-5", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-3", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-6", 1 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																					"source" : [ "obj-6", 2 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																					"source" : [ "obj-6", 0 ]
-																				}
-
-																			}
- ]
-																	}
-,
-																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
-																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"default_fontsize" : 10.0,
-																		"description" : "",
-																		"digest" : "",
-																		"fontface" : 0,
-																		"fontname" : "Verdana",
-																		"fontsize" : 10.0,
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
-																	"text" : "p avoidStackOverflow"
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-14",
@@ -34134,6 +37163,15 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+=======
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -34141,7 +37179,11 @@
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
+<<<<<<< HEAD
 																	"id" : "obj-11",
+=======
+																	"id" : "obj-10",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -34182,6 +37224,7 @@
 																					"id" : "obj-9",
 																					"linecount" : 3,
 																					"maxclass" : "comment",
+<<<<<<< HEAD
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
@@ -34381,6 +37424,12 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -34388,6 +37437,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
@@ -34587,11 +37637,22 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"comment" : "",
 																					"id" : "obj-3",
 																					"maxclass" : "outlet",
@@ -34961,6 +38022,17 @@
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
 																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -34968,6 +38040,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-8",
 																					"linecount" : 3,
@@ -35156,11 +38229,21 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-6",
@@ -35170,11 +38253,20 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -35373,11 +38465,7 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
+=======
 																					"comment" : "",
 																					"id" : "obj-1",
 																					"maxclass" : "inlet",
@@ -35395,20 +38483,67 @@
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
+<<<<<<< HEAD
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+=======
 																				"patchline" : 																				{
 																					"destination" : [ "obj-6", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
@@ -35431,6 +38566,11 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
@@ -35454,11 +38594,44 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
 , 															{
 																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.13/active @type boolean @repetitions/allow 0 @dataspace none @priority 27",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-14",
@@ -35488,6 +38661,8 @@
 															}
 , 															{
 																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-11",
@@ -35525,6 +38700,7 @@
 																		"tags" : "",
 																		"boxes" : [ 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 <<<<<<< HEAD
@@ -35708,18 +38884,45 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
-																					"fontname" : "Arial",
-																					"fontsize" : 12.0,
-																					"id" : "obj-25",
-																					"linecount" : 2,
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
+<<<<<<< HEAD
 																					"outlettype" : [ "", "", "" ],
 																					"patching_rect" : [ 88.0, 220.0, 601.0, 33.0 ],
 																					"text" : "jcom.parameter node.12/active @type boolean @range/bounds 0. 1 @range/clipmode both @repetitions/allow 0 @dataspace none @priority 24",
@@ -35757,6 +38960,11 @@
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
 																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -35764,6 +38972,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-8",
 																					"linecount" : 3,
@@ -35952,11 +39161,21 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-6",
@@ -35966,11 +39185,20 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -36002,6 +39230,14 @@
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+>>>>>>> feature/node-upgrade
 																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
 																				}
 
@@ -36072,11 +39308,233 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
 , 															{
 																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.13 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 26",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 13"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 886.0, 118.0, 61.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node13"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 106.0, 20.0 ],
+																	"text" : "prepend active 12"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-15",
@@ -36295,6 +39753,8 @@
 															}
 , 															{
 																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
 																	"numinlets" : 1,
@@ -36345,6 +39805,7 @@
 																		"boxes" : [ 																			{
 <<<<<<< HEAD
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Arial",
 																					"fontsize" : 12.0,
 																					"id" : "obj-20",
@@ -36361,11 +39822,18 @@
 																				"box" : 																				{
 																					"id" : "obj-22",
 																					"maxclass" : "toggle",
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+>>>>>>> feature/node-upgrade
 																					"numinlets" : 1,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "int" ],
-																					"parameter_enable" : 0,
-																					"patching_rect" : [ 381.0, 261.0, 20.0, 20.0 ]
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
 																				}
 
 																			}
@@ -36373,9 +39841,12 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
-																					"id" : "obj-24",
-																					"maxclass" : "newobj",
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
 																					"numinlets" : 1,
+<<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patcher" : 																					{
@@ -36553,6 +40024,11 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -36562,6 +40038,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-9",
 																					"linecount" : 3,
@@ -36595,6 +40072,11 @@
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
+=======
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
 																					"numoutlets" : 3,
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
@@ -36611,6 +40093,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -36787,6 +40270,10 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 =======
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
@@ -36895,8 +40382,13 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 209.0, 539.0, 20.0 ],
 																	"text" : "jcom.parameter node.11/active @type boolean @repetitions/allow 0 @dataspace none @priority 23",
+=======
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.12/active @type boolean @repetitions/allow 0 @dataspace none @priority 25",
+>>>>>>> feature/node-upgrade
 																	"varname" : "node.1[3]"
 																}
 
@@ -36954,6 +40446,7 @@
 																		"tags" : "",
 																		"boxes" : [ 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"frgb" : 0.0,
@@ -37173,6 +40666,18 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -37180,6 +40685,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"id" : "obj-5",
 																					"maxclass" : "newobj",
 																					"numinlets" : 2,
@@ -37365,6 +40871,50 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
 																				}
 
 																			}
@@ -37374,6 +40924,7 @@
 																					"id" : "obj-3",
 																					"maxclass" : "outlet",
 																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
 																				}
@@ -37470,8 +41021,13 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 13.0, 122.0, 596.0, 33.0 ],
 																	"text" : "jcom.parameter node.11 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 22",
+=======
+																	"patching_rect" : [ 13.0, 122.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.12 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 24",
+>>>>>>> feature/node-upgrade
 																	"varname" : "node.1"
 																}
 
@@ -37485,8 +41041,13 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 301.5, 166.0, 116.0, 20.0 ],
 																	"text" : "prepend setnode 11"
+=======
+																	"patching_rect" : [ 303.5, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 12"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -37566,11 +41127,43 @@
 																	"hidden" : 0,
 																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
 																	"source" : [ "obj-18", 0 ]
+<<<<<<< HEAD
+=======
 																}
 
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+<<<<<<< HEAD
 																	"destination" : [ "obj-4", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -37599,6 +41192,8 @@
 															}
 , 															{
 																"patchline" : 																{
+=======
+>>>>>>> feature/node-upgrade
 																	"destination" : [ "obj-11", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -37609,7 +41204,11 @@
  ]
 													}
 ,
+<<<<<<< HEAD
 													"patching_rect" : [ 739.5, 118.0, 60.0, 20.0 ],
+=======
+													"patching_rect" : [ 812.75, 118.0, 61.0, 20.0 ],
+>>>>>>> feature/node-upgrade
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -37623,7 +41222,11 @@
 														"tags" : ""
 													}
 ,
+<<<<<<< HEAD
 													"text" : "p node11"
+=======
+													"text" : "p node12"
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -37631,7 +41234,11 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+<<<<<<< HEAD
 													"id" : "obj-9",
+=======
+													"id" : "obj-10",
+>>>>>>> feature/node-upgrade
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -37673,8 +41280,13 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 305.0, 282.0, 106.0, 20.0 ],
 																	"text" : "prepend active 10"
+=======
+																	"patching_rect" : [ 305.0, 281.0, 105.0, 20.0 ],
+																	"text" : "prepend active 11"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -37728,6 +41340,7 @@
 																		"digest" : "",
 																		"tags" : "",
 																		"boxes" : [ 																			{
+<<<<<<< HEAD
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
@@ -37944,6 +41557,44 @@
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
+=======
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
 																					"numoutlets" : 3,
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
@@ -37960,6 +41611,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -38136,6 +41788,10 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 =======
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
@@ -38244,8 +41900,13 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
 																	"text" : "jcom.parameter node.10/active @type boolean @repetitions/allow 0 @dataspace none @priority 21",
+=======
+																	"patching_rect" : [ 51.0, 209.0, 539.0, 20.0 ],
+																	"text" : "jcom.parameter node.11/active @type boolean @repetitions/allow 0 @dataspace none @priority 23",
+>>>>>>> feature/node-upgrade
 																	"varname" : "node.1[3]"
 																}
 
@@ -38309,6 +41970,7 @@
 																					"id" : "obj-9",
 																					"linecount" : 3,
 																					"maxclass" : "comment",
+<<<<<<< HEAD
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
@@ -38508,6 +42170,12 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -38515,6 +42183,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
@@ -38714,11 +42383,22 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"comment" : "",
 																					"id" : "obj-3",
 																					"maxclass" : "outlet",
@@ -39088,6 +42768,17 @@
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
 																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -39095,6 +42786,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-8",
 																					"linecount" : 3,
@@ -39283,11 +42975,21 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-6",
@@ -39297,11 +42999,20 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -39500,10 +43211,30 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
+<<<<<<< HEAD
 																				"box" : 																				{
 																					"comment" : "",
 																					"id" : "obj-1",
@@ -39561,545 +43292,7 @@
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
-
-																			}
- ]
-																	}
-,
-																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
-																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"default_fontsize" : 10.0,
-																		"description" : "",
-																		"digest" : "",
-																		"fontface" : 0,
-																		"fontname" : "Verdana",
-																		"fontsize" : 10.0,
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
-																	"text" : "p avoidStackOverflow"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-14",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
-																	"text" : "jcom.parameter node.9/active @type boolean @repetitions/allow 0 @dataspace none @priority 19",
-																	"varname" : "node.1[3]"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-4",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
-																	"text" : "zl slice 3"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Verdana",
-																	"fontsize" : 10.0,
-																	"id" : "obj-11",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patcher" : 																	{
-																		"fileversion" : 1,
-																		"appversion" : 																		{
-																			"major" : 6,
-																			"minor" : 1,
-																			"revision" : 3,
-																			"architecture" : "x86"
-																		}
-,
-																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 10.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"gridonopen" : 0,
-																		"gridsize" : [ 5.0, 5.0 ],
-																		"gridsnaponopen" : 0,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"boxanimatetime" : 200,
-																		"imprint" : 0,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"boxes" : [ 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-9",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-8",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-<<<<<<< HEAD
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
 =======
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
->>>>>>> feature/node-upgrade
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-6",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "int", "", "int" ],
-																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																					"text" : "t 1 l 0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-5",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-<<<<<<< HEAD
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
-=======
-																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																					"text" : "gate 1 1"
->>>>>>> feature/node-upgrade
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-3",
-																					"maxclass" : "outlet",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-1",
-																					"maxclass" : "inlet",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																				}
-
-																			}
- ],
-																		"lines" : [ 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 1 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-1", 0 ]
-																				}
-
-																			}
-, 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-6", 0 ],
 																					"disabled" : 0,
@@ -40160,6 +43353,917 @@
 															}
 , 															{
 																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 596.0, 33.0 ],
+																	"text" : "jcom.parameter node.11 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 22",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 301.5, 166.0, 116.0, 20.0 ],
+																	"text" : "prepend setnode 11"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 311.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+>>>>>>> feature/node-upgrade
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+=======
+													"patching_rect" : [ 739.5, 118.0, 60.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node11"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-9",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 106.0, 20.0 ],
+																	"text" : "prepend active 10"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
+																	"text" : "jcom.parameter node.9/active @type boolean @repetitions/allow 0 @dataspace none @priority 19",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+=======
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+<<<<<<< HEAD
+																	"id" : "obj-11",
+=======
+																	"id" : "obj-10",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 540.0, 20.0 ],
+																	"text" : "jcom.parameter node.10/active @type boolean @repetitions/allow 0 @dataspace none @priority 21",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-15",
@@ -40393,6 +44497,11 @@
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-10",
+=======
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -40427,6 +44536,7 @@
 																		"tags" : "",
 																		"boxes" : [ 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 <<<<<<< HEAD
@@ -40610,18 +44720,45 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
-																					"fontname" : "Arial",
-																					"fontsize" : 12.0,
-																					"id" : "obj-25",
-																					"linecount" : 2,
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
+<<<<<<< HEAD
 																					"outlettype" : [ "", "", "" ],
 																					"patching_rect" : [ 88.0, 220.0, 604.0, 33.0 ],
 																					"text" : "jcom.parameter node.5/active @type boolean @range/bounds 0. 1 @range/clipmode both @repetitions/allow 0 @dataspace none @priority 11",
@@ -40659,6 +44796,11 @@
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
 																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -40666,6 +44808,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"frgb" : 0.0,
 																					"id" : "obj-8",
 																					"linecount" : 3,
@@ -40854,11 +44997,21 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-6",
@@ -40868,11 +45021,20 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -40904,6 +45066,14 @@
 																					"numinlets" : 0,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+>>>>>>> feature/node-upgrade
 																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
 																				}
 
@@ -40959,581 +45129,11 @@
  ]
 																	}
 ,
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
-																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"default_fontsize" : 10.0,
-																		"description" : "",
-																		"digest" : "",
-																		"fontface" : 0,
-																		"fontname" : "Verdana",
-																		"fontsize" : 10.0,
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
-																	"text" : "p avoidStackOverflow"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-14",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
-																	"text" : "jcom.parameter node.8/active @type boolean @repetitions/allow 0 @dataspace none @priority 17",
-																	"varname" : "node.1[3]"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-4",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
-																	"text" : "zl slice 3"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Verdana",
-																	"fontsize" : 10.0,
-																	"id" : "obj-11",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patcher" : 																	{
-																		"fileversion" : 1,
-																		"appversion" : 																		{
-																			"major" : 6,
-																			"minor" : 1,
-																			"revision" : 3,
-																			"architecture" : "x86"
-																		}
-,
-																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 10.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"gridonopen" : 0,
-																		"gridsize" : [ 5.0, 5.0 ],
-																		"gridsnaponopen" : 0,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"boxanimatetime" : 200,
-																		"imprint" : 0,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"boxes" : [ 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-9",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-8",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-<<<<<<< HEAD
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
 =======
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
->>>>>>> feature/node-upgrade
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-6",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "int", "", "int" ],
-																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																					"text" : "t 1 l 0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-5",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-<<<<<<< HEAD
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
-=======
-																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																					"text" : "gate 1 1"
->>>>>>> feature/node-upgrade
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-3",
-																					"maxclass" : "outlet",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-1",
-																					"maxclass" : "inlet",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																				}
-
-																			}
- ],
-																		"lines" : [ 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 1 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-1", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-6", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-5", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-3", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-6", 1 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																					"source" : [ "obj-6", 2 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																					"source" : [ "obj-6", 0 ]
-																				}
-
-																			}
- ]
-																	}
-,
 																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Verdana",
@@ -41548,6 +45148,8 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -41561,8 +45163,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
-																	"text" : "jcom.parameter node.8 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 16",
+																	"patching_rect" : [ 14.5, 120.0, 597.0, 33.0 ],
+																	"text" : "jcom.parameter node.10 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 20",
 																	"varname" : "node.1"
 																}
 
@@ -41576,8 +45178,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
-																	"text" : "prepend setnode 8"
+																	"patching_rect" : [ 303.5, 166.0, 117.0, 20.0 ],
+																	"text" : "prepend setnode 10"
 																}
 
 															}
@@ -41700,7 +45302,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 519.75, 118.0, 54.0, 20.0 ],
+													"patching_rect" : [ 666.25, 118.0, 61.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -41714,7 +45316,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p node8"
+													"text" : "p node10"
 												}
 
 											}
@@ -41722,7 +45324,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-6",
+													"id" : "obj-8",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -41764,13 +45366,40 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 305.0, 281.0, 99.0, 20.0 ],
-																	"text" : "prepend active 7"
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 9"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
+																	"text" : "jcom.parameter node.8/active @type boolean @repetitions/allow 0 @dataspace none @priority 17",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+=======
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
 																	"numinlets" : 1,
@@ -41778,6 +45407,7 @@
 																	"outlettype" : [ "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -41785,7 +45415,11 @@
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
+<<<<<<< HEAD
+																	"id" : "obj-11",
+=======
 																	"id" : "obj-10",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -41842,6 +45476,7 @@
 																					"linecount" : 3,
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
@@ -42025,6 +45660,11 @@
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
 >>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -42051,6 +45691,7 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 																					"patcher" : 																					{
 																						"fileversion" : 1,
@@ -42231,6 +45872,862 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+=======
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+=======
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+=======
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-15",
+																	"linecount" : 2,
+=======
+																	"id" : "obj-14",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.8 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 16",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 8"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+=======
+																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
+																	"text" : "jcom.parameter node.9/active @type boolean @repetitions/allow 0 @dataspace none @priority 19",
+																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 519.75, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node8"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 281.0, 99.0, 20.0 ],
+																	"text" : "prepend active 7"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+=======
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+<<<<<<< HEAD
+																	"id" : "obj-10",
+=======
+																	"id" : "obj-11",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -42308,7 +46805,11 @@
  ]
 																	}
 ,
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Verdana",
@@ -42330,14 +46831,24 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-14",
+=======
+																	"id" : "obj-15",
+																	"linecount" : 2,
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
 																	"text" : "jcom.parameter node.7/active @type boolean @repetitions/allow 0 @dataspace none @priority 15",
 																	"varname" : "node.1[3]"
+=======
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.9 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 18",
+																	"varname" : "node.1"
 																}
 
 															}
@@ -42345,6 +46856,196 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 9"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 593.0, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node9"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+<<<<<<< HEAD
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
@@ -42352,6 +47053,27 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+=======
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 8"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -42359,7 +47081,11 @@
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
+<<<<<<< HEAD
 																	"id" : "obj-11",
+=======
+																	"id" : "obj-10",
+>>>>>>> feature/node-upgrade
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -42400,6 +47126,7 @@
 																					"id" : "obj-9",
 																					"linecount" : 3,
 																					"maxclass" : "comment",
+<<<<<<< HEAD
 																					"numinlets" : 1,
 <<<<<<< HEAD
 																					"numoutlets" : 1,
@@ -42613,6 +47340,12 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -42620,6 +47353,7 @@
 																				"box" : 																				{
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
+<<<<<<< HEAD
 																					"id" : "obj-5",
 																					"maxclass" : "newobj",
 																					"numinlets" : 2,
@@ -42801,11 +47535,22 @@
 																					}
 ,
 																					"text" : "p avoidStackOverflow"
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+<<<<<<< HEAD
 																					"fontname" : "Arial",
 																					"fontsize" : 12.0,
 																					"id" : "obj-15",
@@ -42821,6 +47566,2066 @@
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
 >>>>>>> feature/node-upgrade
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+<<<<<<< HEAD
+=======
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+>>>>>>> feature/node-upgrade
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+=======
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.7 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 14",
+																	"varname" : "node.1"
+=======
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
+																	"text" : "jcom.parameter node.8/active @type boolean @repetitions/allow 0 @dataspace none @priority 17",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 7"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 446.5, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node7"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 6"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+=======
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+<<<<<<< HEAD
+<<<<<<< HEAD
+																					"patcher" : 																					{
+																						"fileversion" : 1,
+																						"appversion" : 																						{
+																							"major" : 6,
+																							"minor" : 1,
+																							"revision" : 3,
+																							"architecture" : "x86"
+																						}
+,
+																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																						"bglocked" : 0,
+																						"openinpresentation" : 0,
+																						"default_fontsize" : 10.0,
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"gridonopen" : 0,
+																						"gridsize" : [ 5.0, 5.0 ],
+																						"gridsnaponopen" : 0,
+																						"statusbarvisible" : 2,
+																						"toolbarvisible" : 1,
+																						"boxanimatetime" : 200,
+																						"imprint" : 0,
+																						"enablehscroll" : 1,
+																						"enablevscroll" : 1,
+																						"devicewidth" : 0.0,
+																						"description" : "",
+																						"digest" : "",
+																						"tags" : "",
+																						"boxes" : [ 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-9",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"frgb" : 0.0,
+																									"id" : "obj-8",
+																									"linecount" : 3,
+																									"maxclass" : "comment",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-6",
+																									"maxclass" : "newobj",
+																									"numinlets" : 1,
+																									"numoutlets" : 3,
+																									"outlettype" : [ "int", "", "int" ],
+																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																									"text" : "t 1 l 0"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"fontname" : "Verdana",
+																									"fontsize" : 10.0,
+																									"id" : "obj-5",
+																									"maxclass" : "newobj",
+																									"numinlets" : 2,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																									"text" : "gate 1 1"
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-3",
+																									"maxclass" : "outlet",
+																									"numinlets" : 1,
+																									"numoutlets" : 0,
+																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																								}
+
+																							}
+, 																							{
+																								"box" : 																								{
+																									"comment" : "",
+																									"id" : "obj-1",
+																									"maxclass" : "inlet",
+																									"numinlets" : 0,
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
+																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																								}
+
+																							}
+ ],
+																						"lines" : [ 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 1 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-1", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-6", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-5", 0 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-3", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"source" : [ "obj-6", 1 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																									"source" : [ "obj-6", 2 ]
+																								}
+
+																							}
+, 																							{
+																								"patchline" : 																								{
+																									"destination" : [ "obj-5", 0 ],
+																									"disabled" : 0,
+																									"hidden" : 0,
+																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																									"source" : [ "obj-6", 0 ]
+																								}
+
+																							}
+ ]
+																					}
+,
+																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
+																					"saved_object_attributes" : 																					{
+																						"default_fontface" : 0,
+																						"default_fontname" : "Verdana",
+																						"default_fontsize" : 10.0,
+																						"description" : "",
+																						"digest" : "",
+																						"fontface" : 0,
+																						"fontname" : "Verdana",
+																						"fontsize" : 10.0,
+																						"globalpatchername" : "",
+																						"tags" : ""
+																					}
+,
+																					"text" : "p avoidStackOverflow"
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+=======
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+<<<<<<< HEAD
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
+																	"text" : "jcom.parameter node.6/active @type boolean @repetitions/allow 0 @dataspace none @priority 13",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+=======
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.8 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 16",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 8"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+>>>>>>> feature/node-upgrade
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.6 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 12",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+=======
+													"patching_rect" : [ 519.75, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node8"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 6"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+=======
+																	"patching_rect" : [ 305.0, 281.0, 99.0, 20.0 ],
+																	"text" : "prepend active 7"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 373.25, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node6"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 5"
+																}
+
+															}
+, 															{
+																"box" : 																{
+=======
+>>>>>>> feature/node-upgrade
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+<<<<<<< HEAD
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+=======
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+<<<<<<< HEAD
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+>>>>>>> feature/node-upgrade
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 51.0, 209.0, 533.0, 20.0 ],
+																	"text" : "jcom.parameter node.5/active @type boolean @repetitions/allow 0 @dataspace none @priority 11",
+=======
+																	"patching_rect" : [ 51.0, 209.0, 534.0, 20.0 ],
+																	"text" : "jcom.parameter node.7/active @type boolean @repetitions/allow 0 @dataspace none @priority 15",
+>>>>>>> feature/node-upgrade
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
 																				}
 
 																			}
@@ -43207,189 +50012,9 @@
 																					"linecount" : 3,
 																					"maxclass" : "comment",
 																					"numinlets" : 1,
-<<<<<<< HEAD
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 88.0, 197.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
-=======
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
 																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
->>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -43400,6 +50025,7 @@
 																					"id" : "obj-6",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
+>>>>>>> feature/node-upgrade
 																					"numoutlets" : 3,
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
@@ -43416,186 +50042,8 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-<<<<<<< HEAD
-																					"patcher" : 																					{
-																						"fileversion" : 1,
-																						"appversion" : 																						{
-																							"major" : 6,
-																							"minor" : 1,
-																							"revision" : 3,
-																							"architecture" : "x86"
-																						}
-,
-																						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																						"bglocked" : 0,
-																						"openinpresentation" : 0,
-																						"default_fontsize" : 10.0,
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"gridonopen" : 0,
-																						"gridsize" : [ 5.0, 5.0 ],
-																						"gridsnaponopen" : 0,
-																						"statusbarvisible" : 2,
-																						"toolbarvisible" : 1,
-																						"boxanimatetime" : 200,
-																						"imprint" : 0,
-																						"enablehscroll" : 1,
-																						"enablevscroll" : 1,
-																						"devicewidth" : 0.0,
-																						"description" : "",
-																						"digest" : "",
-																						"tags" : "",
-																						"boxes" : [ 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-9",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																									"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"frgb" : 0.0,
-																									"id" : "obj-8",
-																									"linecount" : 3,
-																									"maxclass" : "comment",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																									"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-6",
-																									"maxclass" : "newobj",
-																									"numinlets" : 1,
-																									"numoutlets" : 3,
-																									"outlettype" : [ "int", "", "int" ],
-																									"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																									"text" : "t 1 l 0"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"fontname" : "Verdana",
-																									"fontsize" : 10.0,
-																									"id" : "obj-5",
-																									"maxclass" : "newobj",
-																									"numinlets" : 2,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																									"text" : "gate 1 1"
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-3",
-																									"maxclass" : "outlet",
-																									"numinlets" : 1,
-																									"numoutlets" : 0,
-																									"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																								}
-
-																							}
-, 																							{
-																								"box" : 																								{
-																									"comment" : "",
-																									"id" : "obj-1",
-																									"maxclass" : "inlet",
-																									"numinlets" : 0,
-																									"numoutlets" : 1,
-																									"outlettype" : [ "" ],
-																									"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																								}
-
-																							}
- ],
-																						"lines" : [ 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 1 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-1", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-6", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-5", 0 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-3", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"source" : [ "obj-6", 1 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																									"source" : [ "obj-6", 2 ]
-																								}
-
-																							}
-, 																							{
-																								"patchline" : 																								{
-																									"destination" : [ "obj-5", 0 ],
-																									"disabled" : 0,
-																									"hidden" : 0,
-																									"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																									"source" : [ "obj-6", 0 ]
-																								}
-
-																							}
- ]
-																					}
-,
-																					"patching_rect" : [ 50.0, 125.0, 119.0, 19.0 ],
-																					"saved_object_attributes" : 																					{
-																						"default_fontface" : 0,
-																						"default_fontname" : "Verdana",
-																						"default_fontsize" : 10.0,
-																						"description" : "",
-																						"digest" : "",
-																						"fontface" : 0,
-																						"fontname" : "Verdana",
-																						"fontsize" : 10.0,
-																						"globalpatchername" : "",
-																						"tags" : ""
-																					}
-,
-																					"text" : "p avoidStackOverflow"
-=======
 																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
 																					"text" : "gate 1 1"
->>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -43626,6 +50074,11 @@
 																		"lines" : [ 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-5", 1 ],
+<<<<<<< HEAD
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
@@ -43638,15 +50091,40 @@
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+=======
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
@@ -43655,6 +50133,7 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+<<<<<<< HEAD
 																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
 																					"source" : [ "obj-6", 2 ]
 																				}
@@ -43665,6 +50144,8 @@
 																					"destination" : [ "obj-5", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
+=======
+>>>>>>> feature/node-upgrade
 																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
 																					"source" : [ "obj-6", 0 ]
 																				}
@@ -43673,7 +50154,11 @@
  ]
 																	}
 ,
+<<<<<<< HEAD
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+=======
 																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+>>>>>>> feature/node-upgrade
 																	"saved_object_attributes" : 																	{
 																		"default_fontface" : 0,
 																		"default_fontname" : "Verdana",
@@ -43688,6 +50173,8 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+<<<<<<< HEAD
+=======
 																}
 
 															}
@@ -43967,37 +50454,96 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-10", 0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.5 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 10",
+																	"varname" : "node.1"
+=======
 																"patchline" : 																{
 																	"destination" : [ "obj-15", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-11", 0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 5"
+=======
 																"patchline" : 																{
 																	"destination" : [ "obj-17", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-14", 1 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+=======
 																"patchline" : 																{
 																	"destination" : [ "obj-36", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-15", 1 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+=======
 																"patchline" : 																{
 																	"destination" : [ "obj-18", 0 ],
 																	"disabled" : 0,
@@ -44013,15 +50559,66 @@
 																	"hidden" : 0,
 																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
 																	"source" : [ "obj-18", 0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"patchline" : 																{
+<<<<<<< HEAD
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+=======
 																	"destination" : [ "obj-4", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-31", 0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+<<<<<<< HEAD
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+=======
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+<<<<<<< HEAD
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+=======
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+<<<<<<< HEAD
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
 																}
 
 															}
@@ -44030,22 +50627,9 @@
 																	"destination" : [ "obj-32", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
-																	"source" : [ "obj-36", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-4", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+=======
 																	"destination" : [ "obj-11", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -44122,10 +50706,18 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
 																	"text" : "prepend active 5"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+=======
 																"box" : 																{
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
@@ -44134,10 +50726,19 @@
 																	"outlettype" : [ "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+=======
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
@@ -44321,10 +50922,18 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+=======
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -44336,10 +50945,154 @@
 																	"patching_rect" : [ 51.0, 209.0, 533.0, 20.0 ],
 																	"text" : "jcom.parameter node.5/active @type boolean @repetitions/allow 0 @dataspace none @priority 11",
 																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 300.0, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node5"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 4"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -44354,6 +51107,452 @@
 
 															}
 , 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.5 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 10",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 5"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
+																	"text" : "jcom.parameter node.4/active @type boolean @repetitions/allow 0 @dataspace none @priority 9",
+																	"varname" : "node.1[3]"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
@@ -44551,95 +51750,9 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
-																	"text" : "jcom.parameter node.5 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 10",
+																	"text" : "jcom.parameter node.4 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 8",
 																	"varname" : "node.1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-36",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
-																	"text" : "prepend setnode 5"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-31",
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-32",
-																	"maxclass" : "outlet",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
-																}
-
-															}
- ],
-														"lines" : [ 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-14", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-10", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-15", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-11", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-17", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-14", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-36", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-15", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-18", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-17", 0 ]
-																}
-
-															}
-, 															{
+=======
 																"patchline" : 																{
 																	"destination" : [ "obj-32", 0 ],
 																	"disabled" : 0,
@@ -44954,6 +52067,7 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -44961,6 +52075,15 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 4"
+=======
 																	"id" : "obj-14",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
@@ -44969,11 +52092,21 @@
 																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
 																	"text" : "jcom.parameter node.4/active @type boolean @repetitions/allow 0 @dataspace none @priority 9",
 																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+=======
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-4",
@@ -44983,240 +52116,13 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
-																	"fontname" : "Verdana",
-																	"fontsize" : 10.0,
-																	"id" : "obj-11",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patcher" : 																	{
-																		"fileversion" : 1,
-																		"appversion" : 																		{
-																			"major" : 6,
-																			"minor" : 1,
-																			"revision" : 3,
-																			"architecture" : "x86"
-																		}
-,
-																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
-																		"bglocked" : 0,
-																		"openinpresentation" : 0,
-																		"default_fontsize" : 10.0,
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"gridonopen" : 0,
-																		"gridsize" : [ 5.0, 5.0 ],
-																		"gridsnaponopen" : 0,
-																		"statusbarvisible" : 2,
-																		"toolbarvisible" : 1,
-																		"boxanimatetime" : 200,
-																		"imprint" : 0,
-																		"enablehscroll" : 1,
-																		"enablevscroll" : 1,
-																		"devicewidth" : 0.0,
-																		"description" : "",
-																		"digest" : "",
-																		"tags" : "",
-																		"boxes" : [ 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-9",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
-																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"frgb" : 0.0,
-																					"id" : "obj-8",
-																					"linecount" : 3,
-																					"maxclass" : "comment",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
-																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-6",
-																					"maxclass" : "newobj",
-																					"numinlets" : 1,
-																					"numoutlets" : 3,
-																					"outlettype" : [ "int", "", "int" ],
-																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
-																					"text" : "t 1 l 0"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"fontname" : "Verdana",
-																					"fontsize" : 10.0,
-																					"id" : "obj-5",
-																					"maxclass" : "newobj",
-																					"numinlets" : 2,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
-																					"text" : "gate 1 1"
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-3",
-																					"maxclass" : "outlet",
-																					"numinlets" : 1,
-																					"numoutlets" : 0,
-																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
-																				}
-
-																			}
-, 																			{
-																				"box" : 																				{
-																					"comment" : "",
-																					"id" : "obj-1",
-																					"maxclass" : "inlet",
-																					"numinlets" : 0,
-																					"numoutlets" : 1,
-																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
-																				}
-
-																			}
- ],
-																		"lines" : [ 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 1 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-1", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-6", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-5", 0 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-3", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"source" : [ "obj-6", 1 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
-																					"source" : [ "obj-6", 2 ]
-																				}
-
-																			}
-, 																			{
-																				"patchline" : 																				{
-																					"destination" : [ "obj-5", 0 ],
-																					"disabled" : 0,
-																					"hidden" : 0,
-																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
-																					"source" : [ "obj-6", 0 ]
-																				}
-
-																			}
- ]
-																	}
-,
-																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
-																	"saved_object_attributes" : 																	{
-																		"default_fontface" : 0,
-																		"default_fontname" : "Verdana",
-																		"default_fontsize" : 10.0,
-																		"description" : "",
-																		"digest" : "",
-																		"fontface" : 0,
-																		"fontname" : "Verdana",
-																		"fontsize" : 10.0,
-																		"globalpatchername" : "",
-																		"tags" : ""
-																	}
-,
-																	"text" : "p avoidStackOverflow"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-15",
-																	"linecount" : 2,
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
-																	"text" : "jcom.parameter node.4 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 8",
-																	"varname" : "node.1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-36",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
-																	"text" : "prepend setnode 4"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-31",
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
-																}
-
-															}
-, 															{
-																"box" : 																{
+<<<<<<< HEAD
 																	"comment" : "",
 																	"id" : "obj-32",
 																	"maxclass" : "outlet",
@@ -45400,11 +52306,196 @@
 																	"outlettype" : [ "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+=======
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-10",
@@ -45587,10 +52678,71 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+=======
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.4 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 8",
+																	"varname" : "node.1"
 																}
 
 															}
 , 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 4"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -45602,10 +52754,18 @@
 																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
 																	"text" : "jcom.parameter node.3/active @type boolean @repetitions/allow 0 @dataspace none @priority 7",
 																	"varname" : "node.1[3]"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -45616,10 +52776,18 @@
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
 																	"text" : "zl slice 3"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
@@ -45803,10 +52971,46 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
 																}
 
 															}
 , 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -45819,10 +53023,19 @@
 																	"patching_rect" : [ 13.0, 121.0, 600.0, 33.0 ],
 																	"text" : "jcom.parameter node.3 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 6",
 																	"varname" : "node.1"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -45833,10 +53046,18 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
 																	"text" : "prepend setnode 3"
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
 																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-31",
@@ -45866,19 +53087,110 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-10", 0 ]
+=======
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 226.75, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node4"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 3"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
 																"patchline" : 																{
 																	"destination" : [ "obj-15", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-11", 0 ]
+=======
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
+<<<<<<< HEAD
 																"patchline" : 																{
 																	"destination" : [ "obj-17", 0 ],
 																	"disabled" : 0,
@@ -45940,103 +53252,7 @@
 																	"disabled" : 0,
 																	"hidden" : 0,
 																	"source" : [ "obj-4", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-11", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-4", 0 ]
-																}
-
-															}
- ]
-													}
-,
-													"patching_rect" : [ 153.5, 118.0, 54.0, 20.0 ],
-													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"default_fontsize" : 12.0,
-														"description" : "",
-														"digest" : "",
-														"fontface" : 0,
-														"fontname" : "Arial",
-														"fontsize" : 12.0,
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p node3"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 6,
-															"minor" : 1,
-															"revision" : 3,
-															"architecture" : "x86"
-														}
-,
-														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 0,
-														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"boxanimatetime" : 200,
-														"imprint" : 0,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"boxes" : [ 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-18",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
-																	"text" : "prepend active 2"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-17",
-																	"maxclass" : "toggle",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"parameter_enable" : 0,
-																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
-																}
-
-															}
-, 															{
+=======
 																"box" : 																{
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
@@ -46220,11 +53436,524 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 153.5, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+=======
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
+																	"text" : "jcom.parameter node.3/active @type boolean @repetitions/allow 0 @dataspace none @priority 7",
+																	"varname" : "node.1[3]"
 																}
 
 															}
 , 															{
 																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 2"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+=======
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+<<<<<<< HEAD
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+=======
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+=======
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+=======
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+<<<<<<< HEAD
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+=======
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 121.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.3 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 6",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 3"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-14",
@@ -46235,11 +53964,21 @@
 																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
 																	"text" : "jcom.parameter node.2/active @type boolean @repetitions/allow 0 @dataspace none @priority 5",
 																	"varname" : "node.1[3]"
+=======
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-4",
@@ -46452,11 +54191,185 @@
 																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
 																	"text" : "jcom.parameter node.2 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 4",
 																	"varname" : "node.1"
+=======
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 153.5, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 450.0, 216.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 2"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-36",
@@ -46466,11 +54379,21 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
 																	"text" : "prepend setnode 2"
+=======
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
 																	"comment" : "",
 																	"id" : "obj-31",
 																	"maxclass" : "inlet",
@@ -46483,6 +54406,865 @@
 															}
 , 															{
 																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-14", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+=======
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+=======
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
+																	"text" : "jcom.parameter node.2/active @type boolean @repetitions/allow 0 @dataspace none @priority 5",
+																	"varname" : "node.1[3]"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-17", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-14", 1 ]
+=======
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+<<<<<<< HEAD
+																"patchline" : 																{
+																	"destination" : [ "obj-36", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-18", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-17", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 314.5, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-18", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-4", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-31", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-32", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"midpoints" : [ 313.0, 197.0, 590.0, 197.0, 590.0, 320.0, 473.0, 320.0 ],
+																	"source" : [ "obj-36", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-4", 0 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 80.25, 118.0, 54.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p node2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 7.0, 42.0, 68.0, 20.0 ],
+													"text" : "route node"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-95",
+													"maxclass" : "newobj",
+													"numinlets" : 21,
+													"numoutlets" : 21,
+													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+													"patching_rect" : [ 7.0, 70.0, 1484.0, 20.0 ],
+													"text" : "route 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-23",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 7.0, 9.0, 25.0, 25.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-34",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 7.0, 176.0, 25.0, 25.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-33",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 111.0, 399.0, 643.0, 394.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-18",
+=======
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.2 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 4",
+																	"varname" : "node.1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-36",
+>>>>>>> feature/node-upgrade
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+<<<<<<< HEAD
+																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
+																	"text" : "prepend active 1"
+=======
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 2"
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
+																	"id" : "obj-17",
+																	"maxclass" : "toggle",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"parameter_enable" : 0,
+																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+=======
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
+																}
+
+															}
+, 															{
+																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 51.0, 179.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+=======
 																	"comment" : "",
 																	"id" : "obj-32",
 																	"maxclass" : "outlet",
@@ -46705,11 +55487,24 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 305.0, 282.0, 99.0, 20.0 ],
 																	"text" : "prepend active 1"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
+																	"text" : "jcom.parameter node.1/active @type boolean @repetitions/allow 0 @dataspace none @priority 3",
+																	"varname" : "node.1[3]"
+=======
 																	"id" : "obj-17",
 																	"maxclass" : "toggle",
 																	"numinlets" : 1,
@@ -46717,11 +55512,23 @@
 																	"outlettype" : [ "int" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 305.0, 247.0, 20.0, 20.0 ]
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+=======
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-10",
@@ -46904,40 +55711,13 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-14",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
-																	"text" : "jcom.parameter node.1/active @type boolean @repetitions/allow 0 @dataspace none @priority 3",
-																	"varname" : "node.1[3]"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-4",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
-																	"text" : "zl slice 3"
-																}
-
-															}
-, 															{
-																"box" : 																{
+<<<<<<< HEAD
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-11",
@@ -47014,11 +55794,156 @@
 																					"outlettype" : [ "int", "", "int" ],
 																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
 																					"text" : "t 1 l 0"
+=======
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-14",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 51.0, 209.0, 527.0, 20.0 ],
+																	"text" : "jcom.parameter node.1/active @type boolean @repetitions/allow 0 @dataspace none @priority 3",
+																	"varname" : "node.1[3]"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-4",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 13.0, 57.0, 57.0, 20.0 ],
+																	"text" : "zl slice 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Verdana",
+																	"fontsize" : 10.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patcher" : 																	{
+																		"fileversion" : 1,
+																		"appversion" : 																		{
+																			"major" : 6,
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
+																		}
+,
+																		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+																		"bglocked" : 0,
+																		"openinpresentation" : 0,
+																		"default_fontsize" : 10.0,
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"gridonopen" : 0,
+																		"gridsize" : [ 5.0, 5.0 ],
+																		"gridsnaponopen" : 0,
+																		"statusbarvisible" : 2,
+																		"toolbarvisible" : 1,
+																		"boxanimatetime" : 200,
+																		"imprint" : 0,
+																		"enablehscroll" : 1,
+																		"enablevscroll" : 1,
+																		"devicewidth" : 0.0,
+																		"description" : "",
+																		"digest" : "",
+																		"tags" : "",
+																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"frgb" : 0.0,
+																					"id" : "obj-9",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 225.0, 206.0, 43.0 ],
+																					"text" : "The arguments for gate ensure that the gate is open when the patch is loaded."
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"box" : 																				{
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+<<<<<<< HEAD
+																					"id" : "obj-5",
+																					"maxclass" : "newobj",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 160.0, 185.0, 52.0, 19.0 ],
+																					"text" : "gate 1 1"
+=======
+																					"frgb" : 0.0,
+																					"id" : "obj-8",
+																					"linecount" : 3,
+																					"maxclass" : "comment",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 230.0, 175.0, 206.0, 43.0 ],
+																					"text" : "This simple abstraction temporarily close the gate while the incomming message is being passed on."
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"comment" : "",
+																					"id" : "obj-3",
+																					"maxclass" : "outlet",
+																					"numinlets" : 1,
+																					"numoutlets" : 0,
+																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+=======
+																					"fontname" : "Verdana",
+																					"fontsize" : 10.0,
+																					"id" : "obj-6",
+																					"maxclass" : "newobj",
+																					"numinlets" : 1,
+																					"numoutlets" : 3,
+																					"outlettype" : [ "int", "", "int" ],
+																					"patching_rect" : [ 160.0, 220.0, 46.0, 19.0 ],
+																					"text" : "t 1 l 0"
+>>>>>>> feature/node-upgrade
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+<<<<<<< HEAD
+																					"comment" : "",
+																					"id" : "obj-1",
+																					"maxclass" : "inlet",
+																					"numinlets" : 0,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 195.0, 95.0, 25.0, 25.0 ]
+																				}
+
+																			}
+ ],
+																		"lines" : [ 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-5", 1 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-1", 0 ]
+=======
 																					"fontname" : "Verdana",
 																					"fontsize" : 10.0,
 																					"id" : "obj-5",
@@ -47039,10 +55964,27 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 175.0, 325.0, 25.0, 25.0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
+<<<<<<< HEAD
+																				"patchline" : 																				{
+																					"destination" : [ "obj-6", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-5", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-6", 1 ]
+=======
 																				"box" : 																				{
 																					"comment" : "",
 																					"id" : "obj-1",
@@ -47061,20 +56003,73 @@
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-1", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 196.5, 253.0, 145.0, 253.0, 145.0, 174.0, 169.5, 174.0 ],
+																					"source" : [ "obj-6", 2 ]
+=======
 																					"destination" : [ "obj-6", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
 																				}
 
 																			}
 , 																			{
 																				"patchline" : 																				{
+<<<<<<< HEAD
+																					"destination" : [ "obj-5", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"midpoints" : [ 169.5, 249.0, 150.0, 249.0, 150.0, 178.0, 169.5, 178.0 ],
+																					"source" : [ "obj-6", 0 ]
+																				}
+
+																			}
+ ]
+																	}
+,
+																	"patching_rect" : [ 13.0, 92.0, 119.0, 19.0 ],
+																	"saved_object_attributes" : 																	{
+																		"default_fontface" : 0,
+																		"default_fontname" : "Verdana",
+																		"default_fontsize" : 10.0,
+																		"description" : "",
+																		"digest" : "",
+																		"fontface" : 0,
+																		"fontname" : "Verdana",
+																		"fontsize" : 10.0,
+																		"globalpatchername" : "",
+																		"tags" : ""
+																	}
+,
+																	"text" : "p avoidStackOverflow"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-15",
+																	"linecount" : 2,
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "" ],
+																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
+																	"text" : "jcom.parameter node.1 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 2",
+																	"varname" : "node.1"
+=======
 																					"destination" : [ "obj-3", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
@@ -47120,6 +56115,7 @@
 																	}
 ,
 																	"text" : "p avoidStackOverflow"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
@@ -47127,6 +56123,15 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
+<<<<<<< HEAD
+																	"id" : "obj-36",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
+																	"text" : "prepend setnode 1"
+=======
 																	"id" : "obj-15",
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
@@ -47136,11 +56141,21 @@
 																	"patching_rect" : [ 13.0, 122.0, 600.0, 33.0 ],
 																	"text" : "jcom.parameter node.1 @type decimalArray @range/bounds 0. 1. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @ramp/function linear @dataspace none @priority 2",
 																	"varname" : "node.1"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+																	"comment" : "",
+																	"id" : "obj-31",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 13.0, 12.0, 25.0, 25.0 ]
+=======
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-36",
@@ -47150,12 +56165,23 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 303.5, 166.0, 111.0, 20.0 ],
 																	"text" : "prepend setnode 1"
+>>>>>>> feature/node-upgrade
 																}
 
 															}
 , 															{
 																"box" : 																{
 																	"comment" : "",
+<<<<<<< HEAD
+																	"id" : "obj-32",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 463.5, 334.0, 25.0, 25.0 ]
+																}
+
+															}
+=======
 																	"id" : "obj-31",
 																	"maxclass" : "inlet",
 																	"numinlets" : 0,
@@ -47176,6 +56202,7 @@
 																}
 
 															}
+>>>>>>> feature/node-upgrade
  ],
 														"lines" : [ 															{
 																"patchline" : 																{
@@ -47298,6 +56325,7 @@
 													"hidden" : 0,
 													"midpoints" : [ 89.75, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-1", 0 ]
+<<<<<<< HEAD
 												}
 
 											}
@@ -47318,6 +56346,8 @@
 													"hidden" : 0,
 													"midpoints" : [ 822.25, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-11", 0 ]
+=======
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47326,8 +56356,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 895.5, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-12", 0 ]
+=======
+													"midpoints" : [ 749.0, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-10", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47336,8 +56371,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 968.75, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-13", 0 ]
+=======
+													"midpoints" : [ 822.25, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-11", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47346,8 +56386,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 1042.0, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-14", 0 ]
+=======
+													"midpoints" : [ 895.5, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-12", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47356,8 +56401,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 1115.25, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-15", 0 ]
+=======
+													"midpoints" : [ 968.75, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-13", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47366,8 +56416,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 1188.5, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-16", 0 ]
+=======
+													"midpoints" : [ 1042.0, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-14", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47376,8 +56431,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 1261.75, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-17", 0 ]
+=======
+													"midpoints" : [ 1115.25, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-15", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47386,18 +56446,60 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 1335.0, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-18", 0 ]
+=======
+													"midpoints" : [ 1188.5, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-16", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+<<<<<<< HEAD
+													"midpoints" : [ 1408.25, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-19", 0 ]
+=======
+													"midpoints" : [ 1261.75, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-17", 0 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+<<<<<<< HEAD
+													"midpoints" : [ 163.0, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-2", 0 ]
+=======
+													"midpoints" : [ 1335.0, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-18", 0 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-94", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-23", 0 ]
+=======
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"midpoints" : [ 1408.25, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-19", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47406,37 +56508,30 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 163.0, 162.0, 16.5, 162.0 ],
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-94", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-34", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 236.25, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-3", 0 ]
+=======
+													"midpoints" : [ 163.0, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-2", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"midpoints" : [ 16.5, 138.0, 16.5, 138.0 ],
 													"source" : [ "obj-33", 0 ]
+=======
+													"destination" : [ "obj-94", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-23", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47445,8 +56540,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 309.5, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-4", 0 ]
+=======
+													"midpoints" : [ 236.25, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-3", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47455,8 +56555,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 382.75, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-5", 0 ]
+=======
+													"midpoints" : [ 16.5, 138.0, 16.5, 138.0 ],
+													"source" : [ "obj-33", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47465,8 +56570,13 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 456.0, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-6", 0 ]
+=======
+													"midpoints" : [ 309.5, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-4", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
@@ -47475,79 +56585,167 @@
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+<<<<<<< HEAD
 													"midpoints" : [ 529.25, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-7", 0 ]
+=======
+													"midpoints" : [ 382.75, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-5", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+<<<<<<< HEAD
+													"midpoints" : [ 602.5, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-8", 0 ]
+=======
+													"midpoints" : [ 456.0, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-6", 0 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+<<<<<<< HEAD
+													"midpoints" : [ 675.75, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-9", 0 ]
+=======
+													"midpoints" : [ 529.25, 162.0, 16.5, 162.0 ],
+													"source" : [ "obj-7", 0 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-95", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-94", 0 ]
+=======
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"midpoints" : [ 602.5, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-8", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 1 ]
+=======
 													"destination" : [ "obj-34", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"midpoints" : [ 675.75, 162.0, 16.5, 162.0 ],
 													"source" : [ "obj-9", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-95", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-94", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-1", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-95", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-10", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 10 ]
+=======
+													"destination" : [ "obj-95", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-94", 0 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-11", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 11 ]
+=======
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 1 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-12", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 12 ]
+=======
+													"destination" : [ "obj-10", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 10 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-13", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 13 ]
+=======
+													"destination" : [ "obj-11", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 11 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-14", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 14 ]
+=======
+													"destination" : [ "obj-12", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 12 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-15", 0 ],
+=======
+													"destination" : [ "obj-13", 0 ],
+>>>>>>> feature/node-upgrade
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 13 ]
@@ -47556,6 +56754,12 @@
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-16", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 16 ]
+=======
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -47569,75 +56773,129 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 15 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-95", 16 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-17", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 17 ]
+=======
+													"destination" : [ "obj-16", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 16 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-18", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 18 ]
+=======
+													"destination" : [ "obj-17", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 17 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-19", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 19 ]
+=======
+													"destination" : [ "obj-18", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 18 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-2", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 2 ]
+=======
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 19 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 3 ]
+=======
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 2 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-33", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 0 ]
+=======
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 3 ]
+>>>>>>> feature/node-upgrade
 												}
 
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
 													"destination" : [ "obj-4", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 4 ]
+=======
+													"destination" : [ "obj-33", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 0 ]
+>>>>>>> feature/node-upgrade
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+<<<<<<< HEAD
+													"destination" : [ "obj-5", 0 ],
+=======
+													"destination" : [ "obj-4", 0 ],
+>>>>>>> feature/node-upgrade
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-95", 4 ]
@@ -47646,6 +56904,8 @@
 											}
 , 											{
 												"patchline" : 												{
+<<<<<<< HEAD
+=======
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -47655,6 +56915,7 @@
 											}
 , 											{
 												"patchline" : 												{
+>>>>>>> feature/node-upgrade
 													"destination" : [ "obj-6", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -47750,6 +57011,7 @@
 , 							{
 								"box" : 								{
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"bordercolor" : [ 0.666667, 0.666667, 0.666667, 1.0 ],
 									"candycane" : 8,
 									"ghostbar" : 40,
@@ -47770,6 +57032,8 @@
 							}
 , 							{
 								"box" : 								{
+=======
+>>>>>>> feature/node-upgrade
 =======
 >>>>>>> feature/node-upgrade
 									"fontname" : "Arial",
@@ -47801,6 +57065,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 									"patching_rect" : [ 572.0, 333.0, 54.0, 19.0 ],
 									"triscale" : 0.9
@@ -47968,12 +57233,17 @@
 													"source" : [ "obj-4", 0 ]
 												}
 =======
+=======
+>>>>>>> feature/node-upgrade
 									"patching_rect" : [ 354.0, 354.5, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 106.0, 315.0, 50.0, 20.0 ],
 									"textcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
 									"tricolor" : [ 0.4, 0.4, 0.4, 1.0 ]
 								}
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 
 							}
@@ -48149,6 +57419,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+<<<<<<< HEAD
 								}
 
 							}
@@ -48158,15 +57429,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-122", 0 ]
+=======
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-14", 0 ]
+=======
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-122", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
@@ -48175,6 +57455,7 @@
 									"destination" : [ "obj-30", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -48185,12 +57466,19 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-16", 0 ]
+=======
+									"source" : [ "obj-14", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-25", 0 ],
+=======
+									"destination" : [ "obj-30", 0 ],
+>>>>>>> feature/node-upgrade
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
@@ -48202,7 +57490,11 @@
 									"destination" : [ "obj-122", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+<<<<<<< HEAD
 									"source" : [ "obj-18", 0 ]
+=======
+									"source" : [ "obj-16", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
@@ -48218,101 +57510,190 @@
 , 							{
 								"patchline" : 								{
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"destination" : [ "obj-34", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
+=======
+									"destination" : [ "obj-122", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-5", 0 ],
 =======
 									"destination" : [ "obj-32", 0 ],
 >>>>>>> feature/node-upgrade
+=======
+									"destination" : [ "obj-22", 0 ],
+>>>>>>> feature/node-upgrade
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-20", 0 ]
+									"source" : [ "obj-19", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-21", 0 ]
+=======
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-22", 1 ]
+=======
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-30", 0 ]
+=======
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 1 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-31", 0 ]
+=======
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-30", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-32", 0 ]
+=======
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-32", 1 ]
+=======
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 155.0, 517.0, 11.5, 517.0, 11.5, 216.0, 40.0, 216.0 ],
 									"source" : [ "obj-35", 0 ]
+=======
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 1 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
+=======
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 155.0, 517.0, 11.5, 517.0, 11.5, 216.0, 40.0, 216.0 ],
+									"source" : [ "obj-35", 0 ]
+>>>>>>> feature/node-upgrade
 								}
 
 							}
 , 							{
 								"patchline" : 								{
+<<<<<<< HEAD
 									"destination" : [ "obj-49", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-48", 0 ]
+=======
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+>>>>>>> feature/node-upgrade
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+<<<<<<< HEAD
+<<<<<<< HEAD
+									"destination" : [ "obj-33", 0 ],
+=======
+									"destination" : [ "obj-49", 0 ],
+>>>>>>> feature/node-upgrade
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-48", 0 ]
@@ -48322,16 +57703,10 @@
 , 							{
 								"patchline" : 								{
 <<<<<<< HEAD
-									"destination" : [ "obj-33", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-35", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
+=======
+									"destination" : [ "obj-50", 0 ],
+>>>>>>> feature/node-upgrade
 =======
 									"destination" : [ "obj-50", 0 ],
 >>>>>>> feature/node-upgrade
@@ -48416,7 +57791,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"patching_rect" : [ 543.0, 195.0, 103.0, 20.0 ],
+=======
+					"patching_rect" : [ 454.0, 136.0, 103.0, 20.0 ],
+>>>>>>> feature/node-upgrade
 =======
 					"patching_rect" : [ 454.0, 136.0, 103.0, 20.0 ],
 >>>>>>> feature/node-upgrade
@@ -48540,11 +57919,44 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+<<<<<<< HEAD
+=======
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 463.5, 320.0, 802.333313, 320.0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 266.5, 332.0, 754.333313, 332.0 ],
+					"source" : [ "obj-9", 1 ]
+>>>>>>> feature/node-upgrade
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -48577,6 +57989,11 @@
 					"destination" : [ "obj-103", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+=======
+					"destination" : [ "obj-103", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 					"midpoints" : [ 146.5, 332.0, 754.333313, 332.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -48606,12 +58023,15 @@
 			}
 , 			{
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 =======
+=======
+>>>>>>> feature/node-upgrade
 				"name" : "jcom.in.mxo",
 				"type" : "iLaX"
 			}
@@ -48622,6 +58042,9 @@
 , 			{
 				"name" : "jcom.oscroute.mxo",
 				"type" : "iLaX"
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 			}
 , 			{

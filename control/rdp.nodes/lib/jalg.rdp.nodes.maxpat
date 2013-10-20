@@ -32,6 +32,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -943,6 +944,12 @@
 ,
 					"text" : "p #1-wander"
 =======
+=======
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+>>>>>>> feature/node-upgrade
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 235.25, 211.5, 120.0, 20.0 ],
 					"text" : "t b b"
@@ -975,6 +982,9 @@
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 235.25, 299.5, 32.5, 20.0 ],
 					"text" : "t f f"
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 				}
 
@@ -1408,6 +1418,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
@@ -1417,6 +1428,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
+=======
+>>>>>>> feature/node-upgrade
 =======
 >>>>>>> feature/node-upgrade
 					"hidden" : 0,
@@ -1436,7 +1449,11 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-66", 2 ],
+=======
+					"destination" : [ "obj-56", 0 ],
+>>>>>>> feature/node-upgrade
 =======
 					"destination" : [ "obj-56", 0 ],
 >>>>>>> feature/node-upgrade
@@ -1449,14 +1466,20 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-66", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 =======
+=======
+>>>>>>> feature/node-upgrade
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 152.0, 96.25, 446.75, 96.25 ],
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 					"source" : [ "obj-3", 2 ]
 				}
@@ -1465,9 +1488,16 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+=======
+					"destination" : [ "obj-90", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 89.75, 102.0, 132.5, 102.0 ],
+>>>>>>> feature/node-upgrade
 =======
 					"destination" : [ "obj-90", 0 ],
 					"disabled" : 0,
@@ -1540,7 +1570,12 @@
 					"disabled" : 0,
 					"hidden" : 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"source" : [ "obj-66", 0 ]
+=======
+					"midpoints" : [ 214.25, 521.75, 27.5, 521.75 ],
+					"source" : [ "obj-52", 0 ]
+>>>>>>> feature/node-upgrade
 =======
 					"midpoints" : [ 214.25, 521.75, 27.5, 521.75 ],
 					"source" : [ "obj-52", 0 ]
@@ -1550,6 +1585,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
@@ -1653,6 +1689,105 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+=======
+					"destination" : [ "obj-92", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 345.75, 232.0, 345.75, 232.0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 446.75, 258.0, 615.25, 258.0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 446.75, 147.0, 446.75, 147.0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 446.75, 168.0, 266.75, 168.0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+>>>>>>> feature/node-upgrade
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -1727,6 +1862,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-92", 0 ]
+<<<<<<< HEAD
 >>>>>>> feature/node-upgrade
 				}
 
@@ -1737,6 +1873,8 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-66", 0 ]
+=======
+>>>>>>> feature/node-upgrade
 				}
 
 			}
@@ -1752,17 +1890,23 @@
  ],
 		"dependency_cache" : [ 			{
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"name" : "jcom.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.ramp.mxo",
 =======
+=======
+>>>>>>> feature/node-upgrade
 				"name" : "jcom.ramp.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jcom.oscroute.mxo",
+<<<<<<< HEAD
+>>>>>>> feature/node-upgrade
+=======
 >>>>>>> feature/node-upgrade
 				"type" : "iLaX"
 			}

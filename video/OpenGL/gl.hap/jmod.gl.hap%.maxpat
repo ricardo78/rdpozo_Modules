@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 243.0, 96.0, 1075.0, 703.0 ],
+		"rect" : [ 84.0, 125.0, 1075.0, 703.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -107,7 +107,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -473,11 +473,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 279.0, 351.0, 251.0, 268.0 ],
+						"rect" : [ 344.0, 155.0, 251.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -792,11 +792,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+										"rect" : [ 1645.0, 27.0, 987.0, 704.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -815,6 +815,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -880,12 +881,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 59.0, 654.0, 64.0, 20.0 ],
+													"patching_rect" : [ 59.0, 654.0, 71.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
 ,
-													"text" : "coll #-files"
+													"text" : "coll #0-files"
 												}
 
 											}
@@ -1072,8 +1073,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 140.0, 359.0, 71.0, 20.0 ],
-													"text" : "qmetro 500"
+													"patching_rect" : [ 140.0, 359.0, 65.0, 20.0 ],
+													"text" : "qmetro 20"
 												}
 
 											}
@@ -1125,7 +1126,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 89.0, 40.0, 25.0, 25.0 ]
+													"patching_rect" : [ 264.0, 40.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1137,7 +1138,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 119.0, 40.0, 25.0, 25.0 ]
+													"patching_rect" : [ 463.0, 50.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1158,6 +1159,7 @@
 													"destination" : [ "obj-92", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"midpoints" : [ 68.5, 66.0, 68.5, 66.0 ],
 													"source" : [ "obj-100", 0 ]
 												}
 
@@ -1167,6 +1169,7 @@
 													"destination" : [ "obj-74", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"midpoints" : [ 273.5, 87.0, 203.0, 87.0, 203.0, 138.0, 68.5, 138.0 ],
 													"source" : [ "obj-101", 0 ]
 												}
 
@@ -1176,6 +1179,7 @@
 													"destination" : [ "obj-89", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"midpoints" : [ 472.5, 644.0, 68.5, 644.0 ],
 													"source" : [ "obj-102", 0 ]
 												}
 
@@ -1993,7 +1997,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -2225,11 +2229,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 547.0, 351.0, 641.0, 480.0 ],
+										"rect" : [ 5.0, 352.0, 641.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2248,6 +2252,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -2271,12 +2276,12 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 121.0, 206.0, 59.5, 20.0 ],
+													"patching_rect" : [ 121.0, 206.0, 104.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
 ,
-													"text" : "coll"
+													"text" : "coll dim_Mode.txt"
 												}
 
 											}
@@ -3417,6 +3422,13 @@
 				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dim_Mode.txt",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.hap/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

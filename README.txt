@@ -8,8 +8,8 @@ Some of the modules are changed from the Jamoma modules developed by the Jamoma 
 To install Jamoma for Max please visit: www.jamoma.org
 
 
-Some of the modules requires third party objects which I cannot incorporate in this repository. You need to acquire them from Electrotap. 
-http://shop.electrotap.com/products/taptools
+Some of the modules requires third party objects.
+Please download and install http://download.74objects.com/taptools/index.html
 
 The video modules is a compilation of code taken from cycling74's tutorials and HC Gilje's Video Projection Tool. VPT website: http://hcgilje.wordpress.com/vpt/
 VPT forum: http://www.nervousvision.com/vptforum/

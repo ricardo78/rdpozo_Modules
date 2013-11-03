@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 84.0, 125.0, 1075.0, 703.0 ],
+		"rect" : [ 184.0, 85.0, 1075.0, 703.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -497,6 +497,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -507,7 +508,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 62.0, 153.0, 18.0 ],
+									"patching_rect" : [ 352.375, 132.0, 153.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 64.0, 92.197151, 18.0 ],
 									"text" : "Render Context:",
@@ -533,7 +534,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 100.197151, 64.0, 141.802856, 18.0 ],
 									"rounded" : 4.0,
-									"text" : "\"0\""
+									"text" : "Jamoma"
 								}
 
 							}
@@ -578,7 +579,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 42.0, 307.5, 153.0, 18.0 ],
+									"patching_rect" : [ 934.0, 707.5, 153.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 168.0, 247.0, 68.0, 18.0 ],
 									"text" : "Flip texture:",
@@ -596,7 +597,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 318.5, 153.0, 18.0 ],
+									"patching_rect" : [ 918.0, 768.0, 153.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 246.5, 73.0, 18.0 ],
 									"text" : "Loop report:",
@@ -796,7 +797,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1645.0, 27.0, 987.0, 704.0 ],
+										"rect" : [ 453.0, 44.0, 987.0, 704.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -815,7 +816,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -917,7 +917,6 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 59.0, 151.0, 100.0, 20.0 ],
-													"prefix" : "0",
 													"prefix_mode" : 2,
 													"rounded" : 4,
 													"types" : [ "MooV", "MPEG", "JPEG", "PICT", "PNG ", "GIFF" ]
@@ -989,7 +988,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 214.5, 359.0, 36.0, 20.0 ],
+													"patching_rect" : [ 226.5, 359.0, 36.0, 20.0 ],
 													"text" : "sel 1"
 												}
 
@@ -1073,8 +1072,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 140.0, 359.0, 65.0, 20.0 ],
-													"text" : "qmetro 20"
+													"patching_rect" : [ 140.0, 359.0, 71.0, 20.0 ],
+													"text" : "qmetro 200"
 												}
 
 											}
@@ -1291,7 +1290,7 @@
 													"destination" : [ "obj-62", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 224.0, 390.0, 176.5, 390.0 ],
+													"midpoints" : [ 236.0, 390.0, 176.5, 390.0 ],
 													"source" : [ "obj-78", 0 ]
 												}
 
@@ -1340,7 +1339,7 @@
 													"destination" : [ "obj-78", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 149.5, 290.0, 224.0, 290.0 ],
+													"midpoints" : [ 149.5, 290.0, 236.0, 290.0 ],
 													"source" : [ "obj-82", 0 ]
 												}
 
@@ -1532,7 +1531,6 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 76.75, 514.0, 180.0, 20.0 ],
-									"prefix" : "0",
 									"prefix_mode" : 2,
 									"presentation" : 1,
 									"presentation_rect" : [ 100.197151, 90.0, 142.591461, 20.0 ],
@@ -1802,7 +1800,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.375, 95.0, 153.0, 18.0 ],
+									"patching_rect" : [ 934.0, 502.476807, 153.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 205.0, 87.0, 18.0 ],
 									"text" : "Jump to frame:",
@@ -1954,7 +1952,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 78.5, 243.5, 80.0, 22.0 ],
+									"patching_rect" : [ 78.5, 278.5, 80.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 92.0, 45.0, 15.0 ],
 									"rounded" : 3.0,
@@ -2210,7 +2208,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 78.5, 299.0, 103.0, 20.0 ],
+									"patching_rect" : [ 78.5, 308.0, 103.0, 20.0 ],
 									"text" : "opendialog folder"
 								}
 
@@ -2252,7 +2250,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3405,8 +3402,8 @@
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3433,8 +3430,8 @@
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

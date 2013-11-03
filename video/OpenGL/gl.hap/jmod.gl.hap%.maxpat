@@ -796,7 +796,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1645.0, 27.0, 987.0, 704.0 ],
+										"rect" : [ 453.0, 44.0, 987.0, 704.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -815,7 +815,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -989,7 +988,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 214.5, 359.0, 36.0, 20.0 ],
+													"patching_rect" : [ 226.5, 359.0, 36.0, 20.0 ],
 													"text" : "sel 1"
 												}
 
@@ -1073,8 +1072,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 140.0, 359.0, 65.0, 20.0 ],
-													"text" : "qmetro 20"
+													"patching_rect" : [ 140.0, 359.0, 71.0, 20.0 ],
+													"text" : "qmetro 500"
 												}
 
 											}
@@ -1291,7 +1290,7 @@
 													"destination" : [ "obj-62", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 224.0, 390.0, 176.5, 390.0 ],
+													"midpoints" : [ 236.0, 390.0, 176.5, 390.0 ],
 													"source" : [ "obj-78", 0 ]
 												}
 
@@ -1340,7 +1339,7 @@
 													"destination" : [ "obj-78", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 149.5, 290.0, 224.0, 290.0 ],
+													"midpoints" : [ 149.5, 290.0, 236.0, 290.0 ],
 													"source" : [ "obj-82", 0 ]
 												}
 
@@ -2252,7 +2251,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3405,8 +3403,8 @@
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3433,8 +3431,8 @@
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -50,8 +50,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 59.0, 211.0, 123.0, 20.0 ],
-					"text" : "jit.gl.slab.gauss6x foo"
+					"patching_rect" : [ 59.0, 211.0, 133.0, 20.0 ],
+					"text" : "jit.gl.slab.Jamoma_blur"
 				}
 
 			}
@@ -64,8 +64,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 59.0, 249.0, 123.0, 20.0 ],
-					"text" : "jit.gl.slab.gauss6x foo"
+					"patching_rect" : [ 59.0, 260.0, 133.0, 20.0 ],
+					"text" : "jit.gl.slab.Jamoma_blur"
 				}
 
 			}
@@ -194,7 +194,7 @@
 					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 25.0, 208.0, 120.5, 208.0 ],
+					"midpoints" : [ 25.0, 200.0, 125.5, 200.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -213,7 +213,7 @@
 					"destination" : [ "obj-30", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 49.5, 246.0, 120.5, 246.0 ],
+					"midpoints" : [ 49.5, 246.0, 125.5, 246.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -229,9 +229,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"name" : "jit.gl.slab.Jamoma_blur.maxpat",
+				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.blur/lib",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -165,7 +165,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -230,7 +230,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -468,7 +468,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1427,7 +1427,7 @@
 					"patching_rect" : [ 590.0, 175.0, 226.0, 77.0 ],
 					"precision" : 4,
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 100.0, 291.0, 315.0 ],
+					"presentation_rect" : [ 4.0, 100.0, 291.0, 210.0 ],
 					"rowheight" : 14,
 					"rows" : 256,
 					"selmode" : 3
@@ -1505,7 +1505,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1556,7 +1556,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -2256,7 +2256,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 420.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 315.0 ],
 					"text" : "/editing_this_module"
 				}
 

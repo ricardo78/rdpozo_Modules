@@ -11,6 +11,7 @@
     <item name='bypass' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='contrast' type='decimal' priority='2' mixweight='1'>1.000000</item>
     <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma</item>
+    <item name='freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='image' type='decimal' priority='1' mixweight='1'>0.000000</item>
     <item name='saturation' type='decimal' priority='5' mixweight='1'>1.000000</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>

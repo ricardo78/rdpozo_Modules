@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 334.0, 245.0, 495.0, 374.0 ],
+		"rect" : [ 391.0, 354.0, 775.0, 414.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -146,7 +146,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 331.0, 25.0, 25.0 ]
+					"patching_rect" : [ 12.0, 389.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -336,7 +336,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 435.5, 270.0, 21.5, 270.0 ],
+					"midpoints" : [ 435.5, 267.0, 21.5, 267.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

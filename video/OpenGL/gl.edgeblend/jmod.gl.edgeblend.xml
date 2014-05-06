@@ -10,8 +10,6 @@
     <item name='drawto' type='string' priority='1' mixweight='1'>Jamoma</item>
     <item name='enable' type='boolean' priority='30' mixweight='1'>1</item>
     <item name='freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='gamma' type='decimal' priority='1' mixweight='1'>0</item>
-    <item name='invert' type='boolean' priority='30' mixweight='1'>0</item>
     <item name='left' type='decimal' priority='1' mixweight='1'>0.000000</item>
     <item name='right' type='decimal' priority='1' mixweight='1'>0.000000</item>
     <item name='top' type='decimal' priority='1' mixweight='1'>0.000000</item>

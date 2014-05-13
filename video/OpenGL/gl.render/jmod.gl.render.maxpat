@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -92,7 +92,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -459,7 +459,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -876,7 +876,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -2122,31 +2122,31 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ],
-			"obj-103::obj-6" : [ "radiogroup[2]", "radiogroup", 0 ],
-			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ],
 			"obj-103::obj-5" : [ "radiogroup[1]", "radiogroup", 0 ],
-			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ]
+			"obj-103::obj-10" : [ "radiogroup[4]", "radiogroup", 0 ],
+			"obj-103::obj-24" : [ "radiogroup", "radiogroup", 0 ],
+			"obj-103::obj-6" : [ "radiogroup[2]", "radiogroup", 0 ],
+			"obj-103::obj-9" : [ "radiogroup[3]", "radiogroup", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.gl.render.maxpat",
-				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.render/lib",
+				"bootpath" : "/Users/delpozo/Documents/Max/Github_Development_Library/rdpozo_Modules/video/OpenGL/gl.render/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RDPJamomaLogo.png",
-				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/_Dependencies",
+				"bootpath" : "/Users/delpozo/Documents/Max/Github_Development_Library/rdpozo_Modules/_Dependencies",
 				"patcherrelativepath" : "../../../_Dependencies",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"bootpath" : "/Users/delpozo/Documents/Max/Jamoma.05/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../Jamoma.05/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}

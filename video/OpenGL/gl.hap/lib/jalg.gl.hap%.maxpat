@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 95.0, 56.0, 1290.0, 750.0 ],
+		"rect" : [ 150.0, 50.0, 1290.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 474.0, 35.0, 18.0 ],
+					"patching_rect" : [ 281.0, 445.0, 35.0, 18.0 ],
 					"text" : "read"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 582.0, 140.0, 94.0, 20.0 ],
+					"patching_rect" : [ 1168.0, 235.0, 94.0, 20.0 ],
 					"text" : "prepend drawto"
 				}
 
@@ -89,7 +89,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.5, 593.0, 59.0, 20.0 ],
+					"patching_rect" : [ 331.425903, 585.0, 59.0, 20.0 ],
 					"text" : "s #1-size"
 				}
 
@@ -343,7 +343,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 54.0, 253.0, 20.0, 20.0 ]
+					"patching_rect" : [ 54.0, 242.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -713,7 +713,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 363.1875, 577.0, 325.0, 577.0 ],
+					"midpoints" : [ 363.1875, 577.0, 340.925903, 577.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -1086,6 +1086,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 1177.5, 487.0, 63.0, 487.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1121,14 +1122,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Users/delpozo/Documents/Max/Jamoma.05/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../Jamoma.05/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loopMode.txt",
-				"bootpath" : "/Users/delpozo/_Github/rdpozo_Modules/video/OpenGL/gl.hap/lib",
+				"bootpath" : "/Users/delpozo/Documents/Max/Github_Development_Library/rdpozo_Modules/video/OpenGL/gl.hap/lib",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

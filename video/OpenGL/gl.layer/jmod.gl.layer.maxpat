@@ -444,6 +444,7 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "/editing_this_module",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -649,7 +650,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1704.0, 1045.0, 50.0, 20.0 ],
+									"patching_rect" : [ 1700.0, 1046.0, 50.0, 20.0 ],
 									"text" : "pak f f f"
 								}
 
@@ -666,7 +667,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1700.0, 1075.5, 581.0, 33.0 ],
-									"text" : "jcom.parameter color @type decimalArray @range/clipmode none @ramp/drive scheduler @ramp/function linear @range/bounds 0. 1. @range/clipmode both @priority 30",
+									"text" : "jcom.parameter color @type decimalArray @range/clipmode none @ramp/drive scheduler @ramp/function linear @range/bounds 0. 1. @range/clipmode both @priority 35",
 									"varname" : "color/red[5]"
 								}
 
@@ -683,7 +684,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1835.5, 683.5, 579.0, 33.0 ],
-									"text" : "jcom.parameter saturation @type decimal @range/clipmode none @ramp/drive scheduler @ramp/function linear @range/bounds 0. 1. @range/clipmode both @priority 35",
+									"text" : "jcom.parameter saturation @type decimal @range/clipmode none @ramp/drive scheduler @ramp/function linear @range/bounds 0. 1. @range/clipmode both @priority 30",
 									"varname" : "color/red[4]"
 								}
 
@@ -5364,8 +5365,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "float" ],
-									"patching_rect" : [ 1548.5, 951.5, 89.0, 20.0 ],
-									"text" : "unpack 1. 1. 1."
+									"patching_rect" : [ 1548.5, 951.5, 69.0, 20.0 ],
+									"text" : "unpack f f f"
 								}
 
 							}

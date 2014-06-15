@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 726.333313, 127.0, 112.0, 18.0 ],
+					"patching_rect" : [ 734.333313, 159.0, 112.0, 18.0 ],
 					"text" : "to_texture recorder"
 				}
 

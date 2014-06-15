@@ -6,7 +6,7 @@
 >
   <preset number='1' name='default'>
     <item name='alpha' type='decimal' priority='30' mixweight='1'>1.000000</item>
-    <item name='color' type='decimalArray' priority='30' mixweight='1'>1.000000 1.000000 1.000000 </item>
+    <item name='color' type='decimalArray' priority='35' mixweight='1'>1.000000 1.000000 1.000000 </item>
     <item name='cornerpin/lower/left/corner/horizontal' type='decimal' priority='10' mixweight='1'>-1.000000</item>
     <item name='cornerpin/lower/left/corner/vertical' type='decimal' priority='11' mixweight='1'>-1.000000</item>
     <item name='cornerpin/lower/right/corner/horizontal' type='decimal' priority='14' mixweight='1'>1.000000</item>
@@ -25,7 +25,7 @@
     <item name='rotate/x' type='decimal' priority='3' mixweight='1'>0.000000</item>
     <item name='rotate/y' type='decimal' priority='4' mixweight='1'>0.000000</item>
     <item name='rotate/z' type='decimal' priority='5' mixweight='1'>0.000000</item>
-    <item name='saturation' type='decimal' priority='35' mixweight='1'>1.000000</item>
+    <item name='saturation' type='decimal' priority='30' mixweight='1'>1.000000</item>
     <item name='scale/hight' type='decimal' priority='7' mixweight='1'>0.800000</item>
     <item name='scale/width' type='decimal' priority='6' mixweight='1'>0.800000</item>
     <item name='shape/dim/x' type='integer' priority='21' mixweight='1'>20</item>

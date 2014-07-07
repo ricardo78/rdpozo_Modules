@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 1
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 215.0, 210.0, 419.0, 133.0 ],
+		"rect" : [ 215.0, 210.0, 753.0, 402.0 ],
 		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,25 +30,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 18.069109,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-1",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 365.958984, 359.0, 49.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 11.0, 47.958984, 359.0, 49.0 ],
-					"text" : "www.rdpozo.no\nhttps://github.com/ricardo78/rdp.modules",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"annotation" : "amplitude of output signal 2",
 					"id" : "obj-13",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -61,6 +44,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "amplitude of output signal 1",
 					"id" : "obj-20",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -105,7 +89,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.426503,
-					"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -158,8 +142,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 1
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 260.0, 139.0, 302.0, 168.0 ],
@@ -186,6 +171,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.807843, 0.121569, 0.635294, 1.0 ],
 									"activeneedlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"id" : "obj-23",
 									"maxclass" : "live.dial",
@@ -198,10 +184,10 @@
 									"presentation_rect" : [ 69.0, 89.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 0,
+											"parameter_longname" : "dry",
 											"parameter_shortname" : "dry",
-											"parameter_longname" : "dry"
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -229,6 +215,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.807843, 0.121569, 0.635294, 1.0 ],
 									"activeneedlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"id" : "obj-22",
 									"maxclass" : "live.dial",
@@ -241,10 +228,10 @@
 									"presentation_rect" : [ 11.0, 89.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 0,
+											"parameter_longname" : "wet",
 											"parameter_shortname" : "wet",
-											"parameter_longname" : "wet"
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -258,6 +245,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.807843, 0.121569, 0.635294, 1.0 ],
 									"activeneedlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"id" : "obj-18",
 									"maxclass" : "live.dial",
@@ -270,10 +258,10 @@
 									"presentation_rect" : [ 243.0, 89.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 0,
+											"parameter_longname" : "width",
 											"parameter_shortname" : "width",
-											"parameter_longname" : "width"
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -287,6 +275,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.807843, 0.121569, 0.635294, 1.0 ],
 									"activeneedlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"id" : "obj-2",
 									"maxclass" : "live.dial",
@@ -299,10 +288,10 @@
 									"presentation_rect" : [ 185.0, 89.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 0,
+											"parameter_longname" : "damp",
 											"parameter_shortname" : "damp",
-											"parameter_longname" : "damp"
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -316,6 +305,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.807843, 0.121569, 0.635294, 1.0 ],
 									"activeneedlecolor" : [ 0.360784, 0.360784, 0.360784, 1.0 ],
+									"annotation" : "",
 									"appearance" : 1,
 									"id" : "obj-15",
 									"maxclass" : "live.dial",
@@ -328,10 +318,10 @@
 									"presentation_rect" : [ 127.0, 89.0, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 0,
+											"parameter_longname" : "decay",
 											"parameter_shortname" : "decay",
-											"parameter_longname" : "decay"
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -411,8 +401,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 1
+											"minor" : 1,
+											"revision" : 7,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 840.0, 548.0, 600.0, 426.0 ],
@@ -545,26 +536,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "jcom.oscroute.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
 									"patching_rect" : [ 46.0, 391.0, 42.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"description" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Verdana",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
-										"default_fontsize" : 10.0,
-										"tags" : "",
-										"description" : "",
-										"fontname" : "Verdana",
-										"default_fontface" : 0
+										"tags" : ""
 									}
 ,
 									"text" : "p front"
@@ -576,7 +562,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.426503,
-									"frgb" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -610,7 +596,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-50",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -652,7 +637,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 20.0,
-									"frgb" : [ 0.4, 0.4, 0.4, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -670,7 +655,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
-									"frgb" : [ 0.62, 0.0, 0.36, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -687,7 +672,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-44",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -702,7 +686,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 									"id" : "obj-47",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -827,36 +810,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.maxhelpuiButton.png",
-								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-								"type" : "PNG ",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "jcom.oscroute.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.parameter.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 354.0, 201.0, 50.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"tags" : ""
 					}
 ,
 					"text" : "p panel"
@@ -946,7 +914,6 @@
 				"box" : 				{
 					"has_bypass" : 1,
 					"has_gain" : 1,
-					"has_meters" : 1,
 					"has_mix" : 1,
 					"has_mute" : 1,
 					"has_panel" : 1,
@@ -1238,38 +1205,38 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28::obj-18" : [ "width", "width", 0 ],
-			"obj-28::obj-23" : [ "dry", "dry", 0 ],
 			"obj-28::obj-22" : [ "wet", "wet", 0 ],
 			"obj-28::obj-15" : [ "decay", "decay", 0 ],
-			"obj-28::obj-2" : [ "damp", "damp", 0 ]
+			"obj-28::obj-2" : [ "damp", "damp", 0 ],
+			"obj-28::obj-23" : [ "dry", "dry", 0 ],
+			"obj-28::obj-18" : [ "width", "width", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jalg.rdp.reverb~.maxpat",
-				"bootpath" : "/Users/rdpozo/JamomaDev/rdp.modules/Audio/rdp.reverb/lib",
-				"patcherrelativepath" : "../rdp.reverb/lib",
+				"bootpath" : "/Users/delpozo/Documents/Max/Github_Development_Library/rdpozo_Modules/Audio/rdp.reverb/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Users/delpozo/Documents/Max/Jamoma.05/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../Jamoma.05/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/maxhelpui",
+				"bootpath" : "/Users/delpozo/Documents/Max/Jamoma.05/Jamoma-0.5.7/patchers/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../Jamoma.05/Jamoma-0.5.7/patchers/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"bootpath" : "/Users/delpozo/Documents/Max/Jamoma.05/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../Jamoma.05/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}

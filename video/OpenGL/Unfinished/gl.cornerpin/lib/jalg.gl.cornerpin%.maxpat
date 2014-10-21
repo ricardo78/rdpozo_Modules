@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 8,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 16.0, 118.0, 1284.0, 509.0 ],
@@ -333,8 +334,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -723,8 +725,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.803589, 288.124329, 579.0, 36.0 ],
-					"text" : "jit.gl.cornerpin Jamoma_Render_Window @blend_enable 1 @color 1 1 1 1 @blend_mode 6 7 @mousereport 1 @cornermode relative @hover 1 @drawcorners 2"
+					"patching_rect" : [ 30.803589, 288.124329, 578.0, 36.0 ],
+					"text" : "jit.gl.cornerpin Jamoma @blend_enable 1 @color 1 1 1 1 @blend_mode 6 7 @mousereport 1 @cornermode relative @hover 1 @drawcorners 2"
 				}
 
 			}
